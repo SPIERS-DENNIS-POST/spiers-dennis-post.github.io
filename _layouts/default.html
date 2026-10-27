@@ -20,7 +20,7 @@
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header">
 <div class="shell header-inner">
-<a class="brand" href="{{ '/' | relative_url }}"><span class="brand-symbol" aria-hidden="true"><img src="{{ '/assets/images/post24-mark.svg' | relative_url }}" alt="" width="32" height="26"></span><span class="brand-copy"><strong>{{ site.data.post.name | remove: ' No. 24' | escape }}</strong><small>The American Legion · Olathe, Colorado</small></span></a>
+<a class="brand" href="{{ '/' | relative_url }}"><span class="brand-symbol" aria-hidden="true"><img src="{{ '/assets/images/post24-mark.svg' | relative_url }}" alt="" width="32" height="26"></span><span class="brand-copy"><strong>{{ site.data.post.name | escape }}</strong><small>The American Legion · Olathe, Colorado</small></span></a>
 <nav class="primary-nav" aria-label="Primary navigation">
 {% for item in site.data.navigation %}
 <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label | escape }}</a>

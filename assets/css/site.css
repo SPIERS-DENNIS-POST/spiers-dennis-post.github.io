@@ -12,7 +12,7 @@ a:focus-visible{outline:3px solid var(--focus);outline-offset:4px}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:1.6rem;flex-wrap:wrap;padding:1.2rem 0}
 .brand{display:inline-flex;align-items:center;gap:.75rem;color:#fff;text-decoration:none}
 .brand:hover{color:#fff}
-.brand-symbol{display:grid;place-items:center;flex:0 0 2.5rem;width:2.5rem;height:2.5rem;padding:.3rem;border:1px solid #b6a281;border-radius:.4rem}
+.brand-symbol{display:grid;place-items:center;flex:0 0 2.5rem;width:2.5rem;height:2.5rem}
 .brand-symbol img{display:block;width:100%;height:100%;object-fit:contain}
 .brand-copy{display:flex;flex-direction:column;line-height:1.25}
 .brand-copy strong{font-size:1.14rem;letter-spacing:.01em}
