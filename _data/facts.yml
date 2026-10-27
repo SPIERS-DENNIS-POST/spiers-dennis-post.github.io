@@ -1,0 +1,43 @@
+meetings:
+  - label: Regular meeting day
+    value:
+    source_ids: []
+  - label: Meeting time
+    value:
+    source_ids: []
+  - label: Meeting location
+    value:
+    source_ids: []
+  - label: Attendance policy
+    value:
+    source_ids: []
+building:
+  - label: Street address
+    value:
+    source_ids: []
+  - label: Building access
+    value:
+    source_ids: []
+  - label: Facility information
+    value:
+    source_ids: []
+  - label: Public hours
+    value:
+    source_ids: []
+contact:
+  - label: Public email
+    value:
+    source_ids: []
+  - label: Public telephone
+    value:
+    source_ids: []
+  - label: Mailing address
+    value:
+    source_ids: []
+membership:
+  - label: Local joining contact
+    value:
+    source_ids: []
+  - label: Local membership dues
+    value:
+    source_ids: []

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="publication">
+<header class="publication-header">
+<p class="eyebrow">{% if page.collection == "letters" %}Commander's letter{% else %}Post news{% endif %}</p>
+<h1>{{ page.title | escape }}</h1>
+<div class="publication-meta">
+{% if page.date %}<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% endif %}
+{% if page.author %}<span>By {{ page.author | escape }}</span>{% endif %}
+</div>
+</header>
+<div class="prose">{{ content }}</div>
+</article>

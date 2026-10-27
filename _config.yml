@@ -1,0 +1,36 @@
+title: Spiers-Dennis Post
+description: Official public information, records, meeting details, history, and publications of Spiers-Dennis Post.
+url: https://spiers-dennis-post.github.io
+baseurl: ""
+lang: en
+markdown: kramdown
+permalink: pretty
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
+  letters:
+    output: true
+    permalink: /commanders-letters/:name/
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: publication
+  - scope:
+      path: ""
+      type: letters
+    values:
+      layout: publication
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

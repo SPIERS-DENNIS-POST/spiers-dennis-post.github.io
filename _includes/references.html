@@ -1,0 +1,18 @@
+{% if page.source_ids and page.source_ids.size > 0 %}
+<section class="references" aria-labelledby="references-heading">
+<h2 id="references-heading">References</h2>
+<ol>
+{% for source_id in page.source_ids %}
+{% assign matches = site.data.sources | where: "id", source_id %}
+{% assign source = matches | first %}
+<li id="reference-{{ source_id | slugify }}">
+{% if source %}
+{% if source.url %}<a href="{{ source.url | escape }}">{{ source.title | escape }}</a>{% else %}{{ source.title | escape }}{% endif %}
+{% if source.details %}<span class="reference-details"> — {{ source.details | escape }}</span>{% endif %}
+{% if source.published_on %}<span class="reference-details"> ({{ source.published_on | date: "%Y-%m-%d" }})</span>{% endif %}
+{% else %}<span class="pending">Source record missing: {{ source_id | escape }}</span>{% endif %}
+</li>
+{% endfor %}
+</ol>
+</section>
+{% endif %}

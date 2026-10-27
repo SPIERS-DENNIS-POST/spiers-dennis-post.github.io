@@ -1,0 +1,12 @@
+---
+title: American Legion resources
+description: Official American Legion resources and national membership guidance.
+permalink: /legion/
+---
+<h1>American Legion resources</h1>
+<p class="page-intro">These links lead to national American Legion information. This Post website does not reproduce national rules or claim to supersede them.</p>
+<ul class="external-list">
+{% for item in site.data.legion_links %}
+<li><strong><a href="{{ item.url | escape }}">{{ item.title | escape }}</a></strong><p>{{ item.description | escape }}</p></li>
+{% endfor %}
+</ul>

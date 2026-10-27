@@ -1,0 +1,19 @@
+{% assign entries = site.data.facts[include.section] %}
+{% if entries %}
+<dl class="fact-list">
+{% for entry in entries %}
+<div class="fact-row">
+<dt>{{ entry.label | escape }}</dt>
+<dd>
+{% if entry.value %}{{ entry.value | escape }}{% else %}<span class="pending">Not yet published</span>{% endif %}
+{% for source_id in entry.source_ids %}
+{% for page_source_id in page.source_ids %}
+{% if source_id == page_source_id %}<sup class="reference"><a href="#reference-{{ source_id | slugify }}" aria-label="Reference {{ forloop.index }}">[{{ forloop.index }}]</a></sup>{% endif %}
+{% endfor %}
+{% endfor %}
+{% if entry.verified_on %}<small class="verified">Verified {{ entry.verified_on | date: "%Y-%m-%d" }}</small>{% endif %}
+</dd>
+</div>
+{% endfor %}
+</dl>
+{% endif %}
