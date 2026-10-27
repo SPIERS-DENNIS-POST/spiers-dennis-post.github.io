@@ -1,0 +1,14 @@
+- id: nonprofit
+  label: Nonprofit and tax records
+- id: governance
+  label: Governance and policies
+- id: building
+  label: Building and inspections
+- id: gaming
+  label: Bingo and gaming
+- id: reports
+  label: Reports and membership
+- id: history
+  label: Historical records
+- id: other
+  label: Other public documents

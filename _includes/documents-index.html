@@ -1,0 +1,38 @@
+{% assign document_categories = site.data.document_categories %}
+{% assign category_names = document_categories | map: "id" %}
+{% assign ordered_pages = site.pages | sort: "title" %}
+{% assign seen_documents = "|" %}
+{% assign total_documents = 0 %}
+{% for category in document_categories %}
+{% assign section_count = 0 %}
+{% capture document_entries %}
+{% for origin in ordered_pages %}
+{% for record in origin.documents %}
+{% if record.public == true and record.title and record.file %}
+{% assign record_category = record.category | default: "other" %}
+{% unless category_names contains record_category %}{% assign record_category = "other" %}{% endunless %}
+{% if record_category == category.id %}
+{% assign initial = record.file | slice: 0, 1 %}
+{% assign protocol = record.file | slice: 0, 8 %}
+{% if initial == "/" or protocol == "https://" %}
+{% assign document_key = record.id | default: record.file | prepend: "|" | append: "|" %}
+{% unless seen_documents contains document_key %}
+{% include document-entry.html record=record origin=origin %}
+{% assign seen_documents = seen_documents | append: document_key %}
+{% assign total_documents = total_documents | plus: 1 %}
+{% assign section_count = section_count | plus: 1 %}
+{% endunless %}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endcapture %}
+{% if section_count > 0 %}
+<section class="document-category" id="category-{{ category.id | slugify }}">
+<h2>{{ category.label | escape }}</h2>
+<ul class="document-list">{{ document_entries }}</ul>
+</section>
+{% endif %}
+{% endfor %}
+{% if total_documents == 0 %}<p>No downloadable documents have been listed here yet. For a particular public record, please <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.</p>{% endif %}

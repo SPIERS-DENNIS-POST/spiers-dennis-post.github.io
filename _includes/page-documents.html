@@ -1,0 +1,24 @@
+{% assign document_count = 0 %}
+{% assign seen_documents = "|" %}
+{% capture document_entries %}
+{% for record in page.documents %}
+{% if record.public == true and record.title and record.file %}
+{% assign initial = record.file | slice: 0, 1 %}
+{% assign protocol = record.file | slice: 0, 8 %}
+{% if initial == "/" or protocol == "https://" %}
+{% assign document_key = record.id | default: record.file | prepend: "|" | append: "|" %}
+{% unless seen_documents contains document_key %}
+{% include document-entry.html record=record %}
+{% assign seen_documents = seen_documents | append: document_key %}
+{% assign document_count = document_count | plus: 1 %}
+{% endunless %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endcapture %}
+{% if document_count > 0 %}
+<section class="page-documents" aria-labelledby="page-documents-heading">
+<h2 id="page-documents-heading">{{ include.heading | default: "Documents" | escape }}</h2>
+<ul class="document-list">{{ document_entries }}</ul>
+</section>
+{% endif %}

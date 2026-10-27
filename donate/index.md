@@ -3,6 +3,8 @@ title: Donate
 description: Support Spiers-Dennis American Legion Post 24 in Olathe, Colorado. Our IRS 501(c)(19) determination, federal EIN, and ways to contact the Post about giving.
 permalink: /donate/
 source_ids: [post24-irs-determination-2014, colorado-post24-corporate-registration]
+documents_positioned: true
+documents: []
 ---
 # Support Post 24
 Our Post brings veterans together in Olathe, remembers those who served, and maintains a place for fellowship and community. Support from neighbors and friends helps us continue that work.
@@ -26,6 +28,7 @@ Our Post received an IRS determination letter dated **June 24, 2014**, recognizi
 <p>The federal EIN identifies this Post, not the national American Legion organization. The Colorado entity ID is a separate state registration number. You can find state corporation filings through the <a href="https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do?resetTransTyp=Y">Colorado Secretary of State</a>.</p>
 ## Donation records and tax questions
 Our **2014 IRS determination letter** records <strong>“Contribution Deductibility: Yes.”</strong><sup class="reference"><a href="#reference-post24-irs-determination-2014" aria-label="Reference 1">[1]</a></sup> That is the IRS's determination as of the letter date, not a separate verification of our current standing. The deductibility of a particular gift also depends on applicable tax rules and the donor's circumstances. For the latest available IRS records, consult the <a href="https://www.irs.gov/charities-non-profits/search-for-tax-exempt-organizations">IRS Tax Exempt Organization Search</a> using EIN {{ site.data.post.federal_tax.ein | escape }}.
-<p>Contact the Post if you need a donation acknowledgment or more information about the IRS determination.</p>
+<p>Contact the Post if you need a donation acknowledgment or more information about the IRS determination. Approved downloadable records are also collected in our <a href="{{ '/documents/' | relative_url }}">Public Documents directory</a>.</p>
+{% include page-documents.html heading="Tax documents" %}
 ## Other ways to help
 If you are interested in helping with a Post activity, sharing your time, or discussing a local partnership, <a href="{{ '/contact/' | relative_url }}">get in touch</a>. We can tell you where help is currently needed.

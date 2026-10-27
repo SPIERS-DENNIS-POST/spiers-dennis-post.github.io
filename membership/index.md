@@ -3,6 +3,17 @@ title: Membership
 description: Join Spiers-Dennis American Legion Post 24, find national eligibility requirements, and view a dated membership report.
 permalink: /membership/
 source_ids: [colorado-membership-2026-01-30]
+documents_positioned: true
+documents:
+  - id: colorado-legion-membership-report-2026-01-30
+    title: Department of Colorado membership report — January 30, 2026
+    file: https://coloradolegion.org/uploads/1/4/6/7/146715414/1-30-2026.pdf
+    category: reports
+    date: "2026-01-30"
+    status: Dated membership snapshot
+    format: PDF
+    description: Department of Colorado report containing Post 24 membership figures on page 5.
+    public: true
 ---
 # Membership
 Interested in joining Spiers-Dennis Post No. 24? Call the Post at <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> or email <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a>.
@@ -15,3 +26,4 @@ The American Legion sets its national membership requirements. Visit the <a href
 <div class="fact-row"><dt>Reported goal</dt><dd>63</dd></div>
 </dl>
 <p>These figures are from the Department of Colorado's January 2026 membership report, rather than a live membership count.</p>
+{% include page-documents.html heading="Download the report" %}

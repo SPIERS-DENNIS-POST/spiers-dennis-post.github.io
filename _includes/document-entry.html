@@ -1,0 +1,12 @@
+{% assign record = include.record %}
+{% assign destination = record.file %}
+{% assign initial = destination | slice: 0, 1 %}
+{% assign protocol = destination | slice: 0, 8 %}
+{% if initial == "/" or protocol == "https://" %}
+<li class="document-item">
+{% if initial == "/" %}<a href="{{ destination | relative_url | escape }}">{{ record.title | escape }}</a>{% else %}<a href="{{ destination | escape }}">{{ record.title | escape }}</a>{% endif %}
+{% if record.date or record.status or record.format %}<span class="entry-meta">{% if record.date %}Dated {{ record.date | date: "%B %-d, %Y" }}{% endif %}{% if record.date and record.status %} · {% endif %}{% if record.status %}{{ record.status | escape }}{% endif %}{% if record.format %} · {{ record.format | escape }}{% endif %}</span>{% endif %}
+{% if record.description %}<p>{{ record.description | escape }}</p>{% endif %}
+{% if include.origin and include.origin.url != "/documents/" %}<span class="document-source">From <a href="{{ include.origin.url | relative_url | escape }}">{{ include.origin.title | escape }}</a></span>{% endif %}
+</li>
+{% endif %}

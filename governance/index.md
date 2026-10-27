@@ -5,6 +5,7 @@ permalink: /governance/
 redirect_from:
   - /officers/
 source_ids: [post-officer-roster-2026-10-27]
+documents: []
 ---
 # Governance
 <h2 id="officers">Post officers</h2>
@@ -19,6 +20,6 @@ source_ids: [post-officer-roster-2026-10-27]
 {% endfor %}
 </dl>
 <h2>Constitution and Bylaws</h2>
-<p>The Post's Constitution and Bylaws are not yet available on this website. For questions about these documents, please <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.</p>
+<p>The Post's Constitution and Bylaws are not yet available on this website. For questions about these documents, please <a href="{{ '/contact/' | relative_url }}">contact the Post</a>. Other public records can be found in our <a href="{{ '/documents/' | relative_url }}">Public Documents directory</a>.</p>
 <h2>Other Legion governing documents</h2>
 <p><a href="https://coloradolegion.org/">American Legion Department of Colorado</a> · <a href="https://www.legion.org/">The American Legion (National)</a></p>
