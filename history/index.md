@@ -6,6 +6,8 @@ source_ids: [legion-centennial-post24]
 ---
 # Our history
 Spiers-Dennis Post No. 24 is named for **Pvt. Earl C. Spiers** and **SM John T. Dennis, U.S. Navy**.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+## Olathe Veterans Memorial
+The Olathe Veterans Memorial stands near our Post hall. In 2004, Post 24 members and members of the Olathe community built the memorial to honor the service and sacrifice of local veterans.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
 ## Charter members
 Our Post's 23 charter members were:<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
 <ol>
@@ -33,5 +35,3 @@ Our Post's 23 charter members were:<sup class="reference"><a href="#reference-le
 <li>Ralph W. Wray</li>
 <li>Archie J. Moses</li>
 </ol>
-## Olathe Veterans Memorial
-The Olathe Veterans Memorial stands near our Post hall. In 2004, Post 24 members and members of the Olathe community built the memorial to honor the service and sacrifice of local veterans.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
