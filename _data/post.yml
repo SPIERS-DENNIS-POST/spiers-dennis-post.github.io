@@ -8,6 +8,12 @@ address:
   region: CO
   postal_code: "81425"
   country: US
+mailing_address:
+  post_office_box: "249"
+  city: Olathe
+  region: CO
+  postal_code: "81425-0249"
+  country: US
 contact:
   phone: 970-644-0731
   email: americanlegion24.olathe@gmail.com

@@ -2,7 +2,7 @@
 Source for https://spiers-dennis-post.github.io/, the Jekyll-powered GitHub Pages site of American Legion Post 24 in Olathe, Colorado.
 ## Editing
 All pages are edited as source files in this repository. The site needs no CMS, database, tracking scripts, or JavaScript to display its content. Preview locally with Ruby and Bundler by running `bundle install` and `bundle exec jekyll serve`.
-- `_data/post.yml`: canonical Post name, address, public desk telephone, and official Post email.
+- `_data/post.yml`: canonical Post name, Post hall's physical address, PO Box mailing address, public desk telephone, and official Post email.
 - `_data/officers.yml`: officer assignments and reporting date; the roster appears in `governance/index.md`.
 - `_data/sources.yml`: reference records for historical and organizational claims.
 - `_data/facts.yml`: reserved structured facts for later publication.
@@ -27,4 +27,5 @@ The 1923 feature concerns a historical clubhouse; it does not prove that buildin
 The namesakes were Pvt. Earl C. Spiers (U.S. Army) and Seaman John Thomas Dennis (U.S. Navy). The Colorado Freedom Memorial identifies Spiers as Earl Christie Spiers and Olathe-born; a transcription of American Battle Monuments Commission burial records documents September 7, 1918, the 109th Infantry Regiment/28th Division, and Oise-Aisne American Cemetery Plot D, Row 9, Grave 20. Do not use the September 7 date to invent a battlefield, cause of death, or Argonne connection; his exact circumstances and original birth date remain unconfirmed from an individual primary record.
 The U.S. Navy's official 1920 naval-dead register identifies Dennis as a seaman, not necessarily a signalman; it records his enlistment on November 11, 1916, his assignment to USS Cyclops, and June 14, 1918 as the official death date. Navy historical records place Cyclops's disappearance after the March 4, 1918 Barbados departure. June 14 must not be described as a verified sinking date. The ship's loss and cause are unknown; no verified burial site for Dennis has been identified. The Navy register names a historical foster mother in Olathe, but those family details are not needed in the website's concise public history.
 Research source report supplied October 27, 2026. Source links for the published claims are registered in `_data/sources.yml`. The Colorado Freedom Memorial individual profile was supplied by the report but was not independently retrievable during this update; the other listed supporting sources were cross-checked. Original record links should be retained so claims can be revisited.
-
+## Postal and physical addresses
+The Post's mailing address, supplied directly on October 27, 2026, is PO Box 249, Olathe, CO 81425-0249, United States. It is not the physical hall at 315 S 5th St. The Contact page and Schema.org JSON-LD distinguish the two addresses. Keep the canonical mailing address in `_data/post.yml` when making later changes.

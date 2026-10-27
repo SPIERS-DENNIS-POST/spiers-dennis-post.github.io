@@ -29,7 +29,7 @@ building:
     source_ids: []
 contact:
   - label: Mailing address
-    value:
+    value: PO Box 249, Olathe, CO 81425-0249, United States
     source_ids: []
 membership:
   - label: Local joining contact
