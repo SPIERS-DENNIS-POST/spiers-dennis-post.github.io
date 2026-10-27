@@ -17,5 +17,7 @@ offices:
     person_id: davidson
   - name: Finance Officer
     person_id: davidson
+    filled_by_role: Adjutant
   - name: Chaplain
     person_id: mebane
+    filled_by_role: Commander

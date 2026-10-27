@@ -11,7 +11,7 @@ source_ids: [post-officer-roster-2026-10-27, legion-officers-guide-2026]
 {% assign person = site.data.officers.people | where: "id", office.person_id | first %}
 <div class="fact-row" id="{{ office.name | slugify }}">
 <dt>{{ office.name | escape }}</dt>
-<dd><strong>{{ person.name | escape }}</strong><small class="entry-meta">{{ person.service_branch | escape }} ({{ person.service_abbreviation | escape }}){% if office.installed_year %} · Installed {{ office.installed_year }}{% endif %}</small></dd>
+<dd>{% if office.filled_by_role %}<strong>Filled by {{ office.filled_by_role | escape }}</strong>{% else %}<strong>{{ person.name | escape }}</strong><small class="entry-meta">{{ person.service_branch | escape }} ({{ person.service_abbreviation | escape }}){% if office.installed_year %} · Installed {{ office.installed_year }}{% endif %}</small>{% endif %}</dd>
 </div>
 {% endfor %}
 </dl>
