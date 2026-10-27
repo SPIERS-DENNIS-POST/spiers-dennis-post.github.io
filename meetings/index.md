@@ -9,6 +9,11 @@ Our regular meeting schedule and location are listed below.
 {% include facts.html section="meetings" exclude="December meeting" %}
 {% assign december_meeting = site.data.facts.meetings | where: "label", "December meeting" | first %}
 {% if december_meeting and december_meeting.value %}<p class="notice">Our December meeting is {{ december_meeting.value | downcase | escape }}.</p>{% endif %}
+## {{ site.time | date: "%Y" }} meeting dates
+These are the fourth Tuesdays from January through November. December is excluded because the meeting is usually canceled.
+{% include meeting-year-dates.html %}
+Select a date to add it to Google Calendar. <a href="{{ '/meetings/calendar.ics' | relative_url }}">Download all {{ site.time | date: "%Y" }} meeting dates (.ics)</a> for other calendar apps.
+Calendar entries use an editable one-hour placeholder; the meeting end time is not confirmed.
 Please [contact the Post]({{ '/contact/' | relative_url }}) to confirm any schedule changes, especially around the holidays.
 ## Weekly gatherings
 For veterans. You do not need to be a member of the American Legion.
