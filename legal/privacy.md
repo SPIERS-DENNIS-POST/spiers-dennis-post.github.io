@@ -15,6 +15,7 @@ For GitHub's own data handling, retention, security practices, and privacy right
 ## External websites
 Links to The American Legion, GitHub, or other outside websites lead to services with their own terms and privacy practices. Visitors should review those services' notices when appropriate.
 ## Information about individuals
+Only the Post's shared desk telephone and official Post email are published as contact channels. Members' and officers' personal phone numbers, private email addresses, home addresses, and other personal contact information will not be published. This also applies to source documents, images, and metadata.
 Published Post records, photographs, letters, and historical documents may identify people. Publication of personal or sensitive information should be reviewed for accuracy, appropriateness, and any necessary permissions before it is added to the repository.
 ## Changes and privacy questions
-This page will be revised if the website begins collecting visitor submissions or using additional third-party services. A dedicated public contact for website privacy inquiries has not yet been approved; once authorized, it will appear on the [Contact page]({{ '/contact/' | relative_url }}).
+This page will be revised if the website begins collecting visitor submissions or using additional third-party services. For questions about this statement, contact the Post at [{{ site.data.post.contact.email }}](mailto:{{ site.data.post.contact.email }}).

@@ -16,4 +16,4 @@ Some materials may have been created by people or organizations other than the P
 ## American Legion name and marks
 The American Legion's name, emblem, and brand marks are protected and subject to the national organization's rules. This website does not grant permission to reproduce or use those marks. Consult [The American Legion's official emblem and brand-mark guidance](https://www.legion.org/about/organization/the-emblem/emblem-and-brand-mark-download).
 ## Permissions and corrections
-An authorized public contact for permissions and copyright concerns has not yet been published. When approved, it will be listed on the [Contact page]({{ '/contact/' | relative_url }}). If an item is incorrectly attributed, its rights status should be reviewed and corrected.
+Copyright and permission inquiries may be sent to the Post's public email at [{{ site.data.post.contact.email }}](mailto:{{ site.data.post.contact.email }}). Contacting the Post does not grant a license. If an item is incorrectly attributed, its rights status should be reviewed and corrected.

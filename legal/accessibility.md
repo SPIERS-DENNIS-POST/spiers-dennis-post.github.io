@@ -16,6 +16,6 @@ This is a development objective, **not** a claim that the site has been independ
 ## Known limitations
 The website is under construction, and several content sections have not yet been populated. Future scanned documents, photographs, or third-party resources may have accessibility limitations. These should be assessed when added, with accessible alternatives provided where practicable.
 ## Reporting barriers
-If a page, document, or feature is difficult to use, it would be helpful to identify the affected page and describe the problem. A dedicated public accessibility contact has not yet been designated. That information will be published on the [Contact page]({{ '/contact/' | relative_url }}) once authorized.
+If a page, document, or feature is difficult to use, it would be helpful to identify the affected page and describe the problem. Accessibility concerns can be sent to the Post's [public email](mailto:{{ site.data.post.contact.email }}) or reported using its [desk telephone](tel:+1{{ site.data.post.contact.phone | remove: '-' }}). No individual's personal contact information is published.
 ## Accessibility reference
 For the technical standard, consult the [W3C Web Accessibility Initiative's WCAG overview](https://www.w3.org/WAI/standards-guidelines/wcag/).

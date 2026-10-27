@@ -4,8 +4,8 @@ Source for https://spiers-dennis-post.github.io/ — a minimal, static, HTML-fir
 On GitHub, open Settings → Pages and choose Deploy from a branch → main → /(root). GitHub Pages builds Jekyll from source. The site is publicly readable without JavaScript.
 For local preview, install Ruby and Bundler, then run `bundle install` and `bundle exec jekyll serve`.
 ## Content organization
-- `_data/post.yml`: Post identity and public contact information; unknown fields stay empty.
-- `_data/facts.yml`: Local key-value records for meetings, building, membership contacts, and contact.
+- `_data/post.yml`: Post identity and canonical contact details for the shared Post desk telephone and Post email; unknown fields remain empty.
+- `_data/facts.yml`: Local key-value records for meetings, building, membership, and mailing information; phone and email are maintained only in `_data/post.yml`.
 - `_data/sources.yml`: Source registry for locally published claims.
 - `_data/legion_links.yml`: Official American Legion destinations.
 - `governance/`: Constitution, Bylaws, and relevant governing material.
@@ -39,6 +39,8 @@ The homepage and substantive national-resource pages may be indexed. Unpopulated
 This site does not copy American Legion national rules; it links to the official information owner. Avoid personal, private, or unauthorized records.
 ## Requirements
 No JavaScript runtime, no client-side data fetching, no database, no CMS, and no special AI-crawler-only content. HTML, CSS, canonical links, XML sitemap, and JSON-LD make the pages useful to ordinary browsers, assistive tools, search engines, and retrieval systems.
+## Public contact policy
+Only the Post's shared desk telephone and official Post email may be published as contact information. Never commit any member's or officer's personal phone number, private email, home address, or other personal contact details, including inside documents, scans, images, or metadata. Review all source material before publication. The Contact page, site footer, and JSON-LD schema draw from the single authorized record in `_data/post.yml`.
 ## Website policies
-The footer links to `legal/privacy.md`, `legal/copyright.md`, `legal/site-information.md`, and `legal/accessibility.md`. These describe the current static website and should be reviewed by authorized Post leadership. Publishing authority, editorial contact, and accessibility/privacy feedback contact are not yet confirmed and must not be invented.
+The footer links to `legal/privacy.md`, `legal/copyright.md`, `legal/site-information.md`, and `legal/accessibility.md`. These describe the current static website and should be reviewed by authorized Post leadership. Formal publishing authority is not yet confirmed. The shared public Post email and desk telephone are available as general contact channels; do not invent private or personal editorial contacts.
 Revisit the privacy policy before adding forms, analytics, embedded services, or other means of collecting visitor data. Verify rights and permissions before uploading archival photographs, letters, logos, or documents. The accessibility statement identifies WCAG 2.2 AA as a target, not a certification.
