@@ -65,3 +65,8 @@
 - id: veirs-olathe-mills
   title: Lawrence N. Veirs — Bits and Pieces of Olathe History, index
   details: The index identifies R. P. (Bob) Mills and references R. P. Mills & Co. The historical genealogy website's former PDF link is no longer available, so the public citation is bibliographic rather than a dead link.
+- id: usni-cyclops-weather-1970
+  title: U.S. Naval Institute Proceedings — Comment and Discussion, January 1970
+  url: https://www.usni.org/magazines/proceedings/1970/january/comment-and-discussion
+  details: Retrospective examination of March 1918 weather reports identifying a front across Cyclops's estimated position on March 8 and the severe March 9–10 gale encountered by the freighter Amalco. Does not establish Cyclops's actual position or cause of loss.
+  published_on: 1970-01-01
