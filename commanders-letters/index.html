@@ -1,11 +1,10 @@
 ---
 title: Commander's letters
-description: Dated messages from the commander of Spiers-Dennis Post.
+description: Letters from the Commander of Spiers-Dennis Post 24.
 permalink: /commanders-letters/
 noindex: true
 ---
 <h1>Commander's letters</h1>
-<p class="page-intro">An archive of public letters, preserving their titles, dates, authorship, and original wording.</p>
 {% assign items = site.letters | sort: "date" | reverse %}
 {% if items.size > 0 %}
 <ul class="entry-list">
@@ -13,4 +12,4 @@ noindex: true
 <li><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a><time class="entry-meta" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %-d, %Y" }}</time>{% if item.author %}<span class="entry-meta">{{ item.author | escape }}</span>{% endif %}</li>
 {% endfor %}
 </ul>
-{% else %}<p class="pending">No commander's letters have been published yet.</p>{% endif %}
+{% else %}<p>No commander's letters have been posted yet.</p>{% endif %}

@@ -1,9 +1,8 @@
 ---
 title: Constitution
-description: Post constitution and reference sections.
+description: Spiers-Dennis Post No. 24 Constitution.
 permalink: /governance/constitution/
 noindex: true
 ---
 # Constitution
-The Post constitution has not yet been supplied for publication.
-When available, it will be transcribed into accessible, linkable articles and sections. The original document, its effective date, and any amendments should be recorded alongside it.
+The Post's Constitution is not yet available online. Please <a href="{{ '/contact/' | relative_url }}">contact the Post</a> with questions about the document.

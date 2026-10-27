@@ -1,9 +1,8 @@
 ---
 title: Bylaws
-description: Post bylaws and amendment history.
+description: Spiers-Dennis Post No. 24 Bylaws.
 permalink: /governance/bylaws/
 noindex: true
 ---
 # Bylaws
-The Post bylaws have not yet been supplied for publication.
-When available, they will be transcribed into accessible, linkable articles and sections, with source-document references, amendment dates, and effective dates.
+The Post's Bylaws are not yet available online. Please <a href="{{ '/contact/' | relative_url }}">contact the Post</a> with questions about the document.

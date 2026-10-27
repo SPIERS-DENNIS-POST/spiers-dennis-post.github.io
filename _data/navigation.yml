@@ -1,17 +1,13 @@
 - label: Home
   url: /
+- label: History
+  url: /history/
 - label: Governance
   url: /governance/
 - label: Meetings
   url: /meetings/
-- label: Building
+- label: Post hall
   url: /building/
-- label: History
-  url: /history/
-- label: News
-  url: /news/
-- label: Commander's letters
-  url: /commanders-letters/
 - label: Membership
   url: /membership/
 - label: Contact

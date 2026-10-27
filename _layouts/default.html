@@ -19,7 +19,7 @@
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="site-header">
 <div class="shell header-inner">
-<a class="brand" href="{{ '/' | relative_url }}"><span class="brand-symbol" aria-hidden="true">★</span><span class="brand-copy"><strong>{{ site.title | escape }}</strong><small>The American Legion</small></span></a>
+<a class="brand" href="{{ '/' | relative_url }}"><span class="brand-symbol" aria-hidden="true">★</span><span class="brand-copy"><strong>{{ site.title | escape }}</strong><small>The American Legion · Olathe, Colorado</small></span></a>
 <nav class="primary-nav" aria-label="Primary navigation">
 {% for item in site.data.navigation %}
 <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label | escape }}</a>
@@ -33,10 +33,10 @@
 </main>
 <footer class="site-footer">
 <div class="shell footer-inner">
-<p><strong>{{ site.title | escape }}</strong><span class="footer-divider" aria-hidden="true"> · </span>Public records and reference information</p>
-<p>Desk: <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> <span aria-hidden="true">·</span> Email: <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a></p>
-<nav class="footer-links" aria-label="Website policies"><a href="{{ '/legal/privacy/' | relative_url }}">Privacy</a><a href="{{ '/legal/copyright/' | relative_url }}">Copyright &amp; reuse</a><a href="{{ '/legal/site-information/' | relative_url }}">Site information</a><a href="{{ '/legal/accessibility/' | relative_url }}">Accessibility</a></nav>
-<p><a href="{{ '/legion/' | relative_url }}">American Legion resources</a> <span aria-hidden="true">·</span> <a href="{{ '/sources/' | relative_url }}">Sources and corrections</a> <span aria-hidden="true">·</span> <a href="https://github.com/SPIERS-DENNIS-POST/spiers-dennis-post.github.io">Website source</a></p>
+<p><strong>{{ site.title | escape }}</strong> <span aria-hidden="true">·</span> Olathe, Colorado</p>
+<p>Phone: <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> <span aria-hidden="true">·</span> Email: <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a></p>
+<nav class="footer-links" aria-label="Website policies"><a href="{{ '/legal/privacy/' | relative_url }}">Privacy</a><a href="{{ '/legal/copyright/' | relative_url }}">Copyright</a><a href="{{ '/legal/site-information/' | relative_url }}">About this site</a><a href="{{ '/legal/accessibility/' | relative_url }}">Accessibility</a></nav>
+<p><a href="{{ '/legion/' | relative_url }}">The American Legion</a> <span aria-hidden="true">·</span> <a href="{{ '/sources/' | relative_url }}">Sources and corrections</a></p>
 </div>
 </footer>
 </body>

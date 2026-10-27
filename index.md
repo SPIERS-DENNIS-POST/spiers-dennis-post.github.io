@@ -1,28 +1,27 @@
 ---
 title: Home
-description: Spiers-Dennis American Legion Post No. 24, Olathe, Colorado — verified contact information, historical namesakes, charter members, and documentary sources.
+description: Visit or contact Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado. Learn about our officers, history, and membership.
 permalink: /
 ---
 <section class="hero">
-<p class="eyebrow">The American Legion · Olathe, Colorado</p>
+<p class="eyebrow">American Legion Post 24 · Olathe, Colorado</p>
 <h1>Spiers-Dennis Post No. 24</h1>
-<p class="lede">Post-specific records and public information for American Legion Post 24 in Olathe, Colorado: governance, meetings, building information, documented history, news, and commander's letters.</p>
-<p><strong>Post building:</strong> {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }} · <a href="{{ '/contact/' | relative_url }}">Official Post contacts</a></p>
-<div class="notice">This reference website is being populated from named sources. Unverified meeting details, founding dates, and other incomplete records are not presented as settled facts.</div>
+<p class="lede">Spiers-Dennis Post is the American Legion Post in Olathe, Colorado. Learn about our history, find the Post hall, meet our officers, and get in touch.</p>
+<p><strong>Post hall:</strong> {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}</p>
+<p><strong>Phone:</strong> <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> <span aria-hidden="true">·</span> <strong>Email:</strong> <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a></p>
 </section>
-<section aria-labelledby="post-resources">
-<div class="section-head"><h2 id="post-resources">Post information</h2></div>
+<section aria-labelledby="post-information">
+<div class="section-head"><h2 id="post-information">Explore the Post</h2></div>
 <div class="grid">
-<div class="card"><h3><a href="{{ '/governance/' | relative_url }}">Governance</a></h3><p>Post officers, Constitution, Bylaws, and governing authorities.</p></div>
-<div class="card"><h3><a href="{{ '/meetings/' | relative_url }}">Meetings</a></h3><p>Meeting schedule and attendance information, pending local confirmation.</p></div>
-<div class="card"><h3><a href="{{ '/building/' | relative_url }}">Building</a></h3><p>Sourced building location and limits of available property evidence.</p></div>
-<div class="card"><h3><a href="{{ '/history/' | relative_url }}">History</a></h3><p>National Legion namesake and charter-member records, with citations.</p></div>
-<div class="card"><h3><a href="{{ '/news/' | relative_url }}">News</a></h3><p>Chronological public announcements from the Post.</p></div>
-<div class="card"><h3><a href="{{ '/commanders-letters/' | relative_url }}">Commander's letters</a></h3><p>Archived messages with author and publication date.</p></div>
+<div class="card"><h3><a href="{{ '/history/' | relative_url }}">Our history</a></h3><p>How the Post got its name and the members listed on its original charter.</p></div>
+<div class="card"><h3><a href="{{ '/governance/' | relative_url }}">Governance</a></h3><p>Current officers and information about the Post's governing documents.</p></div>
+<div class="card"><h3><a href="{{ '/meetings/' | relative_url }}">Meetings</a></h3><p>How to find out when the Post meets.</p></div>
+<div class="card"><h3><a href="{{ '/building/' | relative_url }}">Post hall</a></h3><p>Where to find us in Olathe.</p></div>
+<div class="card"><h3><a href="{{ '/membership/' | relative_url }}">Membership</a></h3><p>Joining the Post and American Legion membership information.</p></div>
+<div class="card"><h3><a href="{{ '/contact/' | relative_url }}">Contact us</a></h3><p>Our public phone number, email address, and location.</p></div>
 </div>
 </section>
-<section aria-labelledby="outside-resources">
-<div class="section-head"><h2 id="outside-resources">American Legion information</h2></div>
-<p>The Post publishes local information. National membership rules and Legion-wide programs are maintained by The American Legion.</p>
-<p><a href="{{ '/legion/' | relative_url }}">Official American Legion resources</a> · <a href="{{ '/membership/' | relative_url }}">Membership and eligibility links</a> · <a href="{{ '/sources/' | relative_url }}">Source records</a></p>
+<section aria-labelledby="american-legion">
+<div class="section-head"><h2 id="american-legion">The American Legion</h2></div>
+<p>For national membership requirements and programs, visit our <a href="{{ '/legion/' | relative_url }}">American Legion resource links</a>.</p>
 </section>

@@ -1,26 +1,22 @@
-# Spiers-Dennis Post No. 24 public reference website
-Source for https://spiers-dennis-post.github.io/ — a static HTML-first Jekyll website for Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado.
+# Spiers-Dennis Post No. 24
+Source for https://spiers-dennis-post.github.io/, the Jekyll-powered GitHub Pages site of American Legion Post 24 in Olathe, Colorado.
+## Editing
+All pages are edited as source files in this repository. The site needs no CMS, database, tracking scripts, or JavaScript to display its content. Preview locally with Ruby and Bundler by running `bundle install` and `bundle exec jekyll serve`.
+- `_data/post.yml`: canonical Post name, address, public desk telephone, and official Post email.
+- `_data/officers.yml`: officer assignments and reporting date; the roster appears in `governance/index.md`.
+- `_data/sources.yml`: reference records for historical and organizational claims.
+- `_data/facts.yml`: reserved structured facts for later publication.
+- `_news/` and `_letters/`: dated Markdown content for news and Commander's letters. Their index pages remain unindexed and unlinked from the main navigation until content exists.
+- `_includes/`: citations and Schema.org metadata; `_layouts/`: shared HTML.
+- `robots.txt` and `sitemap.xml`: crawler discovery.
+## Editorial standards
+Write as the Post addressing a visitor. Prefer useful facts, plain language, and direct links. Cite historical and formal claims without explaining the research process at length. Do not place source-evaluation notes, confidence scores, alternative property leads, or editing instructions on public pages. Keep those in the repository's research documentation.
+If important details such as a meeting time or public opening hours are not confirmed, don't guess. Direct visitors to the Post's shared contact channels rather than displaying rows of empty fields. Preserve old page URLs and remove `noindex: true` when a page has substantive material ready for indexing.
+National American Legion eligibility and programs belong on the national website; link instead of copying those rules. The Post's original Constitution and Bylaws have not yet been supplied and must not be replaced with national templates.
+## Research notes
+The original charter date is not established from the Centennial source. An earlier Post website stated "Founded in 2014", but did not explain the date. A corporate-formation date in a secondary state-registry mirror and property information for a differently written street address are not verified as historical charter or hall facts. Previously listed contact numbers, personal email addresses, and secondary-directory officer claims do not supersede the information directly supplied by the Post. Keep these uncertainties out of everyday visitor copy.
+The January 30, 2026 Colorado Department membership report records 5 new, 4 PUFL, 53 renewals and 1 headquarters transfer, total 63 and goal 63. This is a dated reporting snapshot, not a live membership roll.
+## Contact privacy
+Only the shared Post telephone (970-644-0731) and official Post email (americanlegion24.olathe@gmail.com) may be published as contact information. Never include personal telephone numbers, private email addresses, home addresses, or personal contact details for members or officers, including information in scans, images, source documents, and metadata.
 ## Publishing
-GitHub Pages builds the default `main` branch using Jekyll. For local preview, run `bundle install` and `bundle exec jekyll serve` with Ruby and Bundler.
-## Information model
-- `_data/post.yml`: canonical identity, verified public physical location, and the Post's explicitly authorized desk telephone and email.
-- `_data/facts.yml`: machine-readable fact fields for meetings, building, local membership, and outstanding mailing details.
-- `_data/sources.yml`: stable, original-source citations with titles, URLs, and source-scope notes.
-- `_data/legion_links.yml`: official links to national Legion topics that should not be copied locally.
-- `history/`: Post-specific sourced history and dated official Department membership reports.
-- `_data/officers.yml` and `governance/index.md`: current Post officer data and roster displayed within Governance, with a source date and no personal contact information.
-- `building/`: physical address and cautiously described limits of available property evidence.
-- `governance/`: published officer roster and pending local Constitution and Bylaws; superior templates do not stand in for adopted local documents.
-- `_news/` and `_letters/`: source-edited dated publications; no web editor or database.
-- `_includes/`: citation, fact, and Schema.org templates.
-## Source and uncertainty rules
-Published assertions should link to the original document or authorized organizational publication whenever available. A research summary is a starting point, not a substitute for first-party documents. Records may conflict: never assert a founding date or current officeholder merely because a directory says so. Historical membership snapshots are not live counts. Leave fields blank when evidence is insufficient, and remove `noindex: true` only after a page has substantive source-supported content.
-The American Legion Centennial entry documents charter members and namesakes but not the exact original charter date. A prior Post website contains a conflicting, unexplained 2014 founding statement. The 2004 corporate-formation lead, 2004 memorial chronology, current meeting schedule, earlier officer identifications, historic membership comparisons, and building ownership/construction details require additional primary verification or explicit Post confirmation before publication as current official facts.
-## Personal information rule
-The only public contact information authorized here is the shared Post desk telephone (970-644-0731) and Post email (americanlegion24.olathe@gmail.com). Do not publish personal telephone numbers, private email addresses, residential addresses, or private contact details of individual members or officers. This rule covers text, historical scans, documents, images, attachments, and metadata. Charter-member historical names do not constitute public contact channels.
-## Maintenance
-News items live in `_news/`; commander's letters live in `_letters/`. Create date-stamped Markdown files with `title`, `date`, `author`, and article text. Publish the local Constitution and Bylaws only from copies of the actual adopted instruments; give sections stable IDs and source links.
-Do not add JavaScript-required content, tracking scripts, mandatory client-side rendering, or redundant national rules. Review the four `legal/` pages with authorized Post leadership before treating them as finally adopted legal policy.
-## Officer roster updates
-Edit `_data/officers.yml` when an authorized Post officer confirms a change. Maintain each person's name and service branch once under `people`, and link roles through the `offices` list, allowing one person to fill multiple offices. Record the `as_of` date and source in `_data/sources.yml`. Do not infer exact installation dates, additional terms, or office assignments from third-party directories. The public page uses Finance Officer, the title in the national Officer's Guide; any different legally operative title must be checked against the Post's adopted local documents.
-Old links to `/officers/` redirect to `/governance/` using the GitHub Pages-supported `jekyll-redirect-from` plugin; the roster is anchored as `/governance/#officers`. There is no independent officer content page.
+GitHub Pages builds from `main`. The `jekyll-redirect-from` plugin preserves the former `/officers/` URL and redirects it to `/governance/`. The footer links to privacy, copyright, website information, and accessibility pages. Changes to the site's legal policies require review by authorized Post leadership.

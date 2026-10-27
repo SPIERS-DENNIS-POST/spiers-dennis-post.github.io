@@ -1,11 +1,8 @@
 ---
 title: Meetings
-description: Spiers-Dennis Post meeting times, locations, and attendance information.
+description: How to confirm the regular meeting schedule for Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado.
 permalink: /meetings/
-noindex: true
-source_ids: []
 ---
 # Meetings
-The structured fields below are reserved for verified local meeting information.
-{% include facts.html section="meetings" %}
-Meeting schedule changes and exceptions can be published in [Post news]({{ '/news/' | relative_url }}).
+For the current Post meeting schedule, please call <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> or email <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a>.
+Our Post hall is at {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}. Please confirm the time and location of a meeting before attending.

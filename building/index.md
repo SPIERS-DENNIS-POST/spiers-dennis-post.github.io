@@ -1,13 +1,13 @@
 ---
-title: Building & facilities
-description: Sourced physical address and carefully qualified building information for Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado.
+title: Post hall
+description: Address and visitor information for the Spiers-Dennis American Legion Post 24 hall in Olathe, Colorado.
 permalink: /building/
 source_ids: [post-legacy-contact]
 ---
-# Building & facilities
-The Post's previously published contact page identifies its facility at 315 S 5th Street, Olathe, Colorado 81425.<sup class="reference"><a href="#reference-post-legacy-contact" aria-label="Reference 1">[1]</a></sup>
-{% include facts.html section="building" %}
-## Physical property records
-The building's legal ownership, construction year, parcel identifier, and condition have **not** been established by the research currently available for publication. In particular, online property listings using the different address 315 **SW** 5th St are not adopted as records of this facility.
-## Visiting
-Public access hours and meeting arrangements have not been confirmed for publication on this website. Contact the Post directly at its [official shared contact channels]({{ '/contact/' | relative_url }}) before visiting for a particular meeting or activity.
+# Post hall
+<dl class="fact-list">
+<div class="fact-row"><dt>Address</dt><dd>{{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}<sup class="reference"><a href="#reference-post-legacy-contact" aria-label="Reference 1">[1]</a></sup></dd></div>
+<div class="fact-row"><dt>Phone</dt><dd><a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a></dd></div>
+<div class="fact-row"><dt>Email</dt><dd><a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a></dd></div>
+</dl>
+<p>For current visiting hours, meetings, or activities at the hall, please call or email the Post.</p>

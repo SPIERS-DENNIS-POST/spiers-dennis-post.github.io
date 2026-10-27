@@ -1,20 +1,13 @@
 ---
 title: History
-description: Sourced historical identity, namesakes, charter members, and documented membership reporting for Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado.
+description: Spiers-Dennis Post 24's namesakes, charter members, and connection to Olathe Veterans Memorial Park.
 permalink: /history/
-source_ids: [legion-centennial-post24, post-legacy-home, colorado-membership-2026-01-30]
+source_ids: [legion-centennial-post24]
 ---
-# History of Spiers-Dennis Post No. 24
-Spiers-Dennis Post No. 24 is an American Legion post in Olathe, Colorado. The American Legion's Centennial Celebration archive identifies the Post's two namesakes and records a group of original charter members.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
-## Historical identification
-<dl class="fact-list">
-<div class="fact-row"><dt>Historical name</dt><dd>Spiers-Dennis Post No. 24</dd></div>
-<div class="fact-row"><dt>Location</dt><dd>Olathe, Colorado, United States</dd></div>
-<div class="fact-row"><dt>Post namesakes</dt><dd>Pvt. Earl C. Spiers and SM John T. Dennis (USN)<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup></dd></div>
-<div class="fact-row"><dt>Original charter date</dt><dd>Not established by the currently available primary sources</dd></div>
-</dl>
+# Our history
+Spiers-Dennis Post No. 24 is named for **Pvt. Earl C. Spiers** and **SM John T. Dennis, U.S. Navy**. The American Legion's Centennial archive records both namesakes and the Post's original charter members.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
 ## Charter members
-The American Legion's Centennial entry identifies the following 23 people as charter members of Post 24.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+The national American Legion archive lists these 23 charter members of Post 24.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
 <ol>
 <li>Lewis V. Crandell</li>
 <li>Joe Bishop</li>
@@ -40,19 +33,7 @@ The American Legion's Centennial entry identifies the following 23 people as cha
 <li>Ralph W. Wray</li>
 <li>Archie J. Moses</li>
 </ol>
-These are historical names supplied by the national archive, not a list of current officers or contacts.
-## Founding-date distinction
-The original charter date has not yet been verified from an original charter or an official record specifying its date. The prior Post website contains the description “Founded in 2014.”<sup class="reference"><a href="#reference-post-legacy-home" aria-label="Reference 2">[2]</a></sup> The meaning of that statement has not been established, and it should not be substituted for the Post's original charter date. The national Centennial charter-member record does not specify the charter year.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
-## Veterans memorial
-The national Centennial entry also catalogues a photograph titled “Olathe Veteran's Memorial Park” associated with Post 24.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup> An exact construction or dedication date is not asserted here until a source identifying the particular memorial and date is linked directly.
-## Membership report: January 30, 2026
-The Department of Colorado's official membership report for **January 30, 2026** lists CO-0024 Spiers-Dennis, Olathe, in District 11. Its reported membership-year categories and goal are reproduced below.<sup class="reference"><a href="#reference-colorado-membership-2026-01-30" aria-label="Reference 3">[3]</a></sup>
-<dl class="fact-list">
-<div class="fact-row"><dt>New</dt><dd>5</dd></div>
-<div class="fact-row"><dt>Paid-up-for-life (PUFL)</dt><dd>4</dd></div>
-<div class="fact-row"><dt>Renewals</dt><dd>53</dd></div>
-<div class="fact-row"><dt>Headquarters transfers</dt><dd>1</dd></div>
-<div class="fact-row"><dt>Reported total</dt><dd>63</dd></div>
-<div class="fact-row"><dt>Membership-year goal</dt><dd>63</dd></div>
-</dl>
-The figures are a dated report snapshot, not a representation of the Post's current or all-time membership. Different membership-year and midyear reports should not be treated as directly comparable annual census counts.
+## Olathe Veterans Memorial Park
+The national Legion Centennial archive also includes an Olathe Veterans Memorial Park entry associated with Post 24.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+## Original charter date
+The original charter date is not listed in the national Centennial record.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
