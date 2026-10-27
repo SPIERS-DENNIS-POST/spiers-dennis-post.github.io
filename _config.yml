@@ -28,6 +28,8 @@ defaults:
       type: letters
     values:
       layout: publication
+plugins:
+  - jekyll-redirect-from
 exclude:
   - README.md
   - Gemfile

@@ -8,9 +8,9 @@ GitHub Pages builds the default `main` branch using Jekyll. For local preview, r
 - `_data/sources.yml`: stable, original-source citations with titles, URLs, and source-scope notes.
 - `_data/legion_links.yml`: official links to national Legion topics that should not be copied locally.
 - `history/`: Post-specific sourced history and dated official Department membership reports.
-- `_data/officers.yml` and `officers/`: current Post officers with role assignments, military service branch, source date, and any specifically confirmed installation year; no personal contact information.
+- `_data/officers.yml` and `governance/index.md`: current Post officer data and roster displayed within Governance, with a source date and no personal contact information.
 - `building/`: physical address and cautiously described limits of available property evidence.
-- `governance/`: pending local Constitution and Bylaws; superior templates do not stand in for adopted local documents.
+- `governance/`: published officer roster and pending local Constitution and Bylaws; superior templates do not stand in for adopted local documents.
 - `_news/` and `_letters/`: source-edited dated publications; no web editor or database.
 - `_includes/`: citation, fact, and Schema.org templates.
 ## Source and uncertainty rules
@@ -23,3 +23,4 @@ News items live in `_news/`; commander's letters live in `_letters/`. Create dat
 Do not add JavaScript-required content, tracking scripts, mandatory client-side rendering, or redundant national rules. Review the four `legal/` pages with authorized Post leadership before treating them as finally adopted legal policy.
 ## Officer roster updates
 Edit `_data/officers.yml` when an authorized Post officer confirms a change. Maintain each person's name and service branch once under `people`, and link roles through the `offices` list, allowing one person to fill multiple offices. Record the `as_of` date and source in `_data/sources.yml`. Do not infer exact installation dates, additional terms, or office assignments from third-party directories. The public page uses Finance Officer, the title in the national Officer's Guide; any different legally operative title must be checked against the Post's adopted local documents.
+Old links to `/officers/` redirect to `/governance/` using the GitHub Pages-supported `jekyll-redirect-from` plugin; the roster is anchored as `/governance/#officers`. There is no independent officer content page.
