@@ -10,7 +10,7 @@ All pages are edited as source files in this repository. The site needs no CMS, 
 - `_includes/`: citations and Schema.org metadata; `_layouts/`: shared HTML.
 - `robots.txt` and `sitemap.xml`: crawler discovery.
 ## Editorial standards
-Write as the Post addressing a visitor. Prefer useful facts, plain language, and direct links. Cite historical and formal claims without explaining the research process at length. Do not place source-evaluation notes, confidence scores, alternative property leads, or editing instructions on public pages. Keep those in the repository's research documentation.
+Write as the Post addressing a visitor. Prefer useful facts, plain language, and direct links. Treat familiar local landmarks and Post activities as part of our own story, not as discoveries made by third-party researchers. Cite historical and formal claims without explaining the research process at length. Do not place source-evaluation notes, confidence scores, alternative property leads, or editing instructions on public pages. Keep those in the repository's research documentation.
 If important details such as a meeting time or public opening hours are not confirmed, don't guess. Direct visitors to the Post's shared contact channels rather than displaying rows of empty fields. Preserve old page URLs and remove `noindex: true` when a page has substantive material ready for indexing.
 National American Legion eligibility and programs belong on the national website; link instead of copying those rules. The Post's original Constitution and Bylaws have not yet been supplied and must not be replaced with national templates.
 ## Research notes

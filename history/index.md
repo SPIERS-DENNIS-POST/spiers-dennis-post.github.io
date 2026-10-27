@@ -5,9 +5,9 @@ permalink: /history/
 source_ids: [legion-centennial-post24]
 ---
 # Our history
-Spiers-Dennis Post No. 24 is named for **Pvt. Earl C. Spiers** and **SM John T. Dennis, U.S. Navy**. The American Legion's Centennial archive records both namesakes and the Post's original charter members.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+Spiers-Dennis Post No. 24 is named for **Pvt. Earl C. Spiers** and **SM John T. Dennis, U.S. Navy**.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
 ## Charter members
-The national American Legion archive lists these 23 charter members of Post 24.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+Our Post's 23 charter members were:<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
 <ol>
 <li>Lewis V. Crandell</li>
 <li>Joe Bishop</li>
@@ -33,7 +33,5 @@ The national American Legion archive lists these 23 charter members of Post 24.<
 <li>Ralph W. Wray</li>
 <li>Archie J. Moses</li>
 </ol>
-## Olathe Veterans Memorial Park
-The national Legion Centennial archive also includes an Olathe Veterans Memorial Park entry associated with Post 24.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
-## Original charter date
-The original charter date is not listed in the national Centennial record.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+## Olathe Veterans Memorial
+The Olathe Veterans Memorial stands near our Post hall. In 2004, Post 24 members and members of the Olathe community built the memorial to honor the service and sacrifice of local veterans.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
