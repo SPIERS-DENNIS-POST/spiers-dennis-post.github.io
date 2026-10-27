@@ -2,7 +2,7 @@
 title: History
 description: Spiers-Dennis American Legion Post 24 in Olathe, Colorado: the World War I servicemen behind our name, our early clubhouse, Veterans Memorial, and charter members.
 permalink: /history/
-source_ids: [coconino-sun-1920, legion-centennial-post24, colorado-freedom-spiers, spiers-oise-aisne, navy-war-dead-dennis, navy-uss-cyclops, olathe-legion-clubhouse-1923, army-oise-aisne-28th, navy-cyclops-assessment, naval-historical-foundation-cyclops, navy-lost-all-hands-1918]
+source_ids: [coconino-sun-1920, legion-centennial-post24, colorado-freedom-spiers, spiers-oise-aisne, navy-war-dead-dennis, navy-uss-cyclops, olathe-legion-clubhouse-1923, army-oise-aisne-28th, navy-cyclops-assessment, naval-historical-foundation-cyclops, navy-lost-all-hands-1918, veirs-olathe-mills]
 references_in_content: true
 ---
 # Our history
@@ -20,7 +20,7 @@ On her final voyage, *Cyclops* was carrying **approximately 10,800 long tons of 
 On **March 4, 1918**, *Cyclops* left Barbados for Baltimore with **306 people aboard**, including Dennis. She disappeared without a distress call. **No one aboard is known to have survived**, and no wreck has ever been found.<sup class="reference"><a href="#reference-navy-lost-all-hands-1918" aria-label="Reference 11">[11]</a></sup> Navy historians have considered whether the dense cargo, engine trouble, and possible structural weaknesses contributed to her loss, but **the cause remains unknown**.<sup class="reference"><a href="#reference-navy-cyclops-assessment" aria-label="Reference 9">[9]</a></sup><sup class="reference"><a href="#reference-naval-historical-foundation-cyclops" aria-label="Reference 10">[10]</a></sup> The Navy officially recorded Dennis's death as **June 14, 1918**, although that was not a known date of sinking.<sup class="reference"><a href="#reference-navy-war-dead-dennis" aria-label="Reference 5">[5]</a></sup>
 ## Our first clubhouse
 In the fall of **1921**, Post 24 was meeting in a rented house on Main Street. Members approved plans for a clubhouse of our own, with an estimated **$2,500 needed for materials and masonry**, but the project nearly stalled because no suitable building site was within the Post's means.<sup class="reference"><a href="#reference-olathe-legion-clubhouse-1923" aria-label="Reference 7">[7]</a></sup>
-The turning point came when **J. D. Cox** announced that Olathe landowner **R. P. Mills** had offered to donate a lot for the building. Members welcomed the offer and formally thanked Mills. With a site available, volunteers contributed construction labor, hauling, and other services to turn the plans into a permanent home for the Post.
+The turning point came when **J. D. Cox** announced that **R. P. “Bob” Mills**, an Olathe businessman and landowner associated with **R. P. Mills & Co.**, had offered to donate a lot for the building.<sup class="reference"><a href="#reference-veirs-olathe-mills" aria-label="Reference 12">[12]</a></sup> Members welcomed the offer and formally thanked Mills. With a site available, volunteers contributed construction labor, hauling, and other services to turn the plans into a permanent home for the Post.
 The clubhouse was completed and dedicated at a district conference on **January 12–13, 1923**.<sup class="reference"><a href="#reference-olathe-legion-clubhouse-1923" aria-label="Reference 7">[7]</a></sup>
 ## Olathe Veterans Memorial
 The Olathe Veterans Memorial stands near our Post hall. In 2004, Post 24 members and the Olathe community built the memorial to honor the service and sacrifice of local veterans.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 2">[2]</a></sup>
@@ -65,5 +65,6 @@ Our Post's 23 charter members were:<sup class="reference"><a href="#reference-le
 <li id="reference-navy-cyclops-assessment"><a href="https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-016/h-016-4.html">Naval History and Heritage Command: USS Cyclops (H-016-4)</a></li>
 <li id="reference-naval-historical-foundation-cyclops"><a href="https://navyhistory.org/2013/06/unanswered-loss-uss-cyclops-march-1918/">Naval Historical Foundation: The Unanswered Loss of USS Cyclops — March 1918</a></li>
 <li id="reference-navy-lost-all-hands-1918"><a href="https://www.history.navy.mil/content/history/nhhc/about-us/leadership/director/directors-corner/h-grams/h-gram-060/h-060-2.html">Naval History and Heritage Command: Lost With All Hands, USS Cyclops (1918)</a></li>
+<li id="reference-veirs-olathe-mills">Lawrence N. Veirs, <cite>Bits and Pieces of Olathe History</cite>, index entries for “Mills, R. P. (Bob)” and “R. P. Mills & Co.”</li>
 </ol>
 </section>
