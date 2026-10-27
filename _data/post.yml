@@ -14,6 +14,10 @@ mailing_address:
   region: CO
   postal_code: "81425-0249"
   country: US
+corporate_registration:
+  legal_name: Spiers - Dennis Post #24, The American Legion
+  colorado_entity_id: "20041299292"
+  entity_type: Colorado nonprofit corporation
 contact:
   phone: 970-644-0731
   email: americanlegion24.olathe@gmail.com

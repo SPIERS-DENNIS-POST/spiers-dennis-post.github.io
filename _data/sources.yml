@@ -88,3 +88,7 @@
   title: U.S. Geological Survey — Hoovers Corner topographic map
   url: https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/CO/CO_Hoovers_Corner_20160912_TM_geo.pdf
   details: USGS topographic map labels Roatcap Gulch and Roatcap Wash west of Olathe; it does not establish the origin of either geographical name.
+- id: colorado-post24-corporate-registration
+  title: OpenCorporates — Spiers - Dennis Post #24, The American Legion (Colorado entity 20041299292)
+  url: https://opencorporates.com/companies/us_co/20041299292
+  details: Public Colorado nonprofit corporation record listing the legal name, state entity identifier, and current physical and mailing addresses. Colorado corporation registration does not independently establish federal tax exemption or eligibility for deductible contributions.

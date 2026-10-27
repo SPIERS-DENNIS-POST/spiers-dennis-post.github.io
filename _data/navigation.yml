@@ -10,5 +10,7 @@
   url: /building/
 - label: Membership
   url: /membership/
+- label: Donate
+  url: /donate/
 - label: Contact
   url: /contact/
