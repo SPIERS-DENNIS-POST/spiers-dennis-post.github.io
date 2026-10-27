@@ -2,7 +2,7 @@
 title: History
 description: Spiers-Dennis American Legion Post 24 in Olathe, Colorado: the World War I servicemen behind our name, our early clubhouse, Veterans Memorial, and charter members.
 permalink: /history/
-source_ids: [coconino-sun-1920, legion-centennial-post24, colorado-freedom-spiers, spiers-oise-aisne, navy-war-dead-dennis, navy-uss-cyclops, olathe-legion-clubhouse-1923, army-oise-aisne-28th, navy-cyclops-assessment, naval-historical-foundation-cyclops, navy-lost-all-hands-1918, veirs-olathe-mills, usni-cyclops-weather-1970]
+source_ids: [coconino-sun-1920, legion-centennial-post24, colorado-freedom-spiers, spiers-oise-aisne, navy-war-dead-dennis, navy-uss-cyclops, olathe-legion-clubhouse-1923, army-oise-aisne-28th, navy-cyclops-assessment, naval-historical-foundation-cyclops, navy-lost-all-hands-1918, veirs-olathe-mills, usni-cyclops-weather-1970, roatcap-family-cemetery, roatcap-orchard-1958, roatcap-baseball-1925, roatcap-usgs-hoovers-corner]
 references_in_content: true
 ---
 # Our history
@@ -51,6 +51,7 @@ Our Post's 23 charter members were:<sup class="reference"><a href="#reference-le
 <li>Ralph W. Wray</li>
 <li>Archie J. Moses</li>
 </ol>
+Our charter member **Oscar D. Roatcap** was **Oscar Daniel Roatcap**, a son of David Harrison “Harry” Roatcap.<sup class="reference"><a href="#reference-roatcap-family-cemetery" aria-label="Reference 14">[14]</a></sup> The Roatcaps were among Olathe's early farming families: a recollection of life in the 1890s describes their orchard west of town.<sup class="reference"><a href="#reference-roatcap-orchard-1958" aria-label="Reference 15">[15]</a></sup> Oscar also played first base on Olathe's team at the **1925 Denver Post baseball tournament**.<sup class="reference"><a href="#reference-roatcap-baseball-1925" aria-label="Reference 16">[16]</a></sup> The family name remains on local maps in **Roatcap Gulch** and **Roatcap Wash**, although which family member gave those places their names has not been established.<sup class="reference"><a href="#reference-roatcap-usgs-hoovers-corner" aria-label="Reference 17">[17]</a></sup>
 <section class="references" aria-labelledby="references-heading">
 <h2 id="references-heading">References</h2>
 <ol>
@@ -67,5 +68,9 @@ Our Post's 23 charter members were:<sup class="reference"><a href="#reference-le
 <li id="reference-navy-lost-all-hands-1918"><a href="https://www.history.navy.mil/content/history/nhhc/about-us/leadership/director/directors-corner/h-grams/h-gram-060/h-060-2.html">Naval History and Heritage Command: Lost With All Hands, USS Cyclops (1918)</a></li>
 <li id="reference-veirs-olathe-mills">Lawrence N. Veirs, <cite>Bits and Pieces of Olathe History</cite>, index entries for “Mills, R. P. (Bob)” and “R. P. Mills & Co.”</li>
 <li id="reference-usni-cyclops-weather-1970"><a href="https://www.usni.org/magazines/proceedings/1970/january/comment-and-discussion">U.S. Naval Institute, <cite>Proceedings</cite>, January 1970: “Comment and Discussion” on <i>Cyclops</i> and the March 1918 weather</a></li>
+<li id="reference-roatcap-family-cemetery"><a href="https://peoplelegacy.net/david_harrison_harry_roatcap-5f7u6x">PeopleLegacy: David Harrison “Harry” Roatcap and his family, including Oscar Daniel Roatcap</a></li>
+<li id="reference-roatcap-orchard-1958"><a href="https://deltacountyhistoricalsociety.wordpress.com/2011/05/25/independent-offers-county-residents-50-reward-for-finding-wormy-apple/">Delta County Independent, May 1958: early Olathe orchard recollections, reproduced by Delta County Historical Society</a></li>
+<li id="reference-roatcap-baseball-1925"><a href="https://www.historycolorado.org/story/articles-print/2018/07/30/left-field-colorados-semi-pro-and-amateur-baseball-teams">History Colorado: Left on the Field — Olathe baseball team at the 1925 Denver Post Tournament</a></li>
+<li id="reference-roatcap-usgs-hoovers-corner"><a href="https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/USTopo/PDF/CO/CO_Hoovers_Corner_20160912_TM_geo.pdf">U.S. Geological Survey: Hoovers Corner, Colorado topographic map, showing Roatcap Gulch and Roatcap Wash</a></li>
 </ol>
 </section>
