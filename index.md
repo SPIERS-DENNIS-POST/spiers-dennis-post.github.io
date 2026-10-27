@@ -6,7 +6,7 @@ permalink: /
 <section class="hero">
 <p class="eyebrow">American Legion Post 24 · Olathe, Colorado</p>
 <h1>Spiers-Dennis Post No. 24</h1>
-<p class="lede">Spiers-Dennis Post is the American Legion Post in Olathe, Colorado. Learn about our history, find the Post hall, meet our officers, and get in touch.</p>
+<p class="lede">Spiers-Dennis Post is the American Legion Post in Olathe, Colorado, named in memory of two local servicemen lost during World War I. Learn about our history, find the Post hall, meet our officers, and get in touch.</p>
 <p><strong>Post hall:</strong> {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}</p>
 <p><strong>Phone:</strong> <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> <span aria-hidden="true">·</span> <strong>Email:</strong> <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a></p>
 </section>

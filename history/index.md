@@ -1,19 +1,26 @@
 ---
 title: History
-description: The history of Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado, documented since 1920, with its 1923 clubhouse and original charter members.
+description: Spiers-Dennis American Legion Post 24 in Olathe, Colorado: the World War I servicemen behind our name, our early clubhouse, Veterans Memorial, and charter members.
 permalink: /history/
-source_ids: [coconino-sun-1920, olathe-legion-clubhouse-1923, legion-centennial-post24]
+source_ids: [coconino-sun-1920, legion-centennial-post24, colorado-freedom-spiers, spiers-oise-aisne, navy-war-dead-dennis, navy-uss-cyclops, olathe-legion-clubhouse-1923]
 ---
 # Our history
 Spiers-Dennis Post No. 24 has been part of Olathe for more than a century. Our Post was already active here by **1920**.<sup class="reference"><a href="#reference-coconino-sun-1920" aria-label="Reference 1">[1]</a></sup>
-Our Post is named in honor of **Pvt. Earl C. Spiers** and **SM John T. Dennis of the U.S. Navy**.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 3">[3]</a></sup>
+Our Post bears the names of two men connected to Olathe who lost their lives in military service during World War I: **Private Earl C. Spiers, U.S. Army**, and **Seaman John T. Dennis, U.S. Navy**.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 2">[2]</a></sup>
+## The men behind our name
+### Earl Christie Spiers — U.S. Army
+Earl Christie Spiers was born in Olathe and served as a private in the **109th Infantry Regiment, 28th Division**. He died in France on **September 7, 1918**.<sup class="reference"><a href="#reference-colorado-freedom-spiers" aria-label="Reference 3">[3]</a></sup><sup class="reference"><a href="#reference-spiers-oise-aisne" aria-label="Reference 4">[4]</a></sup>
+Spiers is buried at **Oise-Aisne American Cemetery** in France, Plot D, Row 9, Grave 20.<sup class="reference"><a href="#reference-spiers-oise-aisne" aria-label="Reference 4">[4]</a></sup>
+### John Thomas Dennis — U.S. Navy
+John Thomas Dennis was a seaman in the U.S. Navy whose home and family connections were in Olathe. He enlisted at **Des Moines, Iowa, on November 11, 1916**, and later served aboard the Navy collier **USS *Cyclops***.<sup class="reference"><a href="#reference-navy-war-dead-dennis" aria-label="Reference 5">[5]</a></sup>
+*Cyclops* disappeared after leaving Barbados in **March 1918**, with Dennis among those lost aboard. The ship was never found, and the cause of its disappearance remains unknown.<sup class="reference"><a href="#reference-navy-uss-cyclops" aria-label="Reference 6">[6]</a></sup> The Navy officially recorded Dennis's date of death as **June 14, 1918**, although the exact date of the ship's loss is unknown.<sup class="reference"><a href="#reference-navy-war-dead-dennis" aria-label="Reference 5">[5]</a></sup>
 ## Our first clubhouse
 In 1921, our headquarters and clubrooms occupied a rented house on Main Street. Members wanted a permanent home, and a building project took shape when R. P. Mills offered land for the clubhouse. Post members contributed construction labor and hauling, with help from the wider community.
-The new clubhouse was completed and dedicated during a district conference on **January 12–13, 1923**.<sup class="reference"><a href="#reference-olathe-legion-clubhouse-1923" aria-label="Reference 2">[2]</a></sup>
+The new clubhouse was completed and dedicated during a district conference on **January 12–13, 1923**.<sup class="reference"><a href="#reference-olathe-legion-clubhouse-1923" aria-label="Reference 7">[7]</a></sup>
 ## Olathe Veterans Memorial
-The Olathe Veterans Memorial stands near our Post hall. In 2004, Post 24 members and the Olathe community built the memorial to honor the service and sacrifice of local veterans.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 3">[3]</a></sup>
+The Olathe Veterans Memorial stands near our Post hall. In 2004, Post 24 members and the Olathe community built the memorial to honor the service and sacrifice of local veterans.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 2">[2]</a></sup>
 ## Charter members
-Our Post's 23 charter members were:<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 3">[3]</a></sup>
+Our Post's 23 charter members were:<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 2">[2]</a></sup>
 <ol>
 <li>Lewis V. Crandell</li>
 <li>Joe Bishop</li>
