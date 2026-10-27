@@ -3,8 +3,8 @@ meetings:
     value: Fourth Tuesday of each month
     source_ids: [post-meetings-2026-10-27]
   - label: Meeting start time
-    value:
-    source_ids: []
+    value: 5:30 p.m.
+    source_ids: [post-meetings-2026-10-27]
   - label: Dinner served
     value: 5:00 p.m.
     source_ids: [post-meetings-2026-10-27]

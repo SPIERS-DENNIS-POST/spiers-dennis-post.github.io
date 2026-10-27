@@ -1,15 +1,19 @@
 ---
 title: History
-description: Spiers-Dennis Post 24's namesakes, charter members, and connection to Olathe Veterans Memorial Park.
+description: The history of Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado, documented since 1920, with its 1923 clubhouse and original charter members.
 permalink: /history/
-source_ids: [legion-centennial-post24]
+source_ids: [coconino-sun-1920, olathe-legion-clubhouse-1923, legion-centennial-post24]
 ---
 # Our history
-Spiers-Dennis Post No. 24 is named for **Pvt. Earl C. Spiers** and **SM John T. Dennis, U.S. Navy**.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+Spiers-Dennis Post No. 24 has been part of Olathe for more than a century. A September 10, 1920, newspaper account mentions our Post by name, establishing that we were active in the community by that year.<sup class="reference"><a href="#reference-coconino-sun-1920" aria-label="Reference 1">[1]</a></sup>
+Our Post is named in honor of **Pvt. Earl C. Spiers** and **SM John T. Dennis of the U.S. Navy**.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 3">[3]</a></sup>
+## Our first clubhouse
+In 1921, our headquarters and clubrooms occupied a rented house on Main Street. Members wanted a permanent home, and a building project took shape when R. P. Mills offered land for the clubhouse. Post members contributed construction labor and hauling, with help from the wider community.
+The new clubhouse was completed and dedicated during a district conference on **January 12–13, 1923**. A newspaper published the following month told the story of how the Post built its own home.<sup class="reference"><a href="#reference-olathe-legion-clubhouse-1923" aria-label="Reference 2">[2]</a></sup>
 ## Olathe Veterans Memorial
-The Olathe Veterans Memorial stands near our Post hall. In 2004, Post 24 members and members of the Olathe community built the memorial to honor the service and sacrifice of local veterans.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+The Olathe Veterans Memorial stands near our Post hall. In 2004, Post 24 members and the Olathe community built the memorial to honor the service and sacrifice of local veterans.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 3">[3]</a></sup>
 ## Charter members
-Our Post's 23 charter members were:<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 1">[1]</a></sup>
+Our Post's 23 charter members were:<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 3">[3]</a></sup>
 <ol>
 <li>Lewis V. Crandell</li>
 <li>Joe Bishop</li>
