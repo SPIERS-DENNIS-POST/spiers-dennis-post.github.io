@@ -39,3 +39,6 @@ The homepage and substantive national-resource pages may be indexed. Unpopulated
 This site does not copy American Legion national rules; it links to the official information owner. Avoid personal, private, or unauthorized records.
 ## Requirements
 No JavaScript runtime, no client-side data fetching, no database, no CMS, and no special AI-crawler-only content. HTML, CSS, canonical links, XML sitemap, and JSON-LD make the pages useful to ordinary browsers, assistive tools, search engines, and retrieval systems.
+## Website policies
+The footer links to `legal/privacy.md`, `legal/copyright.md`, `legal/site-information.md`, and `legal/accessibility.md`. These describe the current static website and should be reviewed by authorized Post leadership. Publishing authority, editorial contact, and accessibility/privacy feedback contact are not yet confirmed and must not be invented.
+Revisit the privacy policy before adding forms, analytics, embedded services, or other means of collecting visitor data. Verify rights and permissions before uploading archival photographs, letters, logos, or documents. The accessibility statement identifies WCAG 2.2 AA as a target, not a certification.
