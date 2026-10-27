@@ -1,14 +1,14 @@
 ---
 title: Governance
-description: The Constitution, Bylaws, and governing documents of Spiers-Dennis Post.
+description: Local Post constitution and bylaws status, distinguished from national and Department of Colorado governing instruments.
 permalink: /governance/
 noindex: true
 ---
 # Governance
-Post governing documents will be made available here in accessible HTML, with links to preserved source documents when available.
+The Post's locally adopted Constitution and Bylaws have not yet been supplied for publication. National suggested model provisions or Department rules must not be presented as the Post's adopted text.
 ## Constitution
-[Constitution reference page]({{ '/governance/constitution/' | relative_url }})
+[Post constitution reference page]({{ '/governance/constitution/' | relative_url }})
 ## Bylaws
-[Bylaws reference page]({{ '/governance/bylaws/' | relative_url }})
-## Document authority
-Effective dates, revisions, and citations will be recorded against the exact document version being published.
+[Post bylaws reference page]({{ '/governance/bylaws/' | relative_url }})
+## Other governing authorities
+[The American Legion Department of Colorado](https://coloradolegion.org/) and [The American Legion](https://www.legion.org/) publish their own governance materials. Those are external sources, not substitutes for locally adopted documents.

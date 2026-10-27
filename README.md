@@ -1,46 +1,22 @@
-# Spiers-Dennis Post public website
-Source for https://spiers-dennis-post.github.io/ — a minimal, static, HTML-first Jekyll website.
+# Spiers-Dennis Post No. 24 public reference website
+Source for https://spiers-dennis-post.github.io/ — a static HTML-first Jekyll website for Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado.
 ## Publishing
-On GitHub, open Settings → Pages and choose Deploy from a branch → main → /(root). GitHub Pages builds Jekyll from source. The site is publicly readable without JavaScript.
-For local preview, install Ruby and Bundler, then run `bundle install` and `bundle exec jekyll serve`.
-## Content organization
-- `_data/post.yml`: Post identity and canonical contact details for the shared Post desk telephone and Post email; unknown fields remain empty.
-- `_data/facts.yml`: Local key-value records for meetings, building, membership, and mailing information; phone and email are maintained only in `_data/post.yml`.
-- `_data/sources.yml`: Source registry for locally published claims.
-- `_data/legion_links.yml`: Official American Legion destinations.
-- `governance/`: Constitution, Bylaws, and relevant governing material.
-- `history/`: Sourced historical information.
-- `_news/`: News posts, one Markdown file per item.
-- `_letters/`: Commander's letters, one Markdown file per letter.
-- `_includes/facts.html` and `_includes/references.html`: Reusable readable facts and superscript references.
-- `sitemap.xml` and `robots.txt`: Discovery endpoints.
-## Adding a verified local fact
-Update the relevant `value` in `_data/facts.yml`, using plain text. If a citation is appropriate, add a source record with `id`, `title`, `url` (if available), `details`, and `published_on` to `_data/sources.yml`. Add its ID to the fact's `source_ids` array and to the page's front matter `source_ids`, in the order the citations should be numbered. Remove `noindex: true` on that page only when it has meaningful, verified public content.
-If address information is added, update `_data/post.yml` too; extend `_includes/schema.html` only when the structured address is complete and verified.
-## Adding a news item
-Create a Markdown file such as `_news/2026-11-01-post-update.md` with this content:
-```markdown
----
-title: Post update
-date: 2026-11-01
-author: Authorized author
-summary: Short factual summary.
-source_ids: []
----
-The approved article text goes here.
-```
-Remove `noindex: true` from `news/index.html` once the index contains a published item. Publication source metadata can include `source_ids` when citations are relevant.
-## Adding a commander's letter
-Create a file in `_letters/` with `title`, `date`, `author`, and the approved letter text, following the news example. Remove `noindex: true` from `commanders-letters/index.html` when the archive is populated.
-## Governance documents
-Do not invent or summarize missing provisions. Publish the supplied Constitution or Bylaws with a documented document version and effective date, headings for each article, and stable section IDs for direct citations. If the original source may be published, put a copy under `assets/` and link it from the HTML transcription.
-## Indexing and accuracy
-The homepage and substantive national-resource pages may be indexed. Unpopulated local sections are tagged `noindex,follow` and omitted from the sitemap. Remove that tag per section when content has been approved and verified.
-This site does not copy American Legion national rules; it links to the official information owner. Avoid personal, private, or unauthorized records.
-## Requirements
-No JavaScript runtime, no client-side data fetching, no database, no CMS, and no special AI-crawler-only content. HTML, CSS, canonical links, XML sitemap, and JSON-LD make the pages useful to ordinary browsers, assistive tools, search engines, and retrieval systems.
-## Public contact policy
-Only the Post's shared desk telephone and official Post email may be published as contact information. Never commit any member's or officer's personal phone number, private email, home address, or other personal contact details, including inside documents, scans, images, or metadata. Review all source material before publication. The Contact page, site footer, and JSON-LD schema draw from the single authorized record in `_data/post.yml`.
-## Website policies
-The footer links to `legal/privacy.md`, `legal/copyright.md`, `legal/site-information.md`, and `legal/accessibility.md`. These describe the current static website and should be reviewed by authorized Post leadership. Formal publishing authority is not yet confirmed. The shared public Post email and desk telephone are available as general contact channels; do not invent private or personal editorial contacts.
-Revisit the privacy policy before adding forms, analytics, embedded services, or other means of collecting visitor data. Verify rights and permissions before uploading archival photographs, letters, logos, or documents. The accessibility statement identifies WCAG 2.2 AA as a target, not a certification.
+GitHub Pages builds the default `main` branch using Jekyll. For local preview, run `bundle install` and `bundle exec jekyll serve` with Ruby and Bundler.
+## Information model
+- `_data/post.yml`: canonical identity, verified public physical location, and the Post's explicitly authorized desk telephone and email.
+- `_data/facts.yml`: machine-readable fact fields for meetings, building, local membership, and outstanding mailing details.
+- `_data/sources.yml`: stable, original-source citations with titles, URLs, and source-scope notes.
+- `_data/legion_links.yml`: official links to national Legion topics that should not be copied locally.
+- `history/`: Post-specific sourced history and dated official Department membership reports.
+- `building/`: physical address and cautiously described limits of available property evidence.
+- `governance/`: pending local Constitution and Bylaws; superior templates do not stand in for adopted local documents.
+- `_news/` and `_letters/`: source-edited dated publications; no web editor or database.
+- `_includes/`: citation, fact, and Schema.org templates.
+## Source and uncertainty rules
+Published assertions should link to the original document or authorized organizational publication whenever available. A research summary is a starting point, not a substitute for first-party documents. Records may conflict: never assert a founding date or current officeholder merely because a directory says so. Historical membership snapshots are not live counts. Leave fields blank when evidence is insufficient, and remove `noindex: true` only after a page has substantive source-supported content.
+The American Legion Centennial entry documents charter members and namesakes but not the exact original charter date. A prior Post website contains a conflicting, unexplained 2014 founding statement. The 2004 corporate-formation lead, 2004 memorial chronology, current meeting schedule, officer identification, historic membership comparisons, and building ownership/construction details require additional primary verification or explicit Post confirmation before publication as current official facts.
+## Personal information rule
+The only public contact information authorized here is the shared Post desk telephone (970-644-0731) and Post email (americanlegion24.olathe@gmail.com). Do not publish personal telephone numbers, private email addresses, residential addresses, or private contact details of individual members or officers. This rule covers text, historical scans, documents, images, attachments, and metadata. Charter-member historical names do not constitute public contact channels.
+## Maintenance
+News items live in `_news/`; commander's letters live in `_letters/`. Create date-stamped Markdown files with `title`, `date`, `author`, and article text. Publish the local Constitution and Bylaws only from copies of the actual adopted instruments; give sections stable IDs and source links.
+Do not add JavaScript-required content, tracking scripts, mandatory client-side rendering, or redundant national rules. Review the four `legal/` pages with authorized Post leadership before treating them as finally adopted legal policy.

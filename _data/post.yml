@@ -1,10 +1,12 @@
-name: Spiers-Dennis Post
+name: Spiers-Dennis Post No. 24
+post_number: 24
 affiliation: The American Legion
+location: Olathe, Colorado
 address:
-  street:
-  city:
-  region:
-  postal_code:
+  street: 315 S 5th St
+  city: Olathe
+  region: CO
+  postal_code: "81425"
   country: US
 contact:
   phone: 970-644-0731

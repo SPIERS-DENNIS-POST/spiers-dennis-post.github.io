@@ -12,16 +12,16 @@ meetings:
     value:
     source_ids: []
 building:
-  - label: Street address
+  - label: Post address
+    value: 315 S 5th St, Olathe, CO 81425
+    source_ids: [post-legacy-contact]
+  - label: Ownership
     value:
     source_ids: []
-  - label: Building access
+  - label: Verified construction date
     value:
     source_ids: []
-  - label: Facility information
-    value:
-    source_ids: []
-  - label: Public hours
+  - label: Public access hours
     value:
     source_ids: []
 contact:
