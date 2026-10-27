@@ -2,7 +2,7 @@
 title: Meetings
 description: Spiers-Dennis Post 24 meetings and weekly gatherings in Olathe, including Monday coffee, Thursday PTSD Group, and fourth-Tuesday Post meetings.
 permalink: /meetings/
-source_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27]
+source_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27]
 ---
 # Post meetings
 Our regular meeting schedule and location are listed below.
@@ -25,3 +25,11 @@ We get together for coffee at the Post hall every Monday morning.
 Our PTSD Group meets at the Post hall on Thursdays and is conducted by a Vet Center counselor.
 {% include facts.html section="ptsd_group" %}
 <p>For participation details or schedule changes, please <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.</p>
+## Annual observances and traditions
+These are our customary activities; arrangements for a particular year may vary.<sup class="reference"><a href="#reference-post-facilities-traditions-2026-10-27" aria-label="Reference 3">[3]</a></sup>
+### Memorial Day
+Post members place flags at Olathe, Pea Green, and Ash Mesa cemeteries.
+### Veterans Day
+The Post attends the OMHS Veterans Day Assembly, held in the middle school gym.
+### Thanksgiving
+Members and their families traditionally hold Thanksgiving dinner at the Post, using its large gathering areas and kitchen.
