@@ -14,6 +14,29 @@ meetings:
   - label: December meeting
     value: Usually canceled for the holidays
     source_ids: [post-meetings-2026-10-27]
+monday_coffee:
+  - label: Day
+    value: Every Monday
+    source_ids: [post-weekly-gatherings-2026-10-27]
+  - label: Time
+    value: 7:00 a.m. to about 10:00 a.m.
+    source_ids: [post-weekly-gatherings-2026-10-27]
+  - label: Location
+    value: Post hall, 315 S 5th St, Olathe, CO 81425
+    source_ids: [post-weekly-gatherings-2026-10-27]
+ptsd_group:
+  - label: Day
+    value: Thursdays
+    source_ids: [post-weekly-gatherings-2026-10-27]
+  - label: Time
+    value: 1:00–3:00 p.m.
+    source_ids: [post-weekly-gatherings-2026-10-27]
+  - label: Location
+    value: Post hall, 315 S 5th St, Olathe, CO 81425
+    source_ids: [post-weekly-gatherings-2026-10-27]
+  - label: Facilitator
+    value: Vet Center counselor
+    source_ids: [post-weekly-gatherings-2026-10-27]
 building:
   - label: Post address
     value: 315 S 5th St, Olathe, CO 81425
