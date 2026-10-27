@@ -1,16 +1,19 @@
 meetings:
   - label: Regular meeting day
+    value: Fourth Tuesday of each month
+    source_ids: [post-meetings-2026-10-27]
+  - label: Meeting start time
     value:
     source_ids: []
-  - label: Meeting time
-    value:
-    source_ids: []
+  - label: Dinner served
+    value: 5:00 p.m.
+    source_ids: [post-meetings-2026-10-27]
   - label: Meeting location
-    value:
-    source_ids: []
-  - label: Attendance policy
-    value:
-    source_ids: []
+    value: Post hall, 315 S 5th St, Olathe, CO 81425
+    source_ids: [post-meetings-2026-10-27]
+  - label: December meeting
+    value: Usually canceled for the holidays
+    source_ids: [post-meetings-2026-10-27]
 building:
   - label: Post address
     value: 315 S 5th St, Olathe, CO 81425

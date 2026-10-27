@@ -18,5 +18,7 @@ The original charter date is not established from the Centennial source. An earl
 The January 30, 2026 Colorado Department membership report records 5 new, 4 PUFL, 53 renewals and 1 headquarters transfer, total 63 and goal 63. This is a dated reporting snapshot, not a live membership roll.
 ## Contact privacy
 Only the shared Post telephone (970-644-0731) and official Post email (americanlegion24.olathe@gmail.com) may be published as contact information. Never include personal telephone numbers, private email addresses, home addresses, or personal contact details for members or officers, including information in scans, images, source documents, and metadata.
+## Meeting schedule
+The Post Commander confirmed meetings on the fourth Tuesday monthly, dinner at 5:00 p.m., and usually canceling the December meeting due to holidays. The original message spelled the meeting start time `%:30`; it remains unpublished until clarified. When confirmed, update the meeting page and `_data/facts.yml` together. Avoid claiming December is canceled every year without a dated announcement.
 ## Publishing
 GitHub Pages builds from `main`. The `jekyll-redirect-from` plugin preserves the former `/officers/` URL and redirects it to `/governance/`. The footer links to privacy, copyright, website information, and accessibility pages. Changes to the site's legal policies require review by authorized Post leadership.

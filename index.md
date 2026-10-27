@@ -15,7 +15,7 @@ permalink: /
 <div class="grid">
 <div class="card"><h3><a href="{{ '/history/' | relative_url }}">Our history</a></h3><p>How the Post got its name and the members listed on its original charter.</p></div>
 <div class="card"><h3><a href="{{ '/governance/' | relative_url }}">Governance</a></h3><p>Current officers and information about the Post's governing documents.</p></div>
-<div class="card"><h3><a href="{{ '/meetings/' | relative_url }}">Meetings</a></h3><p>How to find out when the Post meets.</p></div>
+<div class="card"><h3><a href="{{ '/meetings/' | relative_url }}">Meetings</a></h3><p>Fourth Tuesday of each month, with dinner at 5:00 p.m. December meetings are usually canceled.</p></div>
 <div class="card"><h3><a href="{{ '/building/' | relative_url }}">Post hall</a></h3><p>Where to find us in Olathe.</p></div>
 <div class="card"><h3><a href="{{ '/membership/' | relative_url }}">Membership</a></h3><p>Joining the Post and American Legion membership information.</p></div>
 <div class="card"><h3><a href="{{ '/contact/' | relative_url }}">Contact us</a></h3><p>Our public phone number, email address, and location.</p></div>
