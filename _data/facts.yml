@@ -25,12 +25,6 @@ building:
     value:
     source_ids: []
 contact:
-  - label: Public email
-    value:
-    source_ids: []
-  - label: Public telephone
-    value:
-    source_ids: []
   - label: Mailing address
     value:
     source_ids: []

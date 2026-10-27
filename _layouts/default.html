@@ -34,6 +34,7 @@
 <footer class="site-footer">
 <div class="shell footer-inner">
 <p><strong>{{ site.title | escape }}</strong><span class="footer-divider" aria-hidden="true"> · </span>Public records and reference information</p>
+<p>Desk: <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> <span aria-hidden="true">·</span> Email: <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a></p>
 <nav class="footer-links" aria-label="Website policies"><a href="{{ '/legal/privacy/' | relative_url }}">Privacy</a><a href="{{ '/legal/copyright/' | relative_url }}">Copyright &amp; reuse</a><a href="{{ '/legal/site-information/' | relative_url }}">Site information</a><a href="{{ '/legal/accessibility/' | relative_url }}">Accessibility</a></nav>
 <p><a href="{{ '/legion/' | relative_url }}">American Legion resources</a> <span aria-hidden="true">·</span> <a href="{{ '/sources/' | relative_url }}">Sources and corrections</a> <span aria-hidden="true">·</span> <a href="https://github.com/SPIERS-DENNIS-POST/spiers-dennis-post.github.io">Website source</a></p>
 </div>
