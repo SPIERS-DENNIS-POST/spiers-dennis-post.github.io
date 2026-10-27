@@ -1,0 +1,21 @@
+as_of: 2026-10-27
+source_id: post-officer-roster-2026-10-27
+people:
+  - id: mebane
+    name: Samuel A. Mebane
+    service_branch: U.S. Marine Corps
+    service_abbreviation: USMC
+  - id: davidson
+    name: Jimmy W Davidson
+    service_branch: U.S. Navy
+    service_abbreviation: USN
+offices:
+  - name: Commander
+    person_id: mebane
+    installed_year: 2025
+  - name: Adjutant
+    person_id: davidson
+  - name: Finance Officer
+    person_id: davidson
+  - name: Chaplain
+    person_id: mebane

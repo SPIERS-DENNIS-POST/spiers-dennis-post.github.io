@@ -17,6 +17,7 @@ permalink: /
 <div class="card"><h3><a href="{{ '/meetings/' | relative_url }}">Meetings</a></h3><p>Meeting schedule and attendance information, pending local confirmation.</p></div>
 <div class="card"><h3><a href="{{ '/building/' | relative_url }}">Building</a></h3><p>Sourced building location and limits of available property evidence.</p></div>
 <div class="card"><h3><a href="{{ '/history/' | relative_url }}">History</a></h3><p>National Legion namesake and charter-member records, with citations.</p></div>
+<div class="card"><h3><a href="{{ '/officers/' | relative_url }}">Post officers</a></h3><p>Commander, adjutant, finance officer, and chaplain, with an as-of date.</p></div>
 <div class="card"><h3><a href="{{ '/news/' | relative_url }}">News</a></h3><p>Chronological public announcements from the Post.</p></div>
 <div class="card"><h3><a href="{{ '/commanders-letters/' | relative_url }}">Commander's letters</a></h3><p>Archived messages with author and publication date.</p></div>
 </div>
