@@ -29,7 +29,7 @@
 </header>
 <main id="main-content" class="shell main-content">
 {{ content }}
-{% include references.html %}
+{% unless page.references_in_content %}{% include references.html %}{% endunless %}
 </main>
 <footer class="site-footer">
 <div class="shell footer-inner">

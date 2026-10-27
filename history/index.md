@@ -3,6 +3,7 @@ title: History
 description: Spiers-Dennis American Legion Post 24 in Olathe, Colorado: the World War I servicemen behind our name, our early clubhouse, Veterans Memorial, and charter members.
 permalink: /history/
 source_ids: [coconino-sun-1920, legion-centennial-post24, colorado-freedom-spiers, spiers-oise-aisne, navy-war-dead-dennis, navy-uss-cyclops, olathe-legion-clubhouse-1923, army-oise-aisne-28th]
+references_in_content: true
 ---
 # Our history
 Spiers-Dennis Post No. 24 has been part of Olathe for more than a century. Our Post was already active here by **1920**.<sup class="reference"><a href="#reference-coconino-sun-1920" aria-label="Reference 1">[1]</a></sup>
@@ -10,7 +11,6 @@ Our Post bears the names of two men connected to Olathe who lost their lives in 
 ## The men behind our name
 ### Earl Christie Spiers — U.S. Army
 Earl Christie Spiers was born in Olathe and served as a private in the **109th Infantry Regiment, 28th Division**. He died in France on **September 7, 1918**.<sup class="reference"><a href="#reference-colorado-freedom-spiers" aria-label="Reference 3">[3]</a></sup><sup class="reference"><a href="#reference-spiers-oise-aisne" aria-label="Reference 4">[4]</a></sup>
-### The fighting in September 1918
 During the **Oise-Aisne Offensive**, Spiers's division was fighting in northeastern France near **Fismes**, between the Vesle and Aisne rivers. On September 4, the 28th Division crossed the Vesle and advanced about two miles, taking **Fismette, Courlandon, Baslieux, and Le Grand Hameau**. Over the next three days, American troops continued toward the Aisne under heavy resistance near **Glennes**. They faced German counterattacks, aircraft, machine-gun fire, and artillery bombardments that included **mustard-gas shells**.<sup class="reference"><a href="#reference-army-oise-aisne-28th" aria-label="Reference 8">[8]</a></sup>
 The division was still fighting on **September 7, the day Spiers died**, and was relieved during the night of September 7–8. These Army accounts describe his division's movements and the fighting it faced; Spiers's exact position and the circumstances of his death have not been established.<sup class="reference"><a href="#reference-army-oise-aisne-28th" aria-label="Reference 8">[8]</a></sup>
 Spiers is buried at **Oise-Aisne American Cemetery** in France, Plot D, Row 9, Grave 20.<sup class="reference"><a href="#reference-spiers-oise-aisne" aria-label="Reference 4">[4]</a></sup>
@@ -49,3 +49,16 @@ Our Post's 23 charter members were:<sup class="reference"><a href="#reference-le
 <li>Ralph W. Wray</li>
 <li>Archie J. Moses</li>
 </ol>
+<section class="references" aria-labelledby="references-heading">
+<h2 id="references-heading">References</h2>
+<ol>
+<li id="reference-coconino-sun-1920"><a href="https://azmemory.azlibrary.gov/nodes/view/170716">The Coconino Sun, September 10, 1920</a></li>
+<li id="reference-legion-centennial-post24"><a href="https://centennial.legion.org/colorado/post24">The American Legion Centennial Celebration: Post 24, Olathe</a></li>
+<li id="reference-colorado-freedom-spiers"><a href="https://coloradofreedommemorial.com/tellustheirstories/honor-roll-directory/160562/spiers-earl-christie/">Colorado Freedom Memorial: Earl Christie Spiers</a></li>
+<li id="reference-spiers-oise-aisne"><a href="https://www.interment.net/france/hauts-de-france/aisne/seringes-et-nesles/oise-aisne-american-cemetery/transcription/1815.php?page=49">Oise-Aisne American Cemetery: Earl C. Spiers burial record</a></li>
+<li id="reference-navy-war-dead-dennis"><a href="https://www.loc.gov/item/20027513/">U.S. Navy Bureau of Navigation: World War I naval deaths register (1920), Library of Congress</a></li>
+<li id="reference-navy-uss-cyclops"><a href="https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwi/wwi-convoys/uss-cyclops-mystery-1918.html">Naval History and Heritage Command: USS Cyclops</a></li>
+<li id="reference-olathe-legion-clubhouse-1923"><a href="https://tile.loc.gov/storage-services/service/ndnp/cohi/batch_cohi_finntown_ver01/data/sn86063206/00340585793/1923022301/0815.pdf">Olathe American Legion Own Home, February 23, 1923, Library of Congress</a></li>
+<li id="reference-army-oise-aisne-28th"><a href="https://achh.army.mil/history/book-wwi-fieldoperations-chapter13/">U.S. Army Medical Department: The Oise-Aisne Operation, 28th Division, August–September 1918</a></li>
+</ol>
+</section>
