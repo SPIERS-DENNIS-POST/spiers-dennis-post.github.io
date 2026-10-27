@@ -32,7 +32,7 @@ DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;TZID=America/Denver:{{ calendar_date }}T173000
 DTEND;TZID=America/Denver:{{ calendar_date }}T183000
 SUMMARY:Spiers-Dennis Post No. 24 Meeting
-DESCRIPTION:Meeting starts at 5:30 p.m. Dinner at 5:00 p.m.
+DESCRIPTION:Start 5:30 p.m. Dinner 5:00 p.m. End time is a placeholder.
 LOCATION:Post hall - 315 S 5th St - Olathe CO 81425
 END:VEVENT
 {% endfor %}END:VCALENDAR
