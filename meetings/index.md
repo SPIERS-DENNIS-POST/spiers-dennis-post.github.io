@@ -11,6 +11,7 @@ Our regular meeting schedule and location are listed below.
 {% if december_meeting and december_meeting.value %}<p class="notice">Our December meeting is {{ december_meeting.value | downcase | escape }}.</p>{% endif %}
 Please [contact the Post]({{ '/contact/' | relative_url }}) to confirm any schedule changes, especially around the holidays.
 ## Weekly gatherings
+For veterans. You do not need to be a member of the American Legion.
 ### Monday coffee
 We get together for coffee at the Post hall every Monday morning.
 {% include facts.html section="monday_coffee" %}
