@@ -1,0 +1,42 @@
+{%- assign meeting_year = site.time | date: "%Y" -%}
+{%- assign padded_month = include.month | prepend: "0" | slice: -2, 2 -%}
+{%- capture first_day -%}{{ meeting_year }}-{{ padded_month }}-01{%- endcapture -%}
+{%- assign weekday = first_day | date: "%w" | plus: 0 -%}
+{%- assign offset = 2 | minus: weekday | plus: 7 | modulo: 7 -%}
+{%- assign fourth_tuesday = offset | plus: 22 -%}
+{%- capture meeting_date -%}{{ meeting_year }}-{{ padded_month }}-{{ fourth_tuesday }}{%- endcapture -%}
+{%- assign calendar_date = meeting_date | remove: "-" -%}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spiers-Dennis Post No. 24//Meeting Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Spiers-Dennis Post No. 24 Meeting {{ meeting_date }}
+X-WR-TIMEZONE:America/Denver
+BEGIN:VTIMEZONE
+TZID:America/Denver
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:MDT
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20071104T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:MST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:post24-meeting-{{ calendar_date }}@spiers-dennis-post.github.io
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID=America/Denver:{{ calendar_date }}T173000
+DTEND;TZID=America/Denver:{{ calendar_date }}T183000
+SUMMARY:Spiers-Dennis Post No. 24 Meeting
+DESCRIPTION:Start 5:30 p.m. Dinner 5:00 p.m. End time is a placeholder.
+LOCATION:Post hall - 315 S 5th St - Olathe CO 81425
+END:VEVENT
+END:VCALENDAR

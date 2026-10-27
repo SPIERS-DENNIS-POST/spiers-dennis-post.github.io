@@ -12,7 +12,7 @@ Our regular meeting schedule and location are listed below.
 ## {{ site.time | date: "%Y" }} meeting dates
 These are the fourth Tuesdays from January through November. December is excluded because the meeting is usually canceled.
 {% include meeting-year-dates.html %}
-Select a date to add it to Google Calendar. <a href="{{ '/meetings/calendar.ics' | relative_url }}">Download all {{ site.time | date: "%Y" }} meeting dates (.ics)</a> for other calendar apps.
+Select a date to download its event as an iCalendar (.ics) file for your preferred calendar app. <a href="{{ '/meetings/calendar.ics' | relative_url }}">Download all {{ site.time | date: "%Y" }} meeting dates (.ics)</a> instead if you want the full year.
 Calendar entries use an editable one-hour placeholder; the meeting end time is not confirmed.
 Please [contact the Post]({{ '/contact/' | relative_url }}) to confirm any schedule changes, especially around the holidays.
 ## Weekly gatherings

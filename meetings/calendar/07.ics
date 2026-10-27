@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /meetings/calendar/07.ics
+meeting_month: 7
+---
+{% include single-meeting-calendar.ics month=page.meeting_month %}
