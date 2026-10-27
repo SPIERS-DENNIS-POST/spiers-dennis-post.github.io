@@ -1,5 +1,5 @@
 {% assign entries = site.data.facts[include.section] %}
-{% capture fact_rows %}{% for entry in entries %}{% if entry.value %}
+{% capture fact_rows %}{% for entry in entries %}{% if entry.value and entry.label != include.exclude %}
 <div class="fact-row"><dt>{{ entry.label | escape }}</dt><dd>{{ entry.value | escape }}{% for source_id in entry.source_ids %}{% for page_source_id in page.source_ids %}{% if source_id == page_source_id %}<sup class="reference"><a href="#reference-{{ source_id | slugify }}" aria-label="Reference {{ forloop.index }}">[{{ forloop.index }}]</a></sup>{% endif %}{% endfor %}{% endfor %}{% if entry.verified_on %}<small class="verified">Updated {{ entry.verified_on | date: "%Y-%m-%d" }}</small>{% endif %}</dd></div>
 {% endif %}{% endfor %}{% endcapture %}
 {% if fact_rows contains 'fact-row' %}<dl class="fact-list">{{ fact_rows }}</dl>{% endif %}

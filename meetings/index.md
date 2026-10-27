@@ -6,5 +6,7 @@ source_ids: [post-meetings-2026-10-27]
 ---
 # Post meetings
 Our regular meeting schedule and location are listed below.
-{% include facts.html section="meetings" %}
+{% include facts.html section="meetings" exclude="December meeting" %}
+{% assign december_meeting = site.data.facts.meetings | where: "label", "December meeting" | first %}
+{% if december_meeting and december_meeting.value %}<p class="notice">Our December meeting is {{ december_meeting.value | downcase | escape }}.</p>{% endif %}
 Please [contact the Post]({{ '/contact/' | relative_url }}) to confirm any schedule changes, especially around the holidays.
