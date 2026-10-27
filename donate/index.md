@@ -4,7 +4,16 @@ description: Support Spiers-Dennis American Legion Post 24 in Olathe, Colorado. 
 permalink: /donate/
 source_ids: [post24-irs-determination-2014, colorado-post24-corporate-registration]
 documents_positioned: true
-documents: []
+documents:
+  - id: post24-irs-determination-2014
+    title: IRS 501(c)(19) Determination Letter — June 24, 2014
+    file: /assets/documents/post24-irs-501c19-determination-2014-06-24.pdf
+    category: nonprofit
+    date: "2014-06-24"
+    status: Historical determination
+    format: PDF
+    description: Original one-page IRS determination confirming our 501(c)(19) exemption and the letter's contribution-deductibility finding. The referenced addendum is not included.
+    public: true
 ---
 # Support Post 24
 Our Post brings veterans together in Olathe, remembers those who served, and maintains a place for fellowship and community. Support from neighbors and friends helps us continue that work.
