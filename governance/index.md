@@ -15,7 +15,7 @@ documents: []
 {% assign person = site.data.officers.people | where: "id", office.person_id | first %}
 <div class="fact-row" id="{{ office.name | slugify }}">
 <dt>{{ office.name | escape }}</dt>
-<dd>{% if office.filled_by_role %}<strong>Filled by {{ office.filled_by_role | escape }}</strong>{% else %}<strong>{{ person.name | escape }}</strong><small class="entry-meta">{{ person.service_abbreviation | escape }}{% if office.installed_year %} · Installed {{ office.installed_year }}{% endif %}</small>{% endif %}</dd>
+<dd>{% if office.filled_by_role %}<strong>Filled by {{ office.filled_by_role | escape }}</strong>{% else %}<strong>{{ person.name | escape }}</strong>{% if person.service_abbreviation or person.distinction or office.installed_year %}<small class="entry-meta">{% if person.service_abbreviation %}{{ person.service_abbreviation | escape }}{% endif %}{% if person.distinction %}{% if person.service_abbreviation %} · {% endif %}{{ person.distinction | escape }}{% endif %}{% if office.installed_year %}{% if person.service_abbreviation or person.distinction %} · {% endif %}Installed {{ office.installed_year }}{% endif %}</small>{% endif %}{% endif %}</dd>
 </div>
 {% endfor %}
 </dl>

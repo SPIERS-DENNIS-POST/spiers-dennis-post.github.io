@@ -9,15 +9,21 @@ people:
     name: Jimmy W Davidson
     service_branch: U.S. Navy
     service_abbreviation: USN
+    distinction: Past District Commander
+  - id: maness
+    name: William Maness
 offices:
   - name: Commander
     person_id: mebane
     installed_year: 2025
   - name: Adjutant
     person_id: davidson
+    installed_year: 2016
   - name: Finance Officer
     person_id: davidson
     filled_by_role: Adjutant
   - name: Chaplain
     person_id: mebane
     filled_by_role: Commander
+  - name: Sergeant at Arms
+    person_id: maness
