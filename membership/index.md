@@ -18,7 +18,7 @@ documents:
 # Membership
 <p><a href="https://www.legion.org/join">Join the American Legion</a></p>
 <p><a href="https://www.legion.org/getmedia/427180d4-ca0d-411d-b365-fc4b06b8818e/54mem1225-why-you-should-belong.pdf" type="application/pdf">Why?</a></p>
-Interested in joining Spiers-Dennis Post No. 24? Call the Post at <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> or email <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a>.
+<p><a href="{{ '/contact/' | relative_url }}">Contact the post</a></p>
 ## Eligibility and joining
 The American Legion sets its national membership requirements. Visit the <a href="https://www.legion.org/join">official American Legion joining page</a> for eligibility and application information.
 <p><strong>Membership figures</strong></p>
