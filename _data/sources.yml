@@ -109,3 +109,24 @@
   url: /assets/documents/post24-irs-501c19-determination-2014-06-24.pdf
   details: Original one-page IRS Letter 948 supplied directly to the Post. Identifies EIN 84-6051475, recognizes tax exemption under IRC 501(c)(19) effective May 15, 2010, lists contribution deductibility as Yes and Form 990 required as Yes, and indicates an addendum applies. The 2014 letter is evidence of the determination when issued, not independent verification of current 2026 standing; the addendum was not included in the supplied copy.
   published_on: 2014-06-24
+- id: pennsylvania-heritage-28th
+  title: "Pennsylvania Heritage — Keystone Men of Iron: The 28th Infantry Division in the Great War"
+  url: https://paheritage.wpengine.com/article/keystone-men-of-iron/
+  details: "Winter 2018 overview of the 28th Division, the 109th Infantry, the Vesle sector and the relief of September 7–8, 1918."
+- id: proctor-iron-division
+  title: "H. G. Proctor — The Iron Division, National Guard of Pennsylvania, in the World War"
+  url: https://www.gutenberg.org/cache/epub/34226/pg34226-images.html
+  details: "Near-contemporary 1919 account, especially Chapter XV, describing the 109th Infantry at Magneux and its advance toward Muscourt."
+- id: asu-109th-vesle
+  title: "Arizona State University — Searching for the First Sun Devil War Heroes, Part 3"
+  url: https://news.asu.edu/20170524-sun-devil-life-searching-first-sun-devil-war-heroes-part-3
+  published_on: 2017-05-25
+  details: "Reporting quoting Colonel Edward Marin and John Hanlon on the 109th Infantry advance of September 4–5, 1918; provides regimental context, not Spiers-specific testimony."
+- id: ham-distinguished-service-cross
+  title: "Distinguished Service Cross — Colonel Samuel Vinton Ham"
+  url: https://valor.militarytimes.com/recipient/recipient-15665/
+  details: "War Department General Orders No. 128 (1918), describing Ham leading the 109th Infantry from Magneux toward Muscourt on September 6, 1918."
+- id: wallace-distinguished-service-cross
+  title: "Distinguished Service Cross — Sergeant William R. Wallace"
+  url: https://valor.militarytimes.com/recipient/recipient-15242/
+  details: "War Department General Orders No. 35 (1920), documenting Wallace of Company G, 109th Infantry, near Baslieux on September 6, 1918."
