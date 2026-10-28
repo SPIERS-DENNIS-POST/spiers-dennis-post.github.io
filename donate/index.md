@@ -18,8 +18,7 @@ documents:
 # Support Post 24
 Spiers-Dennis Post No. 24 brings veterans together, remembers those who served, and provides a place for fellowship and community. Money, materials, and practical assistance all help sustain that work.
 ## Ways to give
-To make a monetary contribution, contact the Post for current donation methods, instructions for checks or approved online giving, or to discuss a gift for a particular purpose.
-<p><strong>Email:</strong> <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a> <span aria-hidden="true">·</span> <strong>Phone:</strong> <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a></p>
+To make a monetary contribution, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> for current donation methods, instructions for checks or approved online giving, or to discuss a gift for a particular purpose.
 <p><strong>Mailing address:</strong> {{ site.data.post.name | escape }}<br>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}<br>{{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}</p>
 Please confirm the check payee and mailing instructions before sending a contribution.
 ## Material donations
