@@ -29,7 +29,7 @@ Durable, useful goods can help the Post just as much as money. We welcome offers
 - **Food and storage:** unopened canned goods, shelf-stable food, food-grade containers, and bulk food-storage supplies.
 - **Computers:** working computers and useful accessories, with personal information removed.
 - **Flags and military history:** flags in good condition and historic military service items.
-- **Coffee and coffee-making supplies:** ground coffee, whole coffee beans, and coffee preparation equipment.
+- **Coffee and related supplies:** ground coffee, whole coffee beans, cups, mugs, and coffee filters.
 - **By prior arrangement:** firewood, ethanol-free gasoline in approved containers, precious metals, and other materials needing special storage or handling.
 
 Please arrange acceptance and delivery with the Post in advance. Do not leave donated items unattended; fuel and high-value gifts require suitable handling and secure receipt.
