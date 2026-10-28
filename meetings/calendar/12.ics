@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /meetings/calendar/12.ics
+meeting_month: 12
+---
+{% assign meeting_year = site.time | date: "%Y" | plus: 0 %}
+{% if site.data.meeting_calendar.december_meeting_years contains meeting_year %}{% include single-meeting-calendar.ics month=page.meeting_month %}{% else %}BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spiers-Dennis Post No. 24//Meeting Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+END:VCALENDAR
+{% endif %}

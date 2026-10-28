@@ -2,15 +2,17 @@
 title: Meetings
 description: Spiers-Dennis Post 24 meetings and weekly gatherings in Olathe, including Monday coffee, Thursday PTSD Group, and fourth-Tuesday Post meetings.
 permalink: /meetings/
-source_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27]
+source_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-december-meeting-vote-2026-10-27]
 ---
 # Post meetings
 Our regular meeting schedule and location are listed below.
 {% include facts.html section="meetings" exclude="December meeting" %}
-{% assign december_meeting = site.data.facts.meetings | where: "label", "December meeting" | first %}
-{% if december_meeting and december_meeting.value %}<p class="notice">Our December meeting is {{ december_meeting.value | downcase | escape }}.</p>{% endif %}
+{% assign meeting_year = site.time | date: "%Y" | plus: 0 %}
+{% assign december_scheduled = false %}
+{% if site.data.meeting_calendar.december_meeting_years contains meeting_year %}{% assign december_scheduled = true %}{% endif %}
+{% if december_scheduled %}<p class="notice">The Post voted on October 27, 2026, to hold its December 2026 meeting. The regular fourth-Tuesday date is December 22, 2026.<sup class="reference"><a href="#reference-post-december-meeting-vote-2026-10-27" aria-label="Reference 4">[4]</a></sup></p>{% else %}{% assign december_meeting = site.data.facts.meetings | where: "label", "December meeting" | first %}{% if december_meeting and december_meeting.value %}<p class="notice">Our December meeting is {{ december_meeting.value | downcase | escape }}.</p>{% endif %}{% endif %}
 ## {{ site.time | date: "%Y" }} meeting dates
-These are the fourth Tuesdays from January through November. December is excluded because the meeting is usually canceled.
+{% if december_scheduled %}These are the fourth Tuesdays from January through December, including the December meeting approved by the Post.{% else %}These are the fourth Tuesdays from January through November. December is excluded because the meeting is usually canceled.{% endif %}
 {% include meeting-year-dates.html %}
 Select a date to download its event as an iCalendar (.ics) file for your preferred calendar app. <a href="{{ '/meetings/calendar.ics' | relative_url }}">Download all {{ site.time | date: "%Y" }} meeting dates (.ics)</a> instead if you want the full year.
 Calendar entries use an editable one-hour placeholder; the meeting end time is not confirmed.

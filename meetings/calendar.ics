@@ -2,7 +2,7 @@
 layout: null
 permalink: /meetings/calendar.ics
 ---
-{% assign meeting_year = site.time | date: "%Y" %}BEGIN:VCALENDAR
+{% assign meeting_year = site.time | date: "%Y" | plus: 0 %}{% assign last_meeting_month = 11 %}{% if site.data.meeting_calendar.december_meeting_years contains meeting_year %}{% assign last_meeting_month = 12 %}{% endif %}BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Spiers-Dennis Post No. 24//Meeting Calendar//EN
 CALSCALE:GREGORIAN
@@ -26,7 +26,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 TZNAME:MST
 END:STANDARD
 END:VTIMEZONE
-{% for month in (1..11) %}{% assign padded_month = month | prepend: "0" | slice: -2, 2 %}{% capture first_day %}{{ meeting_year }}-{{ padded_month }}-01{% endcapture %}{% assign weekday = first_day | date: "%w" | plus: 0 %}{% assign offset = 2 | minus: weekday | plus: 7 | modulo: 7 %}{% assign fourth_tuesday = offset | plus: 22 %}{% capture meeting_date %}{{ meeting_year }}-{{ padded_month }}-{{ fourth_tuesday }}{% endcapture %}{% assign calendar_date = meeting_date | remove: "-" %}BEGIN:VEVENT
+{% for month in (1..last_meeting_month) %}{% assign padded_month = month | prepend: "0" | slice: -2, 2 %}{% capture first_day %}{{ meeting_year }}-{{ padded_month }}-01{% endcapture %}{% assign weekday = first_day | date: "%w" | plus: 0 %}{% assign offset = 2 | minus: weekday | plus: 7 | modulo: 7 %}{% assign fourth_tuesday = offset | plus: 22 %}{% capture meeting_date %}{{ meeting_year }}-{{ padded_month }}-{{ fourth_tuesday }}{% endcapture %}{% assign calendar_date = meeting_date | remove: "-" %}BEGIN:VEVENT
 UID:post24-meeting-{{ calendar_date }}@spiers-dennis-post.github.io
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;TZID=America/Denver:{{ calendar_date }}T173000
