@@ -1,5 +1,7 @@
 # Spiers-Dennis Post No. 24
 Source for https://spiers-dennis-post.github.io/, the Jekyll-powered GitHub Pages site of American Legion Post 24 in Olathe, Colorado.
+## Architectural principle
+**Dumb pages, smart source code.** Put complexity in the source files and build-time logic, not in the pages visitors load. Use Jekyll, Liquid, and structured data to generate simple, semantic, machine-readable HTML and static assets. Favor open standards, accessibility, low bandwidth and processing costs, and reliable rendering across devices and browsers. Avoid unnecessary client-side JavaScript, heavy frameworks, and proprietary dependencies so the site remains cheap and universal to render for people and machines alike.
 ## Editing
 All pages are edited as source files in this repository. The site needs no CMS, database, tracking scripts, or JavaScript to display its content. Preview locally with Ruby and Bundler by running `bundle install` and `bundle exec jekyll serve`.
 - `_data/post.yml`: canonical Post name, Post hall's physical address, PO Box mailing address, public desk telephone, and official Post email.
