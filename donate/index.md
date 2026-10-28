@@ -33,6 +33,11 @@ Durable, useful goods can help the Post just as much as money. We welcome offers
 
 Please arrange acceptance and delivery with the Post in advance. Do not leave donated items unattended; fuel and high-value gifts require suitable handling and secure receipt.
 
+## Volunteer your time
+Time and hands-on work are gifts, too. One way to begin is through the **American Legion Family**: <a href="{{ '/membership/' | relative_url }}">The American Legion</a>, <a href="https://www.legion.org/about/american-legion-family/sons-of-the-american-legion">Sons of The American Legion</a>, and <a href="https://www.legion-aux.org/">the American Legion Auxiliary</a>. Each has its own membership eligibility, but all share a commitment to serving veterans, military families, and the community.
+
+Service can be as practical as helping with bingo, fundraisers, community gatherings, setup and cleanup, or upkeep of the Post. Members of the Sons and Auxiliary can volunteer alongside Legionnaires on these activities and contribute through their own service programs. Opportunities depend on what is being organized. Whether you are already a member, considering joining, or simply willing to lend a hand, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> to ask about current volunteer needs and available membership options.
+
 ## Nonprofit identification
 <dl class="fact-list">
 <div class="fact-row"><dt>Organization</dt><dd>{{ site.data.post.name | escape }}, The American Legion</dd></div>
