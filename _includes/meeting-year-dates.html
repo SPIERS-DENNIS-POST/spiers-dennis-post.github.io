@@ -3,6 +3,6 @@
 {% if site.data.meeting_calendar.december_meeting_years contains meeting_year %}{% assign last_meeting_month = 12 %}{% endif %}
 <ul class="meeting-date-list">
 {% for month in (1..last_meeting_month) %}{% assign padded_month = month | prepend: "0" | slice: -2, 2 %}{% capture first_day %}{{ meeting_year }}-{{ padded_month }}-01{% endcapture %}{% assign weekday = first_day | date: "%w" | plus: 0 %}{% assign offset = 2 | minus: weekday | plus: 7 | modulo: 7 %}{% assign fourth_tuesday = offset | plus: 22 %}{% capture meeting_date %}{{ meeting_year }}-{{ padded_month }}-{{ fourth_tuesday }}{% endcapture %}
-<li><a href="{{ '/meetings/calendar/' | relative_url }}{{ padded_month }}.ics" download="{{ meeting_date }}.ics" type="text/calendar" aria-label="Download {{ meeting_date | date: '%A, %B %-d, %Y' }} as an iCalendar event"><time datetime="{{ meeting_date }}">{{ meeting_date | date: "%A, %B %-d, %Y" }}</time></a></li>
+<li><a href="{{ '/meetings/calendar/' | relative_url }}{{ padded_month }}.ics" download="{{ meeting_date }}.ics" type="text/calendar" aria-label="Download {{ meeting_date | date: '%A, %B %-d, %Y' }} as an iCalendar event"><time datetime="{{ meeting_date }}">{{ meeting_date | date: "%B %-d, %Y" }}</time></a></li>
 {% endfor %}
 </ul>
