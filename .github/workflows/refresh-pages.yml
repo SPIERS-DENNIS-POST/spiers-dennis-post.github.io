@@ -1,0 +1,19 @@
+name: Refresh meeting calendar
+on:
+  schedule:
+    - cron: "0 13 23-29 * *"
+    - cron: "0 13 1 1 *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+jobs:
+  refresh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "0 13 23-29 * *" ] && [ "$(date -u +%u)" != "3" ]; then exit 0; fi
+          gh api --method POST "repos/${{ github.repository }}/pages/builds"

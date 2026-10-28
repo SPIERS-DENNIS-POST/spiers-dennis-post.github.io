@@ -11,6 +11,7 @@ permalink: /
 <p><strong>Phone:</strong> <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> <span aria-hidden="true">·</span> <strong>Email:</strong> <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a></p>
 <p><a href="{{ '/donate/' | relative_url }}">Learn how to support Post 24</a></p>
 </section>
+{% include next-meeting.html %}
 <section aria-labelledby="post-information">
 <div class="section-head"><h2 id="post-information">Explore the Post</h2></div>
 <div class="grid">

@@ -29,6 +29,9 @@ h2{font-size:clamp(1.3rem,2.6vw,1.75rem);margin:2.3rem 0 .8rem}
 h3{font-size:1.12rem;margin:1.6rem 0 .5rem}
 p{margin:0 0 1.15rem}
 .lede{color:#374b5c;font-size:clamp(1.1rem,2vw,1.3rem);max-width:46rem}
+.next-meeting{border-block:1px solid var(--line);margin:1.5rem 0 2rem;padding:.7rem 0}
+.next-meeting h2{margin:.45rem 0 .6rem}
+.next-meeting p{margin-bottom:.55rem}
 .notice{background:#f4f0e5;border-left:4px solid #ab8648;padding:.95rem 1.2rem;border-radius:0 .35rem .35rem 0;color:#544b3c;margin:1.1rem 0 2rem}
 .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.5rem 0 2.2rem}
 .card{display:flex;flex-direction:column;gap:.35rem;padding:1.45rem;background:var(--surface);border:1px solid var(--line);border-radius:.55rem;box-shadow:0 2px 8px #16263707}
