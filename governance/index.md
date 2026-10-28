@@ -4,7 +4,7 @@ description: Current officers and governing documents of Spiers-Dennis American 
 permalink: /governance/
 redirect_from:
   - /officers/
-source_ids: [post-officer-roster-2026-10-27]
+provenance_ids: [post-officer-roster-2026-10-27]
 documents: []
 ---
 # Governance
