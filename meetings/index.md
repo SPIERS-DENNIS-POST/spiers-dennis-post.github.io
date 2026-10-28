@@ -23,8 +23,14 @@ Our PTSD Group meets at the Post hall on Thursdays and is conducted by a Vet Cen
 <p>For participation details or schedule changes, please <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.</p>
 ## Annual observances and traditions
 These are our customary activities; arrangements for a particular year may vary.
+### American Legion Birthday — March 15
+We cut a cake together to celebrate The American Legion's birthday.
 ### Memorial Day
 Post members place flags at Olathe, Pea Green, and Ash Mesa cemeteries.
+### Independence Day — July 4
+The whole Post and family members gather for a potluck.
+### September 11
+The flag at the Memorial Park flagpole is flown at half-staff for the day.
 ### Veterans Day
 The Post attends the OMHS Veterans Day Assembly, held in the middle school gym.
 ### Thanksgiving
