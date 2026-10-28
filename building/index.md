@@ -1,11 +1,11 @@
 ---
-title: Post hall
-description: Address and visitor information for the Spiers-Dennis American Legion Post 24 hall in Olathe, Colorado.
+title: Post Home
+description: Address and visitor information for the Spiers-Dennis American Legion Post 24 Post Home in Olathe, Colorado.
 permalink: /building/
 provenance_ids: [post-legacy-contact, post-facilities-traditions-2026-10-27]
 documents: []
 ---
-# Post hall
+# Post Home
 <dl class="fact-list">
 <div class="fact-row"><dt>Address</dt><dd>{{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}</dd></div>
 <div class="fact-row"><dt>Phone</dt><dd><a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a></dd></div>

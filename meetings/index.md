@@ -28,7 +28,7 @@ We cut a cake together to celebrate The American Legion's birthday.
 ### Memorial Day
 Post members place flags at Olathe, Pea Green, and Ash Mesa cemeteries.
 ### Independence Day — July 4
-The whole Post and family members gather to grill hamburgers and hotdogs and a potluck.
+Post members and their families gather for a cookout featuring grilled hamburgers, hot dogs, and potluck dishes.
 ### September 11
 The flag at Memorial Park is flown at half-staff throughout the day.
 ### Veterans Day

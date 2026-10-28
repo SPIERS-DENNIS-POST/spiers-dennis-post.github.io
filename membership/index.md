@@ -17,7 +17,7 @@ documents:
 ---
 # Membership
 <p><a href="https://www.legion.org/join">Join the American Legion</a></p>
-<p><a href="https://www.legion.org/getmedia/427180d4-ca0d-411d-b365-fc4b06b8818e/54mem1225-why-you-should-belong.pdf" type="application/pdf" aria-label="Why join the American Legion? National membership brochure (PDF)">Why?</a></p>
+<p><a href="https://www.legion.org/information-center/in-the-media/publications/organization-membership-awards" aria-label="Why join the American Legion? Find the National Why You Should Belong brochure under Membership">Why?</a></p>
 <p><a href="{{ '/contact/' | relative_url }}">Contact the post</a></p>
 ## Membership figures
 <dl class="fact-list">
@@ -26,4 +26,3 @@ documents:
 <div class="fact-row"><dt>Paid Up For Life (PUFL)</dt><dd>4 (included in the reported total)</dd></div>
 <div class="fact-row"><dt>Reported goal</dt><dd>63</dd></div>
 </dl>
-<p>These are figures from a dated Department of Colorado report, not a live membership count. <a href="{{ page.documents.first.file | escape }}">View the membership report (PDF)</a>.</p>
