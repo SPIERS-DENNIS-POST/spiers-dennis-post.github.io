@@ -29,7 +29,9 @@ Durable, useful goods can help the Post just as much as money. We welcome offers
 - **Food and storage:** unopened canned goods, shelf-stable food, food-grade containers, and bulk food-storage supplies.
 - **Computers:** working computers and useful accessories, with personal information removed.
 - **By prior arrangement:** firewood, ethanol-free gasoline in approved containers, precious metals, and other materials needing special storage or handling.
+
 Please arrange acceptance and delivery with the Post in advance. Do not leave donated items unattended; fuel and high-value gifts require suitable handling and secure receipt.
+
 ## Nonprofit identification
 <dl class="fact-list">
 <div class="fact-row"><dt>Organization</dt><dd>{{ site.data.post.name | escape }}, The American Legion</dd></div>
