@@ -1,3 +1,6 @@
+{%- if include.meeting_date -%}
+{%- assign meeting_date = include.meeting_date -%}
+{%- else -%}
 {%- assign meeting_year = site.time | date: "%Y" -%}
 {%- assign padded_month = include.month | prepend: "0" | slice: -2, 2 -%}
 {%- capture first_day -%}{{ meeting_year }}-{{ padded_month }}-01{%- endcapture -%}
@@ -5,6 +8,7 @@
 {%- assign offset = 2 | minus: weekday | plus: 7 | modulo: 7 -%}
 {%- assign fourth_tuesday = offset | plus: 22 -%}
 {%- capture meeting_date -%}{{ meeting_year }}-{{ padded_month }}-{{ fourth_tuesday }}{%- endcapture -%}
+{%- endif -%}
 {%- assign calendar_date = meeting_date | remove: "-" -%}
 BEGIN:VCALENDAR
 VERSION:2.0

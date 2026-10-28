@@ -4,7 +4,7 @@ description: Sources for Post 24 history and records, and how to request a corre
 permalink: /sources/
 ---
 # Sources and corrections
-Our history and records pages link to the original sources where available. Here are the principal references used on this site.
+Our history and records pages link to original evidence where available. This directory retains source descriptions, research context, limitations, and unresolved questions for visitors, historians, and automated readers. The Post reports its own schedules, leadership, facilities, and traditions directly on the relevant pages; supporting provenance is retained here without circular footnotes.
 <ul class="external-list">
 {% for source in site.data.sources %}
 <li id="source-{{ source.id | slugify }}"><strong>{% if source.url %}<a href="{{ source.url | escape }}">{{ source.title | escape }}</a>{% else %}{{ source.title | escape }}{% endif %}</strong>{% if source.details %}<p>{{ source.details | escape }}</p>{% endif %}{% if source.published_on %}<p>{{ source.published_on | date: "%B %-d, %Y" }}</p>{% endif %}</li>

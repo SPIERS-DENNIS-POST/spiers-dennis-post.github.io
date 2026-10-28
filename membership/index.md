@@ -17,9 +17,9 @@ documents:
 ---
 # Membership
 <p><a href="https://www.legion.org/join">Join the American Legion</a></p>
-<p><a href="https://www.legion.org/getmedia/427180d4-ca0d-411d-b365-fc4b06b8818e/54mem1225-why-you-should-belong.pdf" type="application/pdf">Why?</a></p>
+<p><a href="https://www.legion.org/getmedia/427180d4-ca0d-411d-b365-fc4b06b8818e/54mem1225-why-you-should-belong.pdf" type="application/pdf" aria-label="Why join the American Legion? National membership brochure (PDF)">Why?</a></p>
 <p><a href="{{ '/contact/' | relative_url }}">Contact the post</a></p>
-<p><strong>Membership figures</strong></p>
+## Membership figures
 <dl class="fact-list">
 <div class="fact-row"><dt>Reporting date</dt><dd>January 30, 2026</dd></div>
 <div class="fact-row"><dt>Reported membership</dt><dd>63<sup class="reference"><a href="#reference-colorado-membership-2026-01-30" aria-label="Reference 1">[1]</a></sup></dd></div>

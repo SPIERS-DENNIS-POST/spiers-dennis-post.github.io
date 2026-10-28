@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /meetings/next.ics
+---
+{%- capture upcoming_meeting_date -%}{%- include next-meeting-date.html -%}{%- endcapture -%}
+{%- include single-meeting-calendar.ics meeting_date=upcoming_meeting_date -%}

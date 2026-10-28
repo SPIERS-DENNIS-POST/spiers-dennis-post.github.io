@@ -18,7 +18,7 @@ documents:
 # Support Post 24
 Our Post brings veterans together in Olathe, remembers those who served, and maintains a place for fellowship and community. Support from neighbors and friends helps us continue that work.
 ## Ways to give
-**Contact the Post about making a contribution.** We can explain the donation methods currently available, discuss any particular purpose you have in mind, and provide the information needed to send a check or use an approved online giving service. We do not list payment accounts here until they have been confirmed by the Post.
+**To make a contribution, contact the Post.** We can confirm available donation methods, provide instructions for checks or approved online giving, and discuss gifts intended for a particular purpose.
 <p><strong>Email:</strong> <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a> <span aria-hidden="true">·</span> <strong>Phone:</strong> <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a></p>
 ## Mailing address
 <p>Spiers-Dennis Post No. 24<br>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}<br>{{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}</p>

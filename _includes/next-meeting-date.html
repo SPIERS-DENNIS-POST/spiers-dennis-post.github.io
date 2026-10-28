@@ -1,0 +1,29 @@
+{%- assign next_date = nil -%}
+{%- assign today_key = site.time | date: "%Y%m%d" | plus: 0 -%}
+{%- assign base_year = site.time | date: "%Y" | plus: 0 -%}
+{%- for year_offset in (0..1) -%}
+{%- assign candidate_year = base_year | plus: year_offset -%}
+{%- for month in (1..12) -%}
+{%- if next_date == nil -%}
+{%- assign approved = true -%}
+{%- if month == 12 -%}
+{%- unless site.data.meeting_calendar.december_meeting_years contains candidate_year -%}
+{%- assign approved = false -%}
+{%- endunless -%}
+{%- endif -%}
+{%- if approved -%}
+{%- assign padded_month = month | prepend: "0" | slice: -2, 2 -%}
+{%- capture first_day -%}{{ candidate_year }}-{{ padded_month }}-01{%- endcapture -%}
+{%- assign weekday = first_day | date: "%w" | plus: 0 -%}
+{%- assign offset = 2 | minus: weekday | plus: 7 | modulo: 7 -%}
+{%- assign day = offset | plus: 22 -%}
+{%- capture candidate_date -%}{{ candidate_year }}-{{ padded_month }}-{{ day }}{%- endcapture -%}
+{%- assign candidate_key = candidate_date | remove: "-" | plus: 0 -%}
+{%- if candidate_key >= today_key -%}
+{%- assign next_date = candidate_date -%}
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+{{- next_date -}}
