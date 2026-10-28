@@ -30,7 +30,7 @@ Post members place flags at Olathe, Pea Green, and Ash Mesa cemeteries.
 ### Independence Day — July 4
 The whole Post and family members gather for a potluck.
 ### September 11
-The flag at the Memorial Park flagpole is flown at half-staff for the day.
+The flag at Memorial Park is flown at half-staff throughout the day.
 ### Veterans Day
 The Post attends the OMHS Veterans Day Assembly, held in the middle school gym.
 ### Thanksgiving
