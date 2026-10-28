@@ -16,8 +16,7 @@ documents:
     public: true
 ---
 # Membership
-<p><a href="https://www.legion.org/join">Join the American Legion</a></p>
-<p><a href="{{ '/assets/documents/Why%20You%20Should%20Belong.pdf' | relative_url }}" aria-label="Why join the American Legion? Read Why You Should Belong (PDF)">Why?</a></p>
+<p><a href="https://www.legion.org/join">Join the American Legion</a> &middot; <a href="{{ '/assets/documents/Why%20You%20Should%20Belong.pdf' | relative_url }}" aria-label="Why join the American Legion? Read Why You Should Belong (PDF)">Why?</a></p>
 <p><a href="{{ '/contact/' | relative_url }}">Contact the post</a></p>
 ## Membership figures
 <dl class="fact-list">
