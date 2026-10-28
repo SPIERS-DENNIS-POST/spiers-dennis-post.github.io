@@ -17,7 +17,7 @@ documents:
 ---
 # Membership
 <p><a href="https://www.legion.org/join">Join the American Legion</a></p>
-<p><a href="https://www.legion.org/information-center/in-the-media/publications/organization-membership-awards" aria-label="Why join the American Legion? Find the National Why You Should Belong brochure under Membership">Why?</a></p>
+<p><a href="{{ '/assets/documents/Why%20You%20Should%20Belong.pdf' | relative_url }}" aria-label="Why join the American Legion? Read Why You Should Belong (PDF)">Why?</a></p>
 <p><a href="{{ '/contact/' | relative_url }}">Contact the post</a></p>
 ## Membership figures
 <dl class="fact-list">
