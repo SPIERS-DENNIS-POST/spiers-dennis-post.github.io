@@ -6,14 +6,10 @@ permalink: /
 <section class="hero">
 <p class="eyebrow">American Legion Post 24 · Olathe, Colorado</p>
 <h1>Spiers-Dennis Post No. 24</h1>
-<p>Spiers-Dennis Post is the American Legion Post in Olathe, Colorado, named in memory of two local servicemen lost during World War I.</p>
 <p><strong>Post hall:</strong> {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}</p>
-<p><a href="{{ '/contact/' | relative_url }}">Contact the Post</a></p>
-<p><a href="{{ '/donate/' | relative_url }}">Learn how to support Post 24</a></p>
-</section>
-{% include next-meeting.html %}
-<section class="prose" aria-labelledby="our-purposes">
-<div class="section-head"><h2 id="our-purposes">Our Purposes</h2></div>
+<p>Spiers-Dennis gathers local Olathe veterans, and orients them to serve their community, in order to sustain the project of our nation in one small corner.</p>
+<section class="prose" aria-labelledby="purposes">
+<div class="section-head"><h2 id="purposes">Purposes</h2></div>
 <p>To uphold and defend the Constitution of the United States;<br>
 To promote peace and good will among the peoples of the United States and all the nations of the Earth;<br>
 To preserve the memories and incidents of the 2 World Wars and the other great hostilities fought to uphold democracy;<br>
@@ -33,6 +29,10 @@ To safeguard and transmit to posterity the principles of justice, freedom and de
 To consecrate and sanctify our comradeship by our devotion to mutual helpfulness.</p>
 <p class="verified"><em>Source: <a href="https://www.legion.org/about/organization/preamble">The American Legion — Preamble</a>.</em></p>
 </section>
+<p><a href="{{ '/contact/' | relative_url }}">Contact the Post</a></p>
+<p><a href="{{ '/donate/' | relative_url }}">Learn how to support Post 24</a></p>
+</section>
+{% include next-meeting.html %}
 <section aria-labelledby="post-information">
 <div class="section-head"><h2 id="post-information">Explore the Post</h2></div>
 <div class="grid">
