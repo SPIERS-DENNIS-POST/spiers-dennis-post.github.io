@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2993"
+   height="601"
+   width="751"
+   version="1.1">
+  <defs
+     id="defs2995" />
+  <metadata
+     id="metadata2998">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(0.5,-451.9)">
+    <g
+       id="g3873">
+      <rect
+         style="color:#000000;fill:#ffffff;stroke:#000000"
+         id="rect3001"
+         y="452.4"
+         x="0"
+         ry="37.5"
+         rx="37.5"
+         height="600"
+         width="750" />
+      <rect
+         style="color:#000000;fill:#000000;stroke-width:3"
+         id="rect3771"
+         y="461.7"
+         x="9.375"
+         ry="28.12"
+         rx="28.12"
+         height="581.2"
+         width="731.2" />
+      <path
+         style="fill:#002868"
+         id="rect4"
+         d="m 37.5,477.4 h 675 c 6.9,0 12.5,5.5 12.5,12.5 v 254.6 c 0,0 0,0 0,0 H 25 v 0 -254.6 c 0,-7 5.57,-12.5 12.5,-12.5 z" />
+      <path
+         style="fill:#ffffff"
+         id="rect6"
+         d="m 25,566.4 h 700 v 89.1 H 25 Z" />
+      <path
+         style="fill:#bf0a30"
+         id="path8"
+         d="m 276.8,644.4 a 89.06,89.06 0 1 1 0,-66.8 L 194.2,611" />
+      <path
+         style="fill:#ffd700"
+         id="circle10"
+         d="m 238.8,611 c 0,24.5 -20,44.5 -44.6,44.5 -24.6,0 -44.5,-20 -44.5,-44.5 0,-24.6 19.9,-44.6 44.5,-44.6 24.6,0 44.6,20 44.6,44.6 z" />
+      <path
+         style="fill:#ffffff"
+         id="path3817"
+         d="m 37.5,1027 h 675 c 6.9,0 12.5,-5 12.5,-12 V 760.2 c 0,0 0,0 0,0 H 25 v 0 254.8 c 0,7 5.57,12 12.5,12 z" />
+    </g>
+    <g
+       style="font-size:299.85000000000002274px;font-family:'Roadgeek 2005 Series C';-inkscape-font-specification:'Roadgeek 2005 Series C';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:1.0045"
+       id="text3889"
+       aria-label="348">
+      <path
+         id="path1859"
+         style="-inkscape-font-specification:SaaSeriesEDOT"
+         d="M 123,841.7 97.18,818.9 q 12.92,-15.3 31.82,-23.7 18.9,-8.7 39.8,-8.7 17.7,0 33.9,6.6 16.2,6.6 25.8,18 10.8,12.6 10.8,32.1 0,11.1 -3.6,19.2 -3.6,8.1 -12.3,17.4 14.1,11.9 20.4,23.6 6.3,11.4 6.3,26.1 0,27.6 -22.5,46.5 -22.5,18.6 -56.1,18.6 -25.1,0 -47.9,-10.8 Q 101.1,972.7 89.98,955 l 27.32,-21 q 23.1,25.8 53.9,25.8 19.5,0 31.8,-8.7 12.6,-8.7 12.6,-22.5 0,-15.6 -13.2,-24.9 -8.7,-5.7 -22.5,-5.7 h -10.5 v -34.1 h 9 q 13.5,0 20.1,-5.7 6.6,-6.6 6.6,-14.4 0,-9.6 -10.5,-15.9 -10.2,-6.3 -26.4,-6.3 -12.6,0 -21.8,4.2 -9.3,4.2 -23.4,15.9 z" />
+      <path
+         id="path1861"
+         style="-inkscape-font-specification:SaaSeriesEDOT"
+         d="m 435.4,790.4 v 125.9 h 26.4 v 32.4 h -26.4 v 41.7 H 401.6 V 948.7 H 278 V 916.3 L 401.6,790.4 Z m -33.8,125.9 v -78.2 l -77.1,78.2 z" />
+      <path
+         id="path1863"
+         style="-inkscape-font-specification:SaaSeriesEDOT"
+         d="m 630.1,877.7 q 21.6,17.9 21.6,48.5 0,30.6 -21.6,50.4 -19.7,17.7 -59.3,17.7 -41.7,0 -61.2,-22.2 -17.7,-19.2 -17.7,-45.6 0,-30.9 21.6,-48.8 -8.7,-10.8 -11.7,-18 -3,-7.2 -3,-17.4 0,-24.6 20.4,-40.2 20.4,-15.6 52.8,-15.6 32.4,0 52.7,15.6 20.4,15.6 20.4,40.2 0,10.2 -3,17.4 -3,7.2 -12,18 z m -58.7,-56.1 q -18.9,0 -29.1,5.1 -10.2,5.1 -10.2,14.7 0,9.3 9.9,14.7 10.2,5.1 28.8,5.1 18.6,0 28.8,-5.1 10.2,-5.1 10.2,-14.7 0,-9.3 -10.2,-14.4 -9.9,-5.4 -28.2,-5.4 z m 1.5,73.4 q -26.7,0 -38.1,12.3 -8.1,8.1 -8.1,20.1 0,15 11.7,23.4 12,8.1 33.6,8.1 21.9,0 33.6,-8.1 12,-8.4 12,-23.4 0,-12 -8.1,-20.1 Q 598.1,895 572.9,895 Z" />
+    </g>
+  </g>
+</svg>
