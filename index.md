@@ -6,17 +6,31 @@ permalink: /
 <section class="hero">
 <p class="eyebrow">American Legion Post 24 · Olathe, Colorado</p>
 <h1>Spiers-Dennis Post No. 24</h1>
-<p class="lede">Spiers-Dennis Post is the American Legion Post in Olathe, Colorado, named in memory of two local servicemen lost during World War I. Learn about our history, find the Post hall, meet our officers, and get in touch.</p>
+<p>Spiers-Dennis Post is the American Legion Post in Olathe, Colorado, named in memory of two local servicemen lost during World War I.</p>
 <p><strong>Post hall:</strong> {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}</p>
-<p><strong>Phone:</strong> <a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a> <span aria-hidden="true">·</span> <strong>Email:</strong> <a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a></p>
+<p><a href="{{ '/contact/' | relative_url }}">Contact the Post</a></p>
 <p><a href="{{ '/donate/' | relative_url }}">Learn how to support Post 24</a></p>
 </section>
 {% include next-meeting.html %}
 <section class="prose" aria-labelledby="our-purposes">
 <div class="section-head"><h2 id="our-purposes">Our Purposes</h2></div>
-<p>to uphold and defend the Constitution of the United States; to promote peace and good will among the peoples of the United States and all the nations of the Earth; to preserve the memories and incidents of the 2 World Wars and the other great hostilities fought to uphold democracy; to cement the ties and comradeship born of service; and to consecrate the efforts of its members to mutual helpfulness and service to their country.</p>
+<p>To uphold and defend the Constitution of the United States;<br>
+To promote peace and good will among the peoples of the United States and all the nations of the Earth;<br>
+To preserve the memories and incidents of the 2 World Wars and the other great hostilities fought to uphold democracy;<br>
+To cement the ties and comradeship born of service;<br>
+And to consecrate the efforts of its members to mutual helpfulness and service to their country.</p>
 <p class="verified"><em>Source: <a href="https://www.govinfo.gov/content/pkg/PLAW-105publ225/html/PLAW-105publ225.htm">36 U.S.C. § 21702 — Purposes</a>.</em></p>
-<p>FOR GOD AND COUNTRY WE ASSOCIATE OURSELVES TOGETHER FOR THE FOLLOWING PURPOSES: To uphold and defend the Constitution of the United States of America; To maintain law and order; To foster and perpetuate a one hundred percent Americanism; To preserve the memories and incidents of our associations in all wars; To inculcate a sense of individual obligation to the community, state and nation; To combat the autocracy of both the classes and the masses; To make right the master of might; To promote peace and goodwill on earth; To safeguard and transmit to posterity the principles of justice, freedom and democracy; To consecrate and sanctify our comradeship by our devotion to mutual helpfulness.</p>
+<p>FOR GOD AND COUNTRY WE ASSOCIATE OURSELVES TOGETHER FOR THE FOLLOWING PURPOSES:<br>
+To uphold and defend the Constitution of the United States of America;<br>
+To maintain law and order;<br>
+To foster and perpetuate a one hundred percent Americanism;<br>
+To preserve the memories and incidents of our associations in all wars;<br>
+To inculcate a sense of individual obligation to the community, state and nation;<br>
+To combat the autocracy of both the classes and the masses;<br>
+To make right the master of might;<br>
+To promote peace and goodwill on earth;<br>
+To safeguard and transmit to posterity the principles of justice, freedom and democracy;<br>
+To consecrate and sanctify our comradeship by our devotion to mutual helpfulness.</p>
 <p class="verified"><em>Source: <a href="https://www.legion.org/about/organization/preamble">The American Legion — Preamble</a>.</em></p>
 </section>
 <section aria-labelledby="post-information">
