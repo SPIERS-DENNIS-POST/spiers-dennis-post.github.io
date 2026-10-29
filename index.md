@@ -5,8 +5,8 @@ permalink: /
 ---
 <section class="hero">
 <p class="eyebrow">American Legion Post 24 · Olathe, Colorado</p>
-<h1>Spiers-Dennis Post No. 24</h1>
-<p><strong>Post hall:</strong> {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}</p>
+<h1>Spiers-Dennis</h1>
+<p>at 315 South 5th Street&nbsp;<a href="https://commons.wikimedia.org/wiki/File:Colorado_348_wide.svg" aria-label="Colorado State Highway 348 shield, public-domain SVG on Wikimedia Commons"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Colorado_348_wide.svg" alt="Colorado Highway 348" width="20" height="16" style="height:1em;width:auto;vertical-align:-.12em"></a>, Olathe, CO 81425</p>
 <p>Spiers-Dennis gathers local Olathe veterans, and orients them to serve their community, in order to sustain the project of our nation in one small corner.</p>
 <section class="prose" aria-labelledby="purposes">
 <div class="section-head"><h2 id="purposes">Purposes</h2></div>
