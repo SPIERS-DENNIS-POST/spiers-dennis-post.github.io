@@ -29,6 +29,7 @@ h2{font-size:clamp(1.3rem,2.6vw,1.75rem);margin:2.3rem 0 .8rem}
 h3{font-size:1.12rem;margin:1.6rem 0 .5rem}
 p{margin:0 0 1.15rem}
 .lede{color:#374b5c;font-size:clamp(1.1rem,2vw,1.3rem);max-width:46rem}
+.post-home-address{margin:0 0 1.5rem}
 .hero+.next-meeting{margin-top:0}
 .next-meeting{border-block:1px solid var(--line);margin:1.5rem 0 2rem;padding:.7rem 0}
 .next-meeting h2{margin:.45rem 0 .6rem}
