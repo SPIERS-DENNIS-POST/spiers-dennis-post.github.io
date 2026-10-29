@@ -28,6 +28,7 @@ To promote peace and goodwill on earth;<br>
 To safeguard and transmit to posterity the principles of justice, freedom and democracy;<br>
 To consecrate and sanctify our comradeship by our devotion to mutual helpfulness.</p>
 <p class="verified"><em>Source: <a href="https://www.legion.org/about/organization/preamble">The American Legion — Preamble</a>.</em></p>
+<p>Spiers-Dennis’ mission is to execute these purposes in Olathe’s locale.</p>
 </section>
 <p><a href="{{ '/contact/' | relative_url }}">Contact the Post</a></p>
 <p><a href="{{ '/donate/' | relative_url }}">Learn how to support Post 24</a></p>
