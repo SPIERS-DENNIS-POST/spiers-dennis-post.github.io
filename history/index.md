@@ -5,11 +5,11 @@ permalink: /history/
 source_ids: [coconino-sun-1920, legion-centennial-post24, colorado-freedom-spiers, spiers-oise-aisne, navy-war-dead-dennis, navy-uss-cyclops, olathe-legion-clubhouse-1923, army-oise-aisne-28th, navy-cyclops-assessment, naval-historical-foundation-cyclops, navy-lost-all-hands-1918, veirs-olathe-mills, usni-cyclops-weather-1970, roatcap-family-cemetery, roatcap-orchard-1958, roatcap-baseball-1925, roatcap-usgs-hoovers-corner, pennsylvania-heritage-28th, proctor-iron-division, asu-109th-vesle, ham-distinguished-service-cross, wallace-distinguished-service-cross]
 references_in_content: true
 ---
-# Our history
+# History
 Spiers-Dennis Post No. 24 has been part of Olathe for more than a century. Our Post was already active here by **1920**.<sup class="reference"><a href="#reference-coconino-sun-1920" aria-label="Reference 1">[1]</a></sup>
 Our Post bears the names of two men connected to Olathe who lost their lives in military service during World War I: **Private Earl C. Spiers, U.S. Army**, and **Seaman John T. Dennis, U.S. Navy**.<sup class="reference"><a href="#reference-legion-centennial-post24" aria-label="Reference 2">[2]</a></sup>
-## The men behind our name
-### Earl Christie Spiers — U.S. Army
+## Namesakes
+### Earl Christie Spiers, U.S. Army
 
 Earl Christie Spiers was born in Olathe, Colorado, and served as a private in the **109th Infantry Regiment**, 55th Infantry Brigade, 28th Division, U.S. Army.<sup class="reference"><a href="#reference-colorado-freedom-spiers" aria-label="Reference 3">[3]</a></sup><sup class="reference"><a href="#reference-pennsylvania-heritage-28th" aria-label="Reference 18">[18]</a></sup> The 28th Division was drawn principally from the Pennsylvania National Guard and became known as the **“Iron Division.”**<sup class="reference"><a href="#reference-pennsylvania-heritage-28th" aria-label="Reference 18">[18]</a></sup> The 109th had already fought against the German offensive at the Marne in July 1918 and in the Allied advance that followed. These are documented events in Spiers's regiment, but the available records do not establish which of its earlier engagements he personally experienced.<sup class="reference"><a href="#reference-pennsylvania-heritage-28th" aria-label="Reference 18">[18]</a></sup><sup class="reference"><a href="#reference-proctor-iron-division" aria-label="Reference 19">[19]</a></sup>
 
