@@ -14,33 +14,10 @@ permalink: /
 {% include next-meeting.html %}
 <section class="prose" aria-labelledby="our-purposes">
 <div class="section-head"><h2 id="our-purposes">Our Purposes</h2></div>
-<h3>Congressional Charter — Purposes</h3>
-<blockquote cite="https://www.govinfo.gov/content/pkg/PLAW-105publ225/html/PLAW-105publ225.htm">
-<p>The purposes of the corporation are—</p>
-<ol>
-<li>to uphold and defend the Constitution of the United States;</li>
-<li>to promote peace and good will among the peoples of the United States and all the nations of the Earth;</li>
-<li>to preserve the memories and incidents of the 2 World Wars and the other great hostilities fought to uphold democracy;</li>
-<li>to cement the ties and comradeship born of service; and</li>
-<li>to consecrate the efforts of its members to mutual helpfulness and service to their country.</li>
-</ol>
-</blockquote>
-<p class="verified">Source: <a href="https://www.govinfo.gov/content/pkg/PLAW-105publ225/html/PLAW-105publ225.htm">36 U.S.C. § 21702 — Purposes</a>.</p>
-<h3>The American Legion Preamble</h3>
-<blockquote cite="https://www.legion.org/about/organization/preamble">
-<p>FOR GOD AND COUNTRY WE ASSOCIATE OURSELVES TOGETHER FOR THE FOLLOWING PURPOSES:</p>
-<p>To uphold and defend the Constitution of the United States of America;</p>
-<p>To maintain law and order;</p>
-<p>To foster and perpetuate a one hundred percent Americanism;</p>
-<p>To preserve the memories and incidents of our associations in all wars;</p>
-<p>To inculcate a sense of individual obligation to the community, state and nation;</p>
-<p>To combat the autocracy of both the classes and the masses;</p>
-<p>To make right the master of might;</p>
-<p>To promote peace and goodwill on earth;</p>
-<p>To safeguard and transmit to posterity the principles of justice, freedom and democracy;</p>
-<p>To consecrate and sanctify our comradeship by our devotion to mutual helpfulness.</p>
-</blockquote>
-<p class="verified">Source: <a href="https://www.legion.org/about/organization/preamble">The American Legion — Preamble</a>.</p>
+<p>to uphold and defend the Constitution of the United States; to promote peace and good will among the peoples of the United States and all the nations of the Earth; to preserve the memories and incidents of the 2 World Wars and the other great hostilities fought to uphold democracy; to cement the ties and comradeship born of service; and to consecrate the efforts of its members to mutual helpfulness and service to their country.</p>
+<p class="verified"><em>Source: <a href="https://www.govinfo.gov/content/pkg/PLAW-105publ225/html/PLAW-105publ225.htm">36 U.S.C. § 21702 — Purposes</a>.</em></p>
+<p>FOR GOD AND COUNTRY WE ASSOCIATE OURSELVES TOGETHER FOR THE FOLLOWING PURPOSES: To uphold and defend the Constitution of the United States of America; To maintain law and order; To foster and perpetuate a one hundred percent Americanism; To preserve the memories and incidents of our associations in all wars; To inculcate a sense of individual obligation to the community, state and nation; To combat the autocracy of both the classes and the masses; To make right the master of might; To promote peace and goodwill on earth; To safeguard and transmit to posterity the principles of justice, freedom and democracy; To consecrate and sanctify our comradeship by our devotion to mutual helpfulness.</p>
+<p class="verified"><em>Source: <a href="https://www.legion.org/about/organization/preamble">The American Legion — Preamble</a>.</em></p>
 </section>
 <section aria-labelledby="post-information">
 <div class="section-head"><h2 id="post-information">Explore the Post</h2></div>
