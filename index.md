@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Main
 description: Visit or contact Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado. Learn about our officers, history, and membership.
 permalink: /
 ---
