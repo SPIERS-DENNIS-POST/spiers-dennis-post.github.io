@@ -3,6 +3,6 @@
 <h2 id="next-meeting-heading">Next Post meeting</h2>
 <p><strong><time datetime="{{ upcoming_meeting_date }}">{{ upcoming_meeting_date | date: "%A, %B %-d, %Y" }}</time></strong></p>
 <p>Dinner: 5:00 p.m. · Meeting: 5:30 p.m.</p>
-<p>Post hall · {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | escape }} {{ site.data.post.address.postal_code | escape }}</p>
+<p>Post hall · {{ site.data.post.address.street | escape }}, {{ site.data.post.address.city | escape }}, {{ site.data.post.address.region | replace: 'CO', 'Colorado' | escape }} {{ site.data.post.address.postal_code | escape }}</p>
 <p><a href="{{ '/meetings/next.ics' | relative_url }}" download="next-post-meeting.ics" type="text/calendar">Add to calendar (.ics)</a>{% unless page.url == '/meetings/' %} · <a href="{{ '/meetings/' | relative_url }}">Meeting information</a>{% endunless %}</p>
 </section>
