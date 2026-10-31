@@ -25,5 +25,6 @@ documents: []
 <li><a href="https://www.govinfo.gov/content/pkg/USCODE-2024-title36/html/USCODE-2024-title36-subtitleII-partB-chap217.htm">Congressional charter of The American Legion</a> — 36 U.S.C. Chapter 217 (2024 U.S. Code edition).</li>
 <li><a href="https://www.legion.org/getmedia/fba34c55-e1f8-4ac5-8db4-0866cf4b2d9a/20ia0926-constitution-and-by-laws.pdf">National Constitution and By-Laws</a> — official American Legion PDF.</li>
 <li><a href="https://coloradolegion.org/uploads/1/4/6/7/146715414/department_of_colorado_constitution_bylaws_amended_june_20_2026.docx">Department of Colorado Constitution and By-Laws</a> — amended June 20, 2026 (Word document).</li>
+<li><a href="https://www.ecfr.gov/current/title-26/part-1/section-1.501(c)(19)-1#p-1.501(c)(19)-1(c)">26 CFR § 1.501(c)(19)-1 — War Veterans Organizations</a> — federal regulations defining membership requirements and permissible tax-exempt purposes, particularly subsection (c).</li>
 </ul>
 <p>Official websites: <a href="https://coloradolegion.org/">Department of Colorado</a> · <a href="https://www.legion.org/">The American Legion (National)</a>.</p>
