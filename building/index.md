@@ -6,7 +6,7 @@ provenance_ids: [post-legacy-contact, post-facilities-traditions-2026-10-27]
 documents: []
 ---
 # Post Home
-<h2 class="post-home-address">315 South 5th Street, Olathe, Colorado 81425</h2>
+<h2 class="post-home-address">315 South 5th Street, Olathe, Colorado</h2>
 <dl class="fact-list">
 <div class="fact-row"><dt>Bar and alcohol sales</dt><dd>The Post does not have a bar or sell alcoholic beverages.</dd></div>
 </dl>
