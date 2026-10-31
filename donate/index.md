@@ -53,4 +53,4 @@ The 2014 IRS determination records **“Contribution Deductibility: Yes.”** Th
 These records document the Post's organizational status; they are not current financial statements or accounts of expenditures. Other approved records are listed in the <a href="{{ '/documents/' | relative_url }}">Public Documents directory</a>.
 {% include page-documents.html heading="Supporting document" heading_level=3 %}
 ## Other ways to help
-The Post also welcomes volunteer time, help with activities, and conversations about local partnerships.
+We're always looking for help to engage with our town. Reach out if you have any ideas.
