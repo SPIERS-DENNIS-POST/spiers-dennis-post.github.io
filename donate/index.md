@@ -17,13 +17,11 @@ documents:
 ---
 # Support Post 24
 Spiers-Dennis Post No. 24 brings veterans together, remembers those who served, and provides a place for fellowship and community. Money, materials, and practical assistance all help sustain that work.
-## Monetary donations
-### Donate by check
-Make checks payable to **American Legion Post 24**.
-<p><strong>Mail checks to:</strong><br>{{ site.data.post.name | escape }}<br>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}<br>{{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}</p>
-Before mailing a check, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> to confirm the current mailing instructions.
-### Other monetary gifts
-To ask about other monetary donation methods, including whether online giving is available, or to discuss a gift for a particular purpose, <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.
+## Volunteer your time
+Time and hands-on work are gifts, too. One way to begin is through the **American Legion Family**: <a href="{{ '/membership/' | relative_url }}">The American Legion</a>, <a href="https://www.legion.org/about/american-legion-family/sons-of-the-american-legion">Sons of The American Legion</a>, and <a href="https://www.legion-aux.org/">the American Legion Auxiliary</a>. Each has its own membership eligibility, but all share a commitment to serving veterans, military families, and the community.
+
+Service can be as practical as helping with bingo, fundraisers, community gatherings, setup and cleanup, or upkeep of the Post. Members of the Sons and Auxiliary can volunteer alongside Legionnaires on these activities and contribute through their own service programs. Opportunities depend on what is being organized. Whether you are already a member, considering joining, or simply willing to lend a hand, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> to ask about current volunteer needs and available membership options.
+
 ## Material donations
 Durable, useful goods can help the Post just as much as money. We welcome offers of materials that store well and can serve practical needs, including:
 - **Construction and grounds:** dimensional lumber, T-posts, engineer stakes, construction screws, nails, and other hardware.
@@ -36,11 +34,13 @@ Durable, useful goods can help the Post just as much as money. We welcome offers
 
 Please arrange acceptance and delivery with the Post in advance. Do not leave donated items unattended; fuel and high-value gifts require suitable handling and secure receipt.
 
-## Volunteer your time
-Time and hands-on work are gifts, too. One way to begin is through the **American Legion Family**: <a href="{{ '/membership/' | relative_url }}">The American Legion</a>, <a href="https://www.legion.org/about/american-legion-family/sons-of-the-american-legion">Sons of The American Legion</a>, and <a href="https://www.legion-aux.org/">the American Legion Auxiliary</a>. Each has its own membership eligibility, but all share a commitment to serving veterans, military families, and the community.
-
-Service can be as practical as helping with bingo, fundraisers, community gatherings, setup and cleanup, or upkeep of the Post. Members of the Sons and Auxiliary can volunteer alongside Legionnaires on these activities and contribute through their own service programs. Opportunities depend on what is being organized. Whether you are already a member, considering joining, or simply willing to lend a hand, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> to ask about current volunteer needs and available membership options.
-
+## Monetary donations
+### Donate by check
+Make checks payable to **American Legion Post 24**.
+<p><strong>Mail checks to:</strong><br>{{ site.data.post.name | escape }}<br>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}<br>{{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}</p>
+Before mailing a check, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> to confirm the current mailing instructions.
+### Other monetary gifts
+To ask about other monetary donation methods, including whether online giving is available, or to discuss a gift for a particular purpose, <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.
 ## Nonprofit identification
 <dl class="fact-list">
 <div class="fact-row"><dt>Organization</dt><dd>{{ site.data.post.name | escape }}, The American Legion</dd></div>
