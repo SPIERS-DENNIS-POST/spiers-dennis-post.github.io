@@ -18,9 +18,12 @@ documents:
 # Support Post 24
 Spiers-Dennis Post No. 24 brings veterans together, remembers those who served, and provides a place for fellowship and community. Money, materials, and practical assistance all help sustain that work.
 ## Monetary donations
-To make a monetary contribution, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> for current donation methods, instructions for checks or approved online giving, or to discuss a gift for a particular purpose.
-<p><strong>Mailing address:</strong> {{ site.data.post.name | escape }}<br>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}<br>{{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}</p>
-Make donation checks payable to **American Legion Post 24**. Please confirm mailing instructions with the Post before sending a contribution.
+### Donate by check
+Make checks payable to **American Legion Post 24**.
+<p><strong>Mail checks to:</strong><br>{{ site.data.post.name | escape }}<br>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}<br>{{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}</p>
+Before mailing a check, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> to confirm the current mailing instructions.
+### Other monetary gifts
+To ask about other monetary donation methods, including whether online giving is available, or to discuss a gift for a particular purpose, <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.
 ## Material donations
 Durable, useful goods can help the Post just as much as money. We welcome offers of materials that store well and can serve practical needs, including:
 - **Construction and grounds:** dimensional lumber, T-posts, engineer stakes, construction screws, nails, and other hardware.
