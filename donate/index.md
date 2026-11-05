@@ -35,10 +35,10 @@ Durable, useful goods can help the Post just as much as money. We welcome offers
 Please arrange acceptance and delivery with the Post in advance. Do not leave donated items unattended; fuel and high-value gifts require suitable handling and secure receipt.
 
 ## Monetary donations
-### Donate by check
-Make checks payable to **American Legion Post 24**.
-<p><strong>Mail checks to:</strong><br>{{ site.data.post.name | escape }}<br>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}<br>{{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}</p>
-Before mailing a check, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> to confirm the current mailing instructions.
+### Donate by check, money order, or traveler's check
+Make checks, money orders, and traveler's checks payable to **American Legion Post 24**.
+<p><strong>Mail contributions to:</strong><br>{{ site.data.post.name | escape }}<br>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}<br>{{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}</p>
+Before mailing a contribution, <a href="{{ '/contact/' | relative_url }}">contact the Post</a> to confirm the current mailing instructions.
 ### Other monetary gifts
 To ask about other monetary donation methods, including whether online giving is available, or to discuss a gift for a particular purpose, <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.
 ## Nonprofit identification
