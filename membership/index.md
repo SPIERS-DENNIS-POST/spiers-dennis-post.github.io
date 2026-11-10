@@ -3,6 +3,7 @@ title: Membership
 description: Join Spiers-Dennis American Legion Post 24, find national eligibility requirements, and view a dated membership report.
 permalink: /membership/
 source_ids: [colorado-membership-2026-01-30]
+provenance_ids: [post-membership-guidance-2026-11-10]
 documents_positioned: true
 documents:
   - id: colorado-legion-membership-report-2026-01-30
@@ -16,8 +17,11 @@ documents:
     public: true
 ---
 # Membership
-<p><a href="https://www.legion.org/join">Join the American Legion</a> &middot; <a href="{{ '/assets/documents/Why%20You%20Should%20Belong.pdf' | relative_url }}" aria-label="Why join the American Legion? Read Why You Should Belong (PDF)">Why?</a></p>
-<p><a href="{{ '/contact/' | relative_url }}">Contact the post</a></p>
+## How to join Post 24
+The easiest way to become a member of The American Legion is to [register and pay your dues through the national American Legion website](https://www.legion.org/join/).
+New members who join online are initially assigned to a state headquarters post. After registering, [contact Post 24]({{ '/contact/' | relative_url }}) so we can help you transfer your membership to our local Post.
+**Need help registering online?** Come by the Post during one of our [regular gatherings]({{ '/meetings/' | relative_url }}). We will be happy to walk you through the process.
+For more about membership, see [Why You Should Belong (PDF)]({{ '/assets/documents/Why%20You%20Should%20Belong.pdf' | relative_url }}).
 ## Membership figures
 <dl class="fact-list">
 <div class="fact-row"><dt>Reporting date</dt><dd>January 30, 2026</dd></div>
