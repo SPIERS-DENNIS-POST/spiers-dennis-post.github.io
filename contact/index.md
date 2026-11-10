@@ -12,3 +12,5 @@ provenance_ids: [post-legacy-contact]
 <div class="fact-row"><dt>Mailing address</dt><dd>PO Box {{ site.data.post.mailing_address.post_office_box | escape }}, {{ site.data.post.mailing_address.city | escape }}, {{ site.data.post.mailing_address.region | escape }} {{ site.data.post.mailing_address.postal_code | escape }}, United States</dd></div>
 </dl>
 <p>For hall visiting hours or questions about activities, please call or email the Post.</p>
+### Planning a visit?
+See our [Post Home]({{ '/building/' | relative_url }}) page for parking information, entrance directions, and wheelchair access.
