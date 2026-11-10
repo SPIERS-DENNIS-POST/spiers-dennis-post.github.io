@@ -2,6 +2,7 @@
 title: Main
 description: Visit or contact Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado. Learn about our officers, history, and membership.
 permalink: /
+provenance_ids: [post-visitor-entrance-2026-11-10]
 ---
 <section class="hero">
 <p class="eyebrow">American Legion Post 24</p>
@@ -34,6 +35,10 @@ To consecrate and sanctify our comradeship by our devotion to mutual helpfulness
 <p><a href="{{ '/donate/' | relative_url }}">Learn how to support Post 24</a></p>
 </section>
 {% include next-meeting.html %}
+<section aria-labelledby="visiting-post">
+<div class="section-head"><h2 id="visiting-post">Visiting the Post</h2></div>
+<p>Use the streetside double doors on the cinderblock section of the building. These doors open directly into the main hall, where most Post meetings and gatherings are held.</p>
+</section>
 <section aria-labelledby="post-information">
 <div class="section-head"><h2 id="post-information">Explore the Post</h2></div>
 <div class="grid">
