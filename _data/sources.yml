@@ -133,7 +133,7 @@
 - id: olathe-hall-property-record
   title: LoopNet — 315 S. 5th Street, Olathe property record
   url: https://www.loopnet.com/property/315-s-5th-st-olathe-co-81425/08085-R0652023/
-  details: Secondary exact-address property profile listing Montrose County, identifier R0652023, approximately 0.22 acres, and 4,620 square feet as total size. The identifier, dimensions, legal title and current zoning have not been confirmed against the official parcel record.
+  details: Secondary property profile listing an approximately 0.22-acre lot and a 4,620-square-foot property size at 315 S. 5th Street. Its acreage is less than the combined area of both polygons in the county GIS account; the building-size figure has not been independently verified.
 - id: montrose-county-olathe-hall-2025
   title: Montrose County — October 30, 2025 meeting at Olathe American Legion Hall
   url: https://montrosecounty.net/Calendar.aspx?EID=1142
@@ -142,3 +142,7 @@
   title: Montrose County — October 28, 2026 special meeting in Olathe
   url: https://www.montrosecounty.net/Calendar.aspx?EID=1269
   details: Official county calendar listing the American Legion Hall at 315 South 5th Street, Olathe, for a special Board of County Commissioners meeting.
+- id: montrose-county-post24-parcel-gis
+  title: Montrose County GIS — 315 S. 5th Street parcel account R0652023
+  url: https://mcmap.montrosecounty.net/server/rest/services/MontroseCounty/FeatureServer/47
+  details: Official parcel geometry for account R0652023, parcel number 372310344904, with two polygon features (object IDs 581868 and 581870) and AMERICAN LEGION POST 24 in the owner-name field. The GIS legal-description attribute refers to Colorow Town Company's Subdivision, Block 8, Lots 13–19, with an excepted portion of Lots 13 and 14. WGS84 geodesic area calculated from both polygons is about 0.47117 acre; this is not a surveyed area, verified deed chain, or zoning determination. A coordinate-preserving copy with selected parcel attributes is hosted at /assets/geodata/post-home-parcel.geojson.
