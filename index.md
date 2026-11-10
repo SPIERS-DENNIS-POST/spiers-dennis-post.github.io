@@ -38,6 +38,7 @@ To consecrate and sanctify our comradeship by our devotion to mutual helpfulness
 <section aria-labelledby="visiting-post">
 <div class="section-head"><h2 id="visiting-post">Visiting the Post</h2></div>
 <p>Use the streetside double doors on the cinderblock section of the building. These doors open directly into the main hall, where most Post meetings and gatherings are held.</p>
+<p>New to Post 24? <a href="{{ '/meetings/' | relative_url }}">Visit one of our gatherings</a> or <a href="{{ '/membership/' | relative_url }}">learn how to become a member</a>.</p>
 </section>
 <section aria-labelledby="post-information">
 <div class="section-head"><h2 id="post-information">Explore the Post</h2></div>
