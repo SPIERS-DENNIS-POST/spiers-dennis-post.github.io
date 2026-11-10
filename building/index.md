@@ -3,7 +3,7 @@ title: Post Home
 description: Visit the Spiers-Dennis Post No. 24 hall at 315 South 5th Street in Olathe, Colorado, and learn about the building and gatherings held here.
 permalink: /building/
 provenance_ids: [post-legacy-contact, post-facilities-traditions-2026-10-27, post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27]
-source_ids: [olathe-hall-property-record, montrose-county-olathe-hall-2025, montrose-county-olathe-hall-2026]
+source_ids: [olathe-hall-property-record, montrose-county-olathe-hall-2025, montrose-county-olathe-hall-2026, montrose-county-post24-parcel-gis]
 documents: []
 ---
 # Post Home
@@ -16,10 +16,14 @@ documents: []
 ## Building and grounds
 <dl class="fact-list">
 <div class="fact-row"><dt>County</dt><dd>Montrose County</dd></div>
-<div class="fact-row"><dt>Approximate lot area</dt><dd>0.22 acres<sup class="reference"><a href="#reference-olathe-hall-property-record" aria-label="Reference 1">[1]</a></sup></dd></div>
+<div class="fact-row"><dt>County property identifiers</dt><dd>Parcel account R0652023; parcel number 372310344904.<sup class="reference"><a href="#reference-montrose-county-post24-parcel-gis" aria-label="Reference 4">[4]</a></sup></dd></div>
+<div class="fact-row"><dt>Owner listed by Montrose County</dt><dd>American Legion Post 24<sup class="reference"><a href="#reference-montrose-county-post24-parcel-gis" aria-label="Reference 4">[4]</a></sup></dd></div>
+<div class="fact-row"><dt>Approximate mapped parcel area</dt><dd>0.47 acres across two polygons<sup class="reference"><a href="#reference-montrose-county-post24-parcel-gis" aria-label="Reference 4">[4]</a></sup></dd></div>
+<div class="fact-row"><dt>Townsite description</dt><dd>Colorow Town Company’s Subdivision of the Town of Olathe, Block 8, Lots 13–19, except a described portion of Lots 13 and 14.<sup class="reference"><a href="#reference-montrose-county-post24-parcel-gis" aria-label="Reference 4">[4]</a></sup></dd></div>
 <div class="fact-row"><dt>Listed property size</dt><dd>4,620 square feet<sup class="reference"><a href="#reference-olathe-hall-property-record" aria-label="Reference 1">[1]</a></sup></dd></div>
 <div class="fact-row"><dt>Bar and alcohol sales</dt><dd>The Post does not have a bar or sell alcoholic beverages.</dd></div>
 </dl>
+<p><a href="{{ '/assets/geodata/post-home-parcel.geojson' | relative_url }}" download="post-home-parcel.geojson">Download Post Home parcel boundary (GeoJSON)</a>. The file contains both areas mapped by Montrose County under this account.</p>
 ## A community meeting place
 <p>Montrose County has listed our hall for public meetings beyond regular Post activities, including an October 30, 2025 meeting on proposed solar regulations<sup class="reference"><a href="#reference-montrose-county-olathe-hall-2025" aria-label="Reference 2">[2]</a></sup> and an October 28, 2026 special meeting of the Board of County Commissioners.<sup class="reference"><a href="#reference-montrose-county-olathe-hall-2026" aria-label="Reference 3">[3]</a></sup></p>
 ## Visiting and mail
