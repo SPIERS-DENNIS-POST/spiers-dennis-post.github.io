@@ -133,7 +133,7 @@
 - id: olathe-hall-property-record
   title: LoopNet — 315 S. 5th Street, Olathe property record
   url: https://www.loopnet.com/property/315-s-5th-st-olathe-co-81425/08085-R0652023/
-  details: Secondary property profile listing an approximately 0.22-acre lot and a 4,620-square-foot property size at 315 S. 5th Street. Its acreage is less than the combined area of both polygons in the county GIS account; the building-size figure has not been independently verified.
+  details: Secondary property profile listing lot size 0.22 acres and a separate field labeled TOTAL SIZE 4,620 SF at 315 S. 5th Street. The source does not expressly identify what TOTAL SIZE measures; do not present it as verified building area or floor area. The reported 0.22 acres is less than the combined area of the two county GIS polygons.
 - id: montrose-county-olathe-hall-2025
   title: Montrose County — October 30, 2025 meeting at Olathe American Legion Hall
   url: https://montrosecounty.net/Calendar.aspx?EID=1142
