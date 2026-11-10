@@ -11,6 +11,7 @@ provenance_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, po
 ### Visitors at Post meetings
 Community members occasionally attend our regular Post meetings. Membership is required to vote on Post business, but visitors may attend for community matters.
 Dinner is prepared based on expected attendance, so meals cannot be guaranteed for visitors. When food is available, we're happy to share.
+For parking, entrance directions, and wheelchair access, see our [Post Home page]({{ '/building/' | relative_url }}).
 ## {{ site.time | date: "%Y" }} meeting dates
 {% include meeting-year-dates.html %}
 <a href="{{ '/meetings/calendar.ics' | relative_url }}">Download all {{ site.time | date: "%Y" }} meeting dates (.ics)</a>
