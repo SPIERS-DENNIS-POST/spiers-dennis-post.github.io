@@ -2,7 +2,7 @@
 title: Post Home
 description: Visit the Spiers-Dennis Post No. 24 hall at 315 South 5th Street in Olathe, Colorado, and learn about the building and gatherings held here.
 permalink: /building/
-provenance_ids: [post-legacy-contact, post-facilities-traditions-2026-10-27, post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-visitor-parking-2026-11-10, post-visitor-entrance-2026-11-10]
+provenance_ids: [post-legacy-contact, post-facilities-traditions-2026-10-27, post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-visitor-parking-2026-11-10, post-visitor-entrance-2026-11-10, post-wheelchair-entrance-2026-11-10]
 source_ids: [montrose-county-olathe-hall-2025, montrose-county-olathe-hall-2026, montrose-county-post24-parcel-gis]
 documents: []
 ---
@@ -29,5 +29,8 @@ documents: []
 <p>Montrose County has listed our hall for public meetings beyond regular Post activities, including an October 30, 2025 meeting on proposed solar regulations<sup class="reference"><a href="#reference-montrose-county-olathe-hall-2025" aria-label="Reference 1">[1]</a></sup> and an October 28, 2026 special meeting of the Board of County Commissioners.<sup class="reference"><a href="#reference-montrose-county-olathe-hall-2026" aria-label="Reference 2">[2]</a></sup></p>
 ## Visiting and mail
 <p>Visitors may park along South 5th Street or Hersum Avenue, which border the Post property. Use the streetside double doors on the cinderblock section of the building to enter the main hall.</p>
+### Wheelchair access
+The streetside double doors on the cinderblock (west) section of the building provide wheelchair-accessible entry directly into the main hall.
+The streetside entrance to the older brick (east) section leads to a stairwell that is not wheelchair-accessible. Visitors using wheelchairs should use the west entrance.
 <p>For visiting hours or event inquiries, please <a href="{{ '/contact/' | relative_url }}">contact the Post</a>. The address above is our hall's physical address; mail should be sent to PO Box {{ site.data.post.mailing_address.post_office_box | escape }}, {{ site.data.post.mailing_address.city | escape }}, Colorado {{ site.data.post.mailing_address.postal_code | escape }}.</p>
 <p>For the story of our Post's early clubhouse, see our <a href="{{ '/history/' | relative_url }}">History page</a>.</p>
