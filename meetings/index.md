@@ -2,12 +2,15 @@
 title: Meetings
 description: Spiers-Dennis Post 24 meetings and weekly gatherings in Olathe, including Monday coffee, Thursday PTSD Group, and fourth-Tuesday Post meetings.
 permalink: /meetings/
-provenance_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-december-meeting-vote-2026-10-27, post-monday-coffee-visitors-2026-11-10]
+provenance_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-december-meeting-vote-2026-10-27, post-monday-coffee-visitors-2026-11-10, post-meeting-visitors-2026-11-10]
 ---
 # Post meetings
 {% include next-meeting.html %}
 ## Regular schedule
 {% include facts.html section="meetings" exclude="December meeting" %}
+### Visitors at Post meetings
+Community members occasionally attend our regular Post meetings. Membership is required to vote on Post business, but visitors may attend for community matters.
+Dinner is prepared based on expected attendance, so meals cannot be guaranteed for visitors. When food is available, we're happy to share.
 ## {{ site.time | date: "%Y" }} meeting dates
 {% include meeting-year-dates.html %}
 <a href="{{ '/meetings/calendar.ics' | relative_url }}">Download all {{ site.time | date: "%Y" }} meeting dates (.ics)</a>
