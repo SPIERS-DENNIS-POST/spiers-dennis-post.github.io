@@ -2,7 +2,7 @@
 title: Meetings
 description: Spiers-Dennis Post 24 meetings and weekly gatherings in Olathe, including Monday coffee, Thursday PTSD Group, and fourth-Tuesday Post meetings.
 permalink: /meetings/
-provenance_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-december-meeting-vote-2026-10-27]
+provenance_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-december-meeting-vote-2026-10-27, post-monday-coffee-visitors-2026-11-10]
 ---
 # Post meetings
 {% include next-meeting.html %}
@@ -17,6 +17,9 @@ For veterans. You do not need to be a member of the American Legion.
 We get together for coffee at the Post hall every Monday morning.
 {% include facts.html section="monday_coffee" %}
 <p>Coffee was started by James Smith, USMC.</p>
+#### First time visiting?
+If you are a veteran and have not visited Post 24 before, Monday morning coffee is a great place to start.
+No American Legion membership, appointment, or advance notice is required. Just stop by, have a cup of coffee, and get to know some fellow veterans.
 ### PTSD Group
 Our PTSD Group meets at the Post hall on Thursdays and is conducted by a Vet Center counselor.
 {% include facts.html section="ptsd_group" %}
