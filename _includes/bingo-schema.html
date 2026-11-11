@@ -16,7 +16,7 @@
 {%- endfor -%}
 {%- for package in bingo.machine_packages -%}
 {%- assign product_id = bingo_url | append: '#machine-' | append: package.id -%}
-{%- capture package_description -%}TAB-E {{ package.machine_number }}; {{ package.faces }} faces; {{ package.yellow_da }} yellow D/A, {{ package.blue_da }} blue D/A, {{ package.progressives }} progressive; {{ package.included_packs }} pack included.{%- endcapture -%}
+{%- capture package_description -%}TAB-E {{ package.machine_number }}; {{ package.faces }} faces; {{ package.yellow_da }} yellow Double Action (D/A), {{ package.blue_da }} blue Double Action (D/A), {{ package.progressives }} progressive; {{ package.included_packs }} pack included.{%- endcapture -%}
 ,{"@type":"Service","@id":{{ product_id | jsonify }},"name":{{ package.name | append: ' Bingo machine package' | jsonify }},"description":{{ package_description | strip | jsonify }},"offers":{"@type":"Offer","url":{{ bingo_url | jsonify }},"price":{{ package.price | plus: 0 | jsonify }},"priceCurrency":{{ bingo.currency | jsonify }}}}
 {%- endfor -%}
 {%- for paper in bingo.paper_packs -%}
