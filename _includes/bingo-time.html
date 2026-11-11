@@ -1,0 +1,6 @@
+{%- assign clock_hour = include.value | slice: 0, 2 | plus: 0 -%}
+{%- assign clock_minute = include.value | slice: 3, 2 -%}
+{%- assign clock_meridiem = 'AM' -%}
+{%- if clock_hour >= 12 -%}{%- assign clock_meridiem = 'PM' -%}{%- endif -%}
+{%- if clock_hour == 0 -%}{%- assign clock_hour = 12 -%}{%- elsif clock_hour > 12 -%}{%- assign clock_hour = clock_hour | minus: 12 -%}{%- endif -%}
+{%- if include.compact -%}{{ clock_hour }}:{{ clock_minute }} {{ clock_meridiem }}{%- else -%}{{ clock_hour }}:{{ clock_minute }} <small>{{ clock_meridiem }}</small>{%- endif -%}
