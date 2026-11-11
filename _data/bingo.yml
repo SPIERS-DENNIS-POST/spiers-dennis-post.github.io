@@ -1,5 +1,6 @@
 currency: USD
 timezone: America/Denver
+minimum_purchase_age: 18
 post65:
   name: American Legion Post 65
   website: https://www.alharrywhitepost65.org/
