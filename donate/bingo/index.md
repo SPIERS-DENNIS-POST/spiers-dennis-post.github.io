@@ -34,7 +34,7 @@ source_ids: [colorado-bingo-underage-purchase-law]
 <h3 class="bingo-prices-subhead">Machine packages <span>All sessions</span></h3>
 <div class="bingo-price-tiers">
 {% for package in site.data.bingo.machine_packages %}
-<article id="machine-{{ package.id | escape }}" class="bingo-price-tier bingo-tier-{{ package.id | escape }}"><div class="bingo-tier-top"><h4>{{ package.name | escape }}</h4><strong><data value="{{ package.price }}" data-currency="{{ site.data.bingo.currency }}">${{ package.price }}</data></strong></div><p class="bingo-tier-spec">TAB-E {{ package.machine_number }} · {{ package.faces }} faces</p><p>{{ package.yellow_da }} yellow D/A, {{ package.blue_da }} blue D/A, {{ package.progressives }} progressive, {{ package.included_packs }} pack included</p></article>
+<article id="machine-{{ package.id | escape }}" class="bingo-price-tier bingo-tier-{{ package.id | escape }}"><div class="bingo-tier-top"><h4>{{ package.name | escape }}</h4><strong><data value="{{ package.price }}" data-currency="{{ site.data.bingo.currency }}">${{ package.price }}</data></strong></div><p class="bingo-tier-spec">TAB-E {{ package.machine_number }} · {{ package.faces }} faces</p><p>{{ package.yellow_da }} yellow <abbr title="Double Action">D/A</abbr>, {{ package.blue_da }} blue <abbr title="Double Action">D/A</abbr>, {{ package.progressives }} progressive, {{ package.included_packs }} pack included</p></article>
 {% endfor %}
 </div>
 <div class="bingo-paper-wrap">
@@ -45,7 +45,7 @@ source_ids: [colorado-bingo-underage-purchase-law]
 </tbody></table></section>
 <section class="bingo-paper-panel" aria-labelledby="bingo-extras-title"><h3 id="bingo-extras-title">Extras</h3><table class="bingo-paper-table bingo-extras-table"><thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead><tbody>
 {% for extra in site.data.bingo.extras %}
-<tr id="extra-{{ extra.id | escape }}"><th scope="row">{{ extra.name | escape }}</th><td><data value="{{ extra.price }}" data-currency="{{ site.data.bingo.currency }}">${{ extra.price }}</data>{% if extra.unit != empty %} {{ extra.unit | escape }}{% endif %}</td></tr>
+<tr id="extra-{{ extra.id | escape }}"><th scope="row">{% if extra.id == 'da-sheets' %}<abbr title="Double Action">D/A</abbr> sheets{% else %}{{ extra.name | escape }}{% endif %}</th><td><data value="{{ extra.price }}" data-currency="{{ site.data.bingo.currency }}">${{ extra.price }}</data>{% if extra.unit != empty %} {{ extra.unit | escape }}{% endif %}</td></tr>
 {% endfor %}
 </tbody></table></section>
 </div>
