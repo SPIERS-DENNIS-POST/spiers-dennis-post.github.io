@@ -1,0 +1,32 @@
+{%- assign bingo = site.data.bingo -%}
+{%- assign bingo_url = page.url | absolute_url -%}
+{%- assign venue_id = bingo_url | append: '#venue' -%}
+{%- assign friday_org_id = bingo_url | append: '#post65' -%}
+{%- assign post24_id = '/' | absolute_url | append: '#organization' -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Place","@id":{{ venue_id | jsonify }},"name":"American Legion Post Home","address":{"@type":"PostalAddress","streetAddress":{{ site.data.post.address.street | jsonify }},"addressLocality":{{ site.data.post.address.city | jsonify }},"addressRegion":{{ site.data.post.address.region | jsonify }},"postalCode":{{ site.data.post.address.postal_code | jsonify }},"addressCountry":{{ site.data.post.address.country | jsonify }}}},
+{"@type":"Organization","@id":{{ friday_org_id | jsonify }},"name":{{ bingo.post65.name | jsonify }},"url":{{ bingo.post65.website | jsonify }}}
+{%- for session in bingo.sessions -%}
+{%- assign event_id = bingo_url | append: '#' | append: session.id -%}
+{%- assign event_day = 'https://schema.org/' | append: session.day -%}
+{%- assign start_time = session.start_time | append: ':00' -%}
+{%- capture event_description -%}Weekly {{ session.day }} Bingo. Doors open at {{ session.doors_time }} local time.{%- endcapture -%}
+,{"@type":"Event","@id":{{ event_id | jsonify }},"url":{{ bingo_url | jsonify }},"name":{{ session.day | append: ' Bingo in Olathe' | jsonify }},"description":{{ event_description | strip | jsonify }},"eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@id":{{ venue_id | jsonify }}},"organizer":{"@id":{%- if session.organizer == 'post65' -%}{{ friday_org_id | jsonify }}{%- else -%}{{ post24_id | jsonify }}{%- endif -%}},"eventSchedule":{"@type":"Schedule","repeatFrequency":"P1W","byDay":{{ event_day | jsonify }},"startTime":{{ start_time | jsonify }},"scheduleTimezone":{{ bingo.timezone | jsonify }}}}
+{%- endfor -%}
+{%- for package in bingo.machine_packages -%}
+{%- assign product_id = bingo_url | append: '#machine-' | append: package.id -%}
+{%- capture package_description -%}TAB-E {{ package.machine_number }}; {{ package.faces }} faces; {{ package.yellow_da }} yellow D/A, {{ package.blue_da }} blue D/A, {{ package.progressives }} progressive; {{ package.included_packs }} pack included.{%- endcapture -%}
+,{"@type":"Service","@id":{{ product_id | jsonify }},"name":{{ package.name | append: ' Bingo machine package' | jsonify }},"description":{{ package_description | strip | jsonify }},"offers":{"@type":"Offer","url":{{ bingo_url | jsonify }},"price":{{ package.price | plus: 0 | jsonify }},"priceCurrency":{{ bingo.currency | jsonify }}}}
+{%- endfor -%}
+{%- for paper in bingo.paper_packs -%}
+{%- assign paper_id = bingo_url | append: '#paper-' | append: paper.count -%}
+{%- capture paper_label -%}{{ paper.count }} {% if paper.count == 1 %}paper pack{% else %}paper packs{% endif %}{%- endcapture -%}
+,{"@type":"Product","@id":{{ paper_id | jsonify }},"name":{{ paper_label | strip | jsonify }},"additionalProperty":{"@type":"PropertyValue","name":"Pack count","value":{{ paper.count | jsonify }}},"offers":{"@type":"Offer","url":{{ bingo_url | jsonify }},"price":{{ paper.price | plus: 0 | jsonify }},"priceCurrency":{{ bingo.currency | jsonify }}}}
+{%- endfor -%}
+{%- for extra in bingo.extras -%}
+{%- assign extra_id = bingo_url | append: '#extra-' | append: extra.id -%}
+,{"@type":{{ extra.schema_type | jsonify }},"@id":{{ extra_id | jsonify }},"name":{{ extra.name | jsonify }},"offers":{"@type":"Offer","url":{{ bingo_url | jsonify }},"price":{{ extra.price | plus: 0 | jsonify }},"priceCurrency":{{ bingo.currency | jsonify }}{% if extra.unit != empty %},"description":{{ extra.unit | jsonify }}{% endif %}}}
+{%- endfor %}
+]}
+</script>
