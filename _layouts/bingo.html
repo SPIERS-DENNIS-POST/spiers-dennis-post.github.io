@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#142c31">
+<meta name="color-scheme" content="light">
+<title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+<meta name="description" content="{{ page.description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ page.description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/bingo.css' | relative_url }}">
+</head>
+<body class="bingo-site">
+<a class="bingo-skip" href="#bingo-main">Skip to content</a>
+<div class="bingo-shell">
+<header class="bingo-topbar">
+<div class="bingo-brand"><span class="bingo-brand-mark" aria-hidden="true">B</span><span>OLATHE <strong>BINGO</strong><small>AT THE AMERICAN LEGION HALL</small></span></div>
+<a class="bingo-home" href="{{ '/' | relative_url }}">← Main Post website</a>
+</header>
+<main id="bingo-main">{{ content }}</main>
+<footer class="bingo-footer"><span>OLATHE BINGO · 315 SOUTH 5TH STREET · OLATHE, COLORADO</span><span>Friday listed under Post 65 · Saturday &amp; Sunday under Post 24</span></footer>
+</div>
+</body>
+</html>
