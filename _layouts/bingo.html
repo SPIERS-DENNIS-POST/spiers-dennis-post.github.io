@@ -13,7 +13,9 @@
 <meta property="og:description" content="{{ page.description | escape }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/bingo.css' | relative_url }}?v=20261110-pricing-layout-2">
+<link rel="stylesheet" href="{{ '/assets/css/bingo.css' | relative_url }}?v=20261110-structured-bingo">
+{% include schema.html %}
+{% include bingo-schema.html %}
 </head>
 <body class="bingo-site">
 <a class="bingo-skip" href="#bingo-main">Skip to content</a>
@@ -23,7 +25,7 @@
 <a class="bingo-home" href="{{ '/' | relative_url }}">← Main Post website</a>
 </header>
 <main id="bingo-main">{{ content }}</main>
-<footer class="bingo-footer"><span>OLATHE BINGO · 315 SOUTH 5TH STREET · OLATHE, COLORADO</span><span>Friday · Post 65 &nbsp;|&nbsp; Saturday &amp; Sunday · Post 24</span></footer>
+<footer class="bingo-footer"><span>OLATHE BINGO · {{ site.data.post.address.street | upcase }} · {{ site.data.post.address.city | upcase }}, COLORADO</span><span>{% for session in site.data.bingo.sessions %}{{ session.day | escape }} · {% if session.organizer == 'post65' %}Post 65{% else %}Post {{ site.data.post.post_number }}{% endif %}{% unless forloop.last %} &nbsp;|&nbsp; {% endunless %}{% endfor %}</span></footer>
 </div>
 </body>
 </html>
