@@ -54,6 +54,11 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 {% endfor %}
 </dl></details>
 <p class="bingo-price-note">Prices are subject to change.</p>
+<section class="bingo-payment" aria-labelledby="bingo-payment-title">
+<h3 id="bingo-payment-title">Payment methods</h3>
+<p>We currently accept <strong>{{ site.data.bingo.payment_methods.accepted | join: ' and ' | escape }}</strong> for Bingo purchases. <strong>{{ site.data.bingo.payment_methods.not_accepted | escape }}</strong> are not accepted.</p>
+<p>{{ site.data.bingo.payment_methods.check_instruction | escape }}</p>
+</section>
 </section>
 <section id="venue" class="bingo-detail bingo-arrival bingo-visit" aria-labelledby="bingo-arrival-title">
 <p class="bingo-eyebrow">03 / HOW TO GET HERE</p><h2 id="bingo-arrival-title">Come on in.</h2>
