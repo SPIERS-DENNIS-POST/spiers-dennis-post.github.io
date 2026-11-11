@@ -17,6 +17,8 @@ documents:
 ---
 # Support Post 24
 Spiers-Dennis Post No. 24 brings veterans together, remembers those who served, and provides a place for fellowship and community. Money, materials, and practical assistance all help sustain that work.
+## Bingo
+Bingo is one of the ways American Legion organizations raise funds while bringing neighbors together. See our [Bingo page]({{ '/donate/bingo/' | relative_url }}) for weekly sessions, game information, directions, and contacts. Friday Bingo is listed under Post 65; Saturday and Sunday are listed under Post 24.
 ## Volunteer your time
 Time and hands-on work are gifts, too. One way to begin is through the **American Legion Family**: <a href="{{ '/membership/' | relative_url }}">The American Legion</a>, <a href="https://www.legion.org/about/american-legion-family/sons-of-the-american-legion">Sons of The American Legion</a>, and <a href="https://www.legion-aux.org/">the American Legion Auxiliary</a>. Each has its own membership eligibility, but all share a commitment to serving veterans, military families, and the community.
 
