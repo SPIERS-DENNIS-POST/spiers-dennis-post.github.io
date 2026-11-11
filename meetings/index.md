@@ -2,7 +2,7 @@
 title: Meetings
 description: Spiers-Dennis Post 24 meetings and weekly gatherings in Olathe, including Monday coffee, Thursday PTSD Group, and fourth-Tuesday Post meetings.
 permalink: /meetings/
-provenance_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-december-meeting-vote-2026-10-27, post-monday-coffee-visitors-2026-11-10, post-meeting-visitors-2026-11-10]
+provenance_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-december-meeting-vote-2026-10-27, post-monday-coffee-visitors-2026-11-10, post-meeting-visitors-2026-11-10, post-ptsd-group-walk-in-2026-11-10]
 ---
 # Post meetings
 {% include next-meeting.html %}
@@ -27,7 +27,8 @@ No American Legion membership, appointment, or advance notice is required. Just 
 ### PTSD Group
 Our PTSD Group meets at the Post hall on Thursdays and is conducted by a Vet Center counselor.
 {% include facts.html section="ptsd_group" %}
-<p>For participation details or schedule changes, please <a href="{{ '/contact/' | relative_url }}">contact the Post</a>.</p>
+Veterans are welcome to walk in and participate in the Thursday PTSD Group. No advance registration or appointment is required, and American Legion membership is not necessary.
+For schedule changes or other questions, [contact the Post]({{ '/contact/' | relative_url }}).
 ## Annual observances and traditions
 These are our customary activities; arrangements for a particular year may vary.
 ### American Legion Birthday — March 15
