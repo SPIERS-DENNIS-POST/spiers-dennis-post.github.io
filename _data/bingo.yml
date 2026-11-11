@@ -68,6 +68,10 @@ paper_packs:
     price: "20.00"
   - count: 4
     price: "24.00"
+payment_methods:
+  accepted: [cash, checks]
+  not_accepted: Credit and debit cards
+  check_instruction: If paying by check, please ask the games manager who the check should be made payable to before writing it.
 extras:
   - id: additional-packs
     name: Additional packs
