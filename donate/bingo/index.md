@@ -24,7 +24,7 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 <div class="bingo-section-heading"><p class="bingo-eyebrow">01 / WEEKLY SESSIONS</p><h2 id="bingo-schedule-title">Find your night.</h2><p>American Legion Post 65 and {{ site.data.post.name | escape }} run the sessions below. Each day shows the host Post.</p></div>
 <div class="bingo-days">
 {% for session in site.data.bingo.sessions %}
-<article class="bingo-day{% if session.id == 'friday' %} bingo-day-friday{% elsif session.id == 'sunday' %} bingo-day-sunday{% endif %}"><div class="bingo-day-top"><span class="bingo-day-label">{{ session.abbreviation | escape }}</span><span class="bingo-day-post">{% if session.organizer == 'post65' %}POST 65{% else %}POST {{ site.data.post.post_number }}{% endif %}</span></div><h3>{{ session.day | escape }}</h3><p class="bingo-day-time"><time datetime="{{ session.start_time }}">{% include bingo-time.html value=session.start_time %}</time></p><p class="bingo-day-note">Doors open at <time datetime="{{ session.doors_time }}">{% if session.doors_time == '12:00' %}noon{% else %}{% include bingo-time.html value=session.doors_time compact=true %}{% endif %}</time></p></article>
+<article id="{{ session.id | escape }}" class="bingo-day{% if session.id == 'friday' %} bingo-day-friday{% elsif session.id == 'sunday' %} bingo-day-sunday{% endif %}"><div class="bingo-day-top"><span class="bingo-day-label">{{ session.abbreviation | escape }}</span><span class="bingo-day-post">{% if session.organizer == 'post65' %}POST 65{% else %}POST {{ site.data.post.post_number }}{% endif %}</span></div><h3>{{ session.day | escape }}</h3><p class="bingo-day-time"><time datetime="{{ session.start_time }}">{% include bingo-time.html value=session.start_time %}</time></p><p class="bingo-day-note">Doors open at <time datetime="{{ session.doors_time }}">{% if session.doors_time == '12:00' %}noon{% else %}{% include bingo-time.html value=session.doors_time compact=true %}{% endif %}</time></p></article>
 {% endfor %}
 </div>
 </section>
@@ -33,18 +33,18 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 <h3 class="bingo-prices-subhead">Machine packages <span>All sessions</span></h3>
 <div class="bingo-price-tiers">
 {% for package in site.data.bingo.machine_packages %}
-<article class="bingo-price-tier bingo-tier-{{ package.id | escape }}"><div class="bingo-tier-top"><h4>{{ package.name | escape }}</h4><strong><data value="{{ package.price }}" data-currency="{{ site.data.bingo.currency }}">${{ package.price }}</data></strong></div><p class="bingo-tier-spec">TAB-E {{ package.machine_number }} · {{ package.faces }} faces</p><p>{{ package.yellow_da }} yellow D/A, {{ package.blue_da }} blue D/A, {{ package.progressives }} progressive, {{ package.included_packs }} pack included</p></article>
+<article id="machine-{{ package.id | escape }}" class="bingo-price-tier bingo-tier-{{ package.id | escape }}"><div class="bingo-tier-top"><h4>{{ package.name | escape }}</h4><strong><data value="{{ package.price }}" data-currency="{{ site.data.bingo.currency }}">${{ package.price }}</data></strong></div><p class="bingo-tier-spec">TAB-E {{ package.machine_number }} · {{ package.faces }} faces</p><p>{{ package.yellow_da }} yellow D/A, {{ package.blue_da }} blue D/A, {{ package.progressives }} progressive, {{ package.included_packs }} pack included</p></article>
 {% endfor %}
 </div>
 <div class="bingo-paper-wrap">
 <section class="bingo-paper-panel" aria-labelledby="bingo-paper-title"><h3 id="bingo-paper-title">Paper packs</h3><table class="bingo-paper-table"><thead><tr><th scope="col">Packs</th><th scope="col">Price</th></tr></thead><tbody>
 {% for paper in site.data.bingo.paper_packs %}
-<tr><th scope="row">{{ paper.count }} {% if paper.count == 1 %}pack{% else %}packs{% endif %}</th><td><data value="{{ paper.price }}" data-currency="{{ site.data.bingo.currency }}">${{ paper.price }}</data></td></tr>
+<tr id="paper-{{ paper.count }}"><th scope="row">{{ paper.count }} {% if paper.count == 1 %}pack{% else %}packs{% endif %}</th><td><data value="{{ paper.price }}" data-currency="{{ site.data.bingo.currency }}">${{ paper.price }}</data></td></tr>
 {% endfor %}
 </tbody></table></section>
 <section class="bingo-paper-panel" aria-labelledby="bingo-extras-title"><h3 id="bingo-extras-title">Extras</h3><table class="bingo-paper-table bingo-extras-table"><thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead><tbody>
 {% for extra in site.data.bingo.extras %}
-<tr><th scope="row">{{ extra.name | escape }}</th><td><data value="{{ extra.price }}" data-currency="{{ site.data.bingo.currency }}">${{ extra.price }}</data>{% if extra.unit != empty %} {{ extra.unit | escape }}{% endif %}</td></tr>
+<tr id="extra-{{ extra.id | escape }}"><th scope="row">{{ extra.name | escape }}</th><td><data value="{{ extra.price }}" data-currency="{{ site.data.bingo.currency }}">${{ extra.price }}</data>{% if extra.unit != empty %} {{ extra.unit | escape }}{% endif %}</td></tr>
 {% endfor %}
 </tbody></table></section>
 </div>
@@ -55,7 +55,7 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 </dl></details>
 <p class="bingo-price-note">Prices are subject to change.</p>
 </section>
-<section class="bingo-detail bingo-arrival bingo-visit" aria-labelledby="bingo-arrival-title">
+<section id="venue" class="bingo-detail bingo-arrival bingo-visit" aria-labelledby="bingo-arrival-title">
 <p class="bingo-eyebrow">03 / HOW TO GET HERE</p><h2 id="bingo-arrival-title">Come on in.</h2>
 <address><strong>American Legion Post Home</strong><span>315 South 5th Street</span><span>Olathe, Colorado 81425</span></address>
 <p>Street parking is available along <strong>South 5th Street</strong> and <strong>Hersum Avenue</strong>. Use the streetside double doors in the <strong>cinderblock west section</strong> to enter the main hall.</p>
@@ -64,5 +64,5 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 </section>
 <section class="bingo-contact" aria-labelledby="bingo-contact-title">
 <div><p class="bingo-eyebrow">04 / QUESTIONS?</p><h2 id="bingo-contact-title">Talk to the Posts.</h2><p>For questions about hours, pricing, or your first visit, contact the Post running your session.</p><p>For questions about games, pricing, or participation, you can also speak with a games manager during any Bingo session.</p></div>
-<div class="bingo-contact-cards"><div class="bingo-contact-card"><span class="bingo-contact-type">SATURDAY &amp; SUNDAY</span><h3>Spiers-Dennis Post 24</h3><a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a><a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a><p>The Post's shared desk phone accepts texts and voicemail.</p></div><div class="bingo-contact-card"><span class="bingo-contact-type">FRIDAY</span><h3>American Legion Post 65</h3><a href="https://www.alharrywhitepost65.org/">Post 65 website</a><p>Contact Post 65 through its website for Friday Bingo questions.</p></div></div>
+<div class="bingo-contact-cards"><div class="bingo-contact-card"><span class="bingo-contact-type">SATURDAY &amp; SUNDAY</span><h3>Spiers-Dennis Post 24</h3><a href="tel:+1{{ site.data.post.contact.phone | remove: '-' }}">{{ site.data.post.contact.phone | escape }}</a><a href="mailto:{{ site.data.post.contact.email | escape }}">{{ site.data.post.contact.email | escape }}</a><p>The Post's shared desk phone accepts texts and voicemail.</p></div><div id="post65" class="bingo-contact-card"><span class="bingo-contact-type">FRIDAY</span><h3>{{ site.data.bingo.post65.name | escape }}</h3><a href="{{ site.data.bingo.post65.website | escape }}">Post 65 website</a><p>Contact Post 65 through its website for Friday Bingo questions.</p></div></div>
 </section>
