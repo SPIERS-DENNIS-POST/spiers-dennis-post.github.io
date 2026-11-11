@@ -108,3 +108,12 @@ h2,h3,p{margin-top:0}
 .bingo-visit p:not(.bingo-eyebrow){max-width:820px}
 @media(max-width:1030px){.bingo-price-tiers{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:660px){.bingo-price-tiers,.bingo-paper-wrap{grid-template-columns:1fr}.bingo-price-tier{padding:17px 20px}.bingo-tier-top{margin-bottom:12px}.bingo-prices{padding-top:0}.bingo-paper-panel{padding:22px}.bingo-prices-subhead{font-size:23px}.bingo-paper-table{font-size:14px}.bingo-paper-table td{padding:12px 0}.bingo-paper-table th:last-child,.bingo-paper-table td:last-child{width:38%}}
+.bingo-paper-table tbody th{padding:13px 0;border-top:1px solid var(--line);vertical-align:top;text-align:left;font-size:15px;letter-spacing:normal;text-transform:none;font-weight:400;color:var(--ink)}
+.bingo-terms{max-width:800px;margin:20px 0 0;border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:16px 21px}
+.bingo-terms summary{cursor:pointer;font-size:14px;font-weight:800}
+.bingo-terms summary:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.bingo-terms dl{margin:17px 0 0}
+.bingo-terms dl>div{display:grid;grid-template-columns:130px minmax(0,1fr);gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:13px}
+.bingo-terms dt{font-weight:800}
+.bingo-terms dd{margin:0;color:var(--muted)}
+@media(max-width:660px){.bingo-paper-table tbody th{font-size:14px;padding:12px 0}.bingo-terms dl>div{grid-template-columns:1fr;gap:3px}}
