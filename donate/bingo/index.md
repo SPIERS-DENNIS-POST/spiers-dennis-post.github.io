@@ -39,7 +39,7 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 </div>
 <div class="bingo-paper-wrap">
 <section class="bingo-paper-panel" aria-labelledby="bingo-paper-title"><h3 id="bingo-paper-title">Paper packs</h3><table class="bingo-paper-table"><thead><tr><th scope="col">Packs</th><th scope="col">Price</th></tr></thead><tbody><tr><td>1 pack</td><td>$8.00</td></tr><tr><td>2 packs</td><td>$16.00</td></tr><tr><td>3 packs</td><td>$20.00</td></tr><tr><td>4 packs</td><td>$24.00</td></tr></tbody></table></section>
-<section class="bingo-paper-panel" aria-labelledby="bingo-extras-title"><h3 id="bingo-extras-title">Extras</h3><dl class="bingo-extra-list"><div><dt>Additional packs</dt><dd>$4.00 each</dd></div><div><dt>Special packs</dt><dd>$2.00</dd></div><div><dt>Progressives</dt><dd>$1.00 each</dd></div><div><dt>D/A sheets</dt><dd>$0.50 each</dd></div><div><dt>Six-on blue or yellow sheets</dt><dd>$0.50 each</dd></div></dl></section>
+<section class="bingo-paper-panel" aria-labelledby="bingo-extras-title"><h3 id="bingo-extras-title">Extras</h3><table class="bingo-paper-table bingo-extras-table"><thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead><tbody><tr><td>Additional packs</td><td>$4.00 each</td></tr><tr><td>Special packs</td><td>$2.00</td></tr><tr><td>Progressives</td><td>$1.00 each</td></tr><tr><td>D/A sheets</td><td>$0.50 each</td></tr><tr><td>Six-on blue or yellow sheets</td><td>$0.50 each</td></tr></tbody></table></section>
 </div>
 <p class="bingo-price-note">Prices are subject to change.</p>
 </section>
