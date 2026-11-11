@@ -21,26 +21,38 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 </div>
 </section>
 <section class="bingo-section bingo-schedule" id="schedule" aria-labelledby="bingo-schedule-title">
-<div class="bingo-section-heading"><p class="bingo-eyebrow">01 / WEEKLY SESSIONS</p><h2 id="bingo-schedule-title">Find your night.</h2><p>Friday Bingo is run by <strong>American Legion Post 65</strong>. Saturday and Sunday Bingo are run by <strong>Spiers-Dennis Post 24</strong>.</p></div>
+<div class="bingo-section-heading"><p class="bingo-eyebrow">01 / WEEKLY SESSIONS</p><h2 id="bingo-schedule-title">Find your night.</h2><p>American Legion Post 65 and {{ site.data.post.name | escape }} run the sessions below. Each day shows the host Post.</p></div>
 <div class="bingo-days">
-<article class="bingo-day bingo-day-friday"><div class="bingo-day-top"><span class="bingo-day-label">FRI</span><span class="bingo-day-post">POST 65</span></div><h3>Friday</h3><p class="bingo-day-time">7:00 <small>PM</small></p><p class="bingo-day-note">Doors open at 5:30 PM</p></article>
-<article class="bingo-day"><div class="bingo-day-top"><span class="bingo-day-label">SAT</span><span class="bingo-day-post">POST 24</span></div><h3>Saturday</h3><p class="bingo-day-time">7:00 <small>PM</small></p><p class="bingo-day-note">Doors open at 5:30 PM</p></article>
-<article class="bingo-day bingo-day-sunday"><div class="bingo-day-top"><span class="bingo-day-label">SUN</span><span class="bingo-day-post">POST 24</span></div><h3>Sunday</h3><p class="bingo-day-time">1:30 <small>PM</small></p><p class="bingo-day-note">Doors open at noon</p></article>
+{% for session in site.data.bingo.sessions %}
+<article class="bingo-day{% if session.id == 'friday' %} bingo-day-friday{% elsif session.id == 'sunday' %} bingo-day-sunday{% endif %}"><div class="bingo-day-top"><span class="bingo-day-label">{{ session.abbreviation | escape }}</span><span class="bingo-day-post">{% if session.organizer == 'post65' %}POST 65{% else %}POST {{ site.data.post.post_number }}{% endif %}</span></div><h3>{{ session.day | escape }}</h3><p class="bingo-day-time"><time datetime="{{ session.start_time }}">{% include bingo-time.html value=session.start_time %}</time></p><p class="bingo-day-note">Doors open at <time datetime="{{ session.doors_time }}">{% if session.doors_time == '12:00' %}noon{% else %}{% include bingo-time.html value=session.doors_time compact=true %}{% endif %}</time></p></article>
+{% endfor %}
 </div>
 </section>
 <section class="bingo-prices" aria-labelledby="bingo-price-title">
-<div class="bingo-section-heading"><div><p class="bingo-eyebrow">02 / WHAT IT COSTS</p><h2 id="bingo-price-title">Prices &amp; play</h2></div><p>Machine packages, paper packs, and extras for Friday, Saturday, and Sunday.</p></div>
+<div class="bingo-section-heading"><div><p class="bingo-eyebrow">02 / WHAT IT COSTS</p><h2 id="bingo-price-title">Prices &amp; play</h2></div><p>Machine packages, paper packs, and extras for every Bingo session.</p></div>
 <h3 class="bingo-prices-subhead">Machine packages <span>All sessions</span></h3>
 <div class="bingo-price-tiers">
-<article class="bingo-price-tier bingo-tier-blue"><div class="bingo-tier-top"><h4>Blue</h4><strong>$25</strong></div><p class="bingo-tier-spec">TAB-E 4 · 24 faces</p><p>10 yellow D/A, 10 blue D/A, 4 progressive, 1 pack included</p></article>
-<article class="bingo-price-tier bingo-tier-red"><div class="bingo-tier-top"><h4>Red</h4><strong>$35</strong></div><p class="bingo-tier-spec">TAB-E 5 · 30 faces</p><p>11 yellow D/A, 11 blue D/A, 5 progressive, 1 pack included</p></article>
-<article class="bingo-price-tier bingo-tier-green"><div class="bingo-tier-top"><h4>Green</h4><strong>$40</strong></div><p class="bingo-tier-spec">TAB-E 6 · 36 faces</p><p>16 yellow D/A, 16 blue D/A, 6 progressive, 1 pack included</p></article>
-<article class="bingo-price-tier bingo-tier-yellow"><div class="bingo-tier-top"><h4>Yellow</h4><strong>$60</strong></div><p class="bingo-tier-spec">TAB-E 9 · 54 faces</p><p>21 yellow D/A, 21 blue D/A, 9 progressive, 1 pack included</p></article>
+{% for package in site.data.bingo.machine_packages %}
+<article class="bingo-price-tier bingo-tier-{{ package.id | escape }}"><div class="bingo-tier-top"><h4>{{ package.name | escape }}</h4><strong><data value="{{ package.price }}" data-currency="{{ site.data.bingo.currency }}">${{ package.price }}</data></strong></div><p class="bingo-tier-spec">TAB-E {{ package.machine_number }} · {{ package.faces }} faces</p><p>{{ package.yellow_da }} yellow D/A, {{ package.blue_da }} blue D/A, {{ package.progressives }} progressive, {{ package.included_packs }} pack included</p></article>
+{% endfor %}
 </div>
 <div class="bingo-paper-wrap">
-<section class="bingo-paper-panel" aria-labelledby="bingo-paper-title"><h3 id="bingo-paper-title">Paper packs</h3><table class="bingo-paper-table"><thead><tr><th scope="col">Packs</th><th scope="col">Price</th></tr></thead><tbody><tr><td>1 pack</td><td>$8.00</td></tr><tr><td>2 packs</td><td>$16.00</td></tr><tr><td>3 packs</td><td>$20.00</td></tr><tr><td>4 packs</td><td>$24.00</td></tr></tbody></table></section>
-<section class="bingo-paper-panel" aria-labelledby="bingo-extras-title"><h3 id="bingo-extras-title">Extras</h3><table class="bingo-paper-table bingo-extras-table"><thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead><tbody><tr><td>Additional packs</td><td>$4.00 each</td></tr><tr><td>Special packs</td><td>$2.00</td></tr><tr><td>Progressives</td><td>$1.00 each</td></tr><tr><td>D/A sheets</td><td>$0.50 each</td></tr><tr><td>Six-on blue or yellow sheets</td><td>$0.50 each</td></tr></tbody></table></section>
+<section class="bingo-paper-panel" aria-labelledby="bingo-paper-title"><h3 id="bingo-paper-title">Paper packs</h3><table class="bingo-paper-table"><thead><tr><th scope="col">Packs</th><th scope="col">Price</th></tr></thead><tbody>
+{% for paper in site.data.bingo.paper_packs %}
+<tr><th scope="row">{{ paper.count }} {% if paper.count == 1 %}pack{% else %}packs{% endif %}</th><td><data value="{{ paper.price }}" data-currency="{{ site.data.bingo.currency }}">${{ paper.price }}</data></td></tr>
+{% endfor %}
+</tbody></table></section>
+<section class="bingo-paper-panel" aria-labelledby="bingo-extras-title"><h3 id="bingo-extras-title">Extras</h3><table class="bingo-paper-table bingo-extras-table"><thead><tr><th scope="col">Item</th><th scope="col">Price</th></tr></thead><tbody>
+{% for extra in site.data.bingo.extras %}
+<tr><th scope="row">{{ extra.name | escape }}</th><td><data value="{{ extra.price }}" data-currency="{{ site.data.bingo.currency }}">${{ extra.price }}</data>{% if extra.unit != empty %} {{ extra.unit | escape }}{% endif %}</td></tr>
+{% endfor %}
+</tbody></table></section>
 </div>
+<details class="bingo-terms"><summary>New to Bingo? Game terms explained</summary><dl>
+{% for item in site.data.bingo.terms %}
+<div><dt>{{ item.term | escape }}</dt><dd>{{ item.meaning | escape }}</dd></div>
+{% endfor %}
+</dl></details>
 <p class="bingo-price-note">Prices are subject to change.</p>
 </section>
 <section class="bingo-detail bingo-arrival bingo-visit" aria-labelledby="bingo-arrival-title">
