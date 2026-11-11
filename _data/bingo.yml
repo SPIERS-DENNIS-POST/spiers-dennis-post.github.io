@@ -1,0 +1,107 @@
+currency: USD
+timezone: America/Denver
+post65:
+  name: American Legion Post 65
+  website: https://www.alharrywhitepost65.org/
+sessions:
+  - id: friday
+    day: Friday
+    abbreviation: FRI
+    organizer: post65
+    start_time: "19:00"
+    doors_time: "17:30"
+  - id: saturday
+    day: Saturday
+    abbreviation: SAT
+    organizer: post24
+    start_time: "19:00"
+    doors_time: "17:30"
+  - id: sunday
+    day: Sunday
+    abbreviation: SUN
+    organizer: post24
+    start_time: "13:30"
+    doors_time: "12:00"
+machine_packages:
+  - id: blue
+    name: Blue
+    price: "25"
+    machine_number: 4
+    faces: 24
+    yellow_da: 10
+    blue_da: 10
+    progressives: 4
+    included_packs: 1
+  - id: red
+    name: Red
+    price: "35"
+    machine_number: 5
+    faces: 30
+    yellow_da: 11
+    blue_da: 11
+    progressives: 5
+    included_packs: 1
+  - id: green
+    name: Green
+    price: "40"
+    machine_number: 6
+    faces: 36
+    yellow_da: 16
+    blue_da: 16
+    progressives: 6
+    included_packs: 1
+  - id: yellow
+    name: Yellow
+    price: "60"
+    machine_number: 9
+    faces: 54
+    yellow_da: 21
+    blue_da: 21
+    progressives: 9
+    included_packs: 1
+paper_packs:
+  - count: 1
+    price: "8.00"
+  - count: 2
+    price: "16.00"
+  - count: 3
+    price: "20.00"
+  - count: 4
+    price: "24.00"
+extras:
+  - id: additional-packs
+    name: Additional packs
+    price: "4.00"
+    unit: each
+    schema_type: Product
+  - id: special-packs
+    name: Special packs
+    price: "2.00"
+    unit: ""
+    schema_type: Product
+  - id: progressives
+    name: Progressives
+    price: "1.00"
+    unit: each
+    schema_type: Service
+  - id: da-sheets
+    name: D/A sheets
+    price: "0.50"
+    unit: each
+    schema_type: Product
+  - id: six-on-sheets
+    name: Six-on blue or yellow sheets
+    price: "0.50"
+    unit: each
+    schema_type: Product
+terms:
+  - term: Face
+    meaning: An individual Bingo card layout.
+  - term: Pack
+    meaning: A group of paper game sheets.
+  - term: TAB-E
+    meaning: The machine-package designation shown in the pricing list.
+  - term: D/A
+    meaning: The blue and yellow game sheets identified in the package details.
+  - term: Progressive
+    meaning: A game category included in machine packages and also available separately.
