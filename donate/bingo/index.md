@@ -4,6 +4,7 @@ title: Bingo in Olathe
 description: Public Bingo on Friday, Saturday, and Sunday at the American Legion hall in Olathe, Colorado. Find times, prices, visitor directions, and contacts.
 permalink: /donate/bingo/
 provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notices-2026-11-10, post-visitor-parking-2026-11-10, post-visitor-entrance-2026-11-10, post-wheelchair-entrance-2026-11-10]
+source_ids: [colorado-bingo-underage-purchase-law]
 ---
 <section class="bingo-hero" aria-labelledby="bingo-title">
 <div class="bingo-hero-copy">
@@ -54,6 +55,7 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 {% endfor %}
 </dl></details>
 <p class="bingo-price-note">Prices are subject to change.</p>
+<p class="bingo-age-note"><strong>Age requirement:</strong> You must be at least {{ site.data.bingo.minimum_purchase_age }} years old to purchase Bingo cards or other chances to play, in accordance with Colorado law.</p>
 <section class="bingo-payment" aria-labelledby="bingo-payment-title">
 <h3 id="bingo-payment-title">Payment methods</h3>
 <p>We currently accept <strong>{{ site.data.bingo.payment_methods.accepted | join: ' and ' | escape }}</strong> for Bingo purchases. <strong>{{ site.data.bingo.payment_methods.not_accepted | escape }}</strong> are not accepted.</p>
