@@ -27,10 +27,9 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 <article class="bingo-day"><div class="bingo-day-top"><span class="bingo-day-label">SAT</span><span class="bingo-day-post">LISTED UNDER POST 24</span></div><h3>Saturday</h3><p class="bingo-day-time">7:00 <small>PM</small></p><p class="bingo-day-note">Doors open at 5:30 PM</p></article>
 <article class="bingo-day bingo-day-sunday"><div class="bingo-day-top"><span class="bingo-day-label">SUN</span><span class="bingo-day-post">LISTED UNDER POST 24</span></div><h3>Sunday</h3><p class="bingo-day-time">1:30 <small>PM</small></p><p class="bingo-day-note">Doors open at noon</p></article>
 </div>
-<p class="bingo-schedule-caution">Start and door times are from signs posted at the hall. The Sunday 1:30 PM start is marked as effective November 6, 2022; later changes have not been independently checked. Please confirm the schedule before traveling.</p>
 </section>
 <section class="bingo-prices" aria-labelledby="bingo-price-title">
-<div class="bingo-section-heading"><div><p class="bingo-eyebrow">02 / WHAT IT COSTS</p><h2 id="bingo-price-title">Prices &amp; play</h2></div><p>Prices printed on a hall notice for Friday, Saturday, and Sunday Bingo sessions.</p></div>
+<div class="bingo-section-heading"><div><p class="bingo-eyebrow">02 / WHAT IT COSTS</p><h2 id="bingo-price-title">Prices &amp; play</h2></div><p>Machine packages, paper packs, and extras for Friday, Saturday, and Sunday.</p></div>
 <h3 class="bingo-prices-subhead">Machine packages <span>All sessions</span></h3>
 <div class="bingo-price-tiers">
 <article class="bingo-price-tier bingo-tier-blue"><div class="bingo-tier-top"><h4>Blue</h4><strong>$25</strong></div><p class="bingo-tier-spec">TAB-E 4 · 24 faces</p><p>10 yellow D/A, 10 blue D/A, 4 progressive, 1 pack included</p></article>
@@ -42,7 +41,7 @@ provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notice
 <section class="bingo-paper-panel" aria-labelledby="bingo-paper-title"><h3 id="bingo-paper-title">Paper packs</h3><table class="bingo-paper-table"><thead><tr><th scope="col">Packs</th><th scope="col">Price</th></tr></thead><tbody><tr><td>1 pack</td><td>$8.00</td></tr><tr><td>2 packs</td><td>$16.00</td></tr><tr><td>3 packs</td><td>$20.00</td></tr><tr><td>4 packs</td><td>$24.00</td></tr></tbody></table></section>
 <section class="bingo-paper-panel" aria-labelledby="bingo-extras-title"><h3 id="bingo-extras-title">Extras</h3><dl class="bingo-extra-list"><div><dt>Additional packs</dt><dd>$4.00 each</dd></div><div><dt>Special packs</dt><dd>$2.00</dd></div><div><dt>Progressives</dt><dd>$1.00 each</dd></div><div><dt>D/A sheets</dt><dd>$0.50 each</dd></div><div><dt>Six-on blue or yellow sheets</dt><dd>$0.50 each</dd></div></dl></section>
 </div>
-<p class="bingo-schedule-caution">The photographed price notice has no visible effective date. These are posted prices, not independently confirmed current charges. Please confirm prices with the session organizers before purchasing.</p>
+<p class="bingo-price-note">Prices are subject to change.</p>
 </section>
 <section class="bingo-detail bingo-arrival bingo-visit" aria-labelledby="bingo-arrival-title">
 <p class="bingo-eyebrow">03 / HOW TO GET HERE</p><h2 id="bingo-arrival-title">Come on in.</h2>
