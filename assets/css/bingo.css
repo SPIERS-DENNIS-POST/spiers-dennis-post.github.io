@@ -122,3 +122,5 @@ h2,h3,p{margin-top:0}
 .bingo-payment p{font-size:15px;line-height:1.6;margin:0;color:var(--ink)}
 .bingo-payment p+p{margin-top:10px}
 @media(max-width:660px){.bingo-payment{padding:21px 20px}.bingo-payment h3{font-size:24px}}
+.bingo-age-note{font-size:14px;line-height:1.6;max-width:900px;margin:19px 0 0;padding:14px 0;border-top:1px solid var(--line);color:var(--ink)}
+.bingo-age-note strong{font-weight:850}
