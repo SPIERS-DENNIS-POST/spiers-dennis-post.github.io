@@ -57,7 +57,7 @@ h2,h3,p{margin-top:0}
 .bingo-day-time{font-family:Georgia,serif;font-size:clamp(42px,5vw,60px);line-height:1;margin:0;color:var(--deep);font-weight:900;letter-spacing:-.065em}
 .bingo-day-time small{font-family:system-ui,sans-serif;font-weight:850;font-size:13px;letter-spacing:.06em}
 .bingo-day-note{margin:12px 0 0;color:var(--muted);font-size:12px}
-.bingo-schedule-caution{padding:17px 20px;background:#f7e7d6;border-left:4px solid var(--red);border-radius:0 8px 8px 0;margin:24px 0 0;font-size:13px;color:#593e37}
+.bingo-price-note{margin:18px 0 0;text-align:right;font-size:13px;font-weight:700;color:var(--muted)}
 .bingo-schedule-caution a{font-weight:800}
 .bingo-detail-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:16px;margin-bottom:20px}
 .bingo-detail{padding:clamp(26px,3.4vw,47px);border-radius:14px;background:var(--warm);min-height:390px}
