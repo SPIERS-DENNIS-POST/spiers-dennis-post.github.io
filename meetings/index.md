@@ -12,6 +12,8 @@ provenance_ids: [post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, po
 Community members occasionally attend our regular Post meetings. Membership is required to vote on Post business, but visitors may attend for community matters.
 Dinner is prepared based on expected attendance, so meals cannot be guaranteed for visitors. When food is available, we're happy to share.
 For parking, entrance directions, and wheelchair access, see our [Post Home page]({{ '/building/' | relative_url }}).
+## Conducting a meeting
+[Regular Meeting Ceremonies (PDF)]({{ '/assets/documents/Regular_Meeting_Ceremonies.pdf' | relative_url }}) — the opening and closing ceremonies and order of business from *The American Legion Officer’s Guide* (2025, pp. 68–71).
 ## {{ site.time | date: "%Y" }} meeting dates
 {% include meeting-year-dates.html %}
 <a href="{{ '/meetings/calendar.ics' | relative_url }}">Download all {{ site.time | date: "%Y" }} meeting dates (.ics)</a>
