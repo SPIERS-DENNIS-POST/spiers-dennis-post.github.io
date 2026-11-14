@@ -18,6 +18,7 @@ documents:
 ---
 # Membership
 ## How to join Post 24
+**Membership eligibility:** [Find out whether you're eligible to join The American Legion](https://www.legion.org/faq?utm_source=chatgpt.com).
 The easiest way to become a member of The American Legion is to [register and pay your dues through the national American Legion website](https://www.legion.org/join/).
 New members who join online are initially assigned to a state headquarters post. After registering, [contact Post 24]({{ '/contact/' | relative_url }}) so we can help you transfer your membership to our local Post.
 **Need help registering online?** Come by the Post during one of our [regular gatherings]({{ '/meetings/' | relative_url }}). We will be happy to walk you through the process.
