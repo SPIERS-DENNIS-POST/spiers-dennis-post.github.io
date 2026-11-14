@@ -35,7 +35,6 @@ To consecrate and sanctify our comradeship by our devotion to mutual helpfulness
 <ul>
 <li>Host Monday morning coffee for anyone in the community, especially first responders and local reservists.</li>
 <li>Provide space for a Thursday PTSD Group led by a Vet Center counselor.</li>
-<li>Hold regular Post meetings and dinners, with community visitors welcome for community matters.</li>
 <li>Place Memorial Day flags at Olathe, Pea Green, and Ash Mesa cemeteries, and attend the local Veterans Day assembly.</li>
 <li>Retire worn flags outside the summer months, subject to applicable fire restrictions.</li>
 <li>Install flagpoles in the Olathe area, asking only for a donation of 1¢ or more. Outside Olathe, we encourage requests to nearby veterans organizations first; if none can assist, we will help when possible.</li>
