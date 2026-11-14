@@ -1,8 +1,8 @@
 ---
 title: Main
-description: Spiers-Dennis Post No. 24's mission in Olathe, Colorado, and the purposes of The American Legion.
+description: Spiers-Dennis Post No. 24's mission, purposes, and services in Olathe, Colorado.
 permalink: /
-provenance_ids: [post-visitor-entrance-2026-11-10]
+provenance_ids: [post-visitor-entrance-2026-11-10, post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-meeting-visitors-2026-11-10, post-bingo-session-listing-2026-11-10, post-bingo-posted-notices-2026-11-10]
 ---
 <section class="hero">
 <h1>Spiers-Dennis</h1>
@@ -30,5 +30,15 @@ To consecrate and sanctify our comradeship by our devotion to mutual helpfulness
 <p class="verified"><em>Source: <a href="https://www.legion.org/about/organization/preamble">The American Legion — Preamble</a>.</em></p>
 <p>Spiers-Dennis’ mission is to execute these purposes in Olathe’s locale.</p>
 </section>
+<section class="prose" aria-labelledby="services">
+<div class="section-head"><h2 id="services">Services</h2></div>
+<ul>
+<li>Host Monday morning coffee for veterans, whether or not they belong to the Legion.</li>
+<li>Provide space for a Thursday PTSD Group led by a Vet Center counselor.</li>
+<li>Hold regular Post meetings and dinners, with community visitors welcome for community matters.</li>
+<li>Place Memorial Day flags at Olathe, Pea Green, and Ash Mesa cemeteries, and attend the local Veterans Day assembly.</li>
+<li>Run public Bingo on Saturdays and Sundays at the Post hall.</li>
+</ul>
 </section>
-<p class="entry-meta">This Main page introduces our Post and its purposes. Navigation to the rest of the website is provided in the header above and footer below.</p>
+</section>
+<p class="entry-meta">This Main page introduces our Post, its purposes, and its services. Navigation to the rest of the website is provided in the header above and footer below.</p>
