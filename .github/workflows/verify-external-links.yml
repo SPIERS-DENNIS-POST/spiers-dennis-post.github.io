@@ -1,0 +1,37 @@
+name: Verify external links
+on:
+  schedule:
+    - cron: "17 9 3 * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-external-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out website source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Test external-link checker
+        run: python3 -m unittest discover -s .github/tests -v
+      - name: Install Jekyll dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Build website for inspection
+        run: bundle exec jekyll build --destination "$RUNNER_TEMP/generated-site"
+      - name: Check external links and write report
+        run: |
+          python3 .github/scripts/check_external_links.py "$RUNNER_TEMP/generated-site" "$RUNNER_TEMP/external-link-report" https://spiers-dennis-post.github.io
+          cat "$RUNNER_TEMP/external-link-report/report.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload verification report
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: external-link-verification
+          path: ${{ runner.temp }}/external-link-report/
+          if-no-files-found: warn
+          retention-days: 90
