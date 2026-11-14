@@ -18,11 +18,13 @@ documents:
 ---
 # Membership
 ## How to join Post 24
-**Membership eligibility:** [Find out whether you're eligible to join The American Legion](https://www.legion.org/faq?utm_source=chatgpt.com).
-The easiest way to become a member of The American Legion is to [register and pay your dues through the national American Legion website](https://www.legion.org/join/).
-New members who join online are initially assigned to a state headquarters post. After registering, [contact Post 24]({{ '/contact/' | relative_url }}) so we can help you transfer your membership to our local Post.
-**Need help registering online?** Come by the Post during one of our [regular gatherings]({{ '/meetings/' | relative_url }}). We will be happy to walk you through the process.
-For more about membership, see [Why You Should Belong (PDF)]({{ '/assets/documents/Why%20You%20Should%20Belong.pdf' | relative_url }}).
+<dl class="fact-list">
+<div class="fact-row"><dt>Membership eligibility</dt><dd><a href="https://www.legion.org/faq?utm_source=chatgpt.com">Find out whether you're eligible to join The American Legion</a></dd></div>
+<div class="fact-row"><dt>Join online</dt><dd><a href="https://www.legion.org/join/">Register and pay your dues through the national American Legion website</a>.</dd></div>
+<div class="fact-row"><dt>Transfer to Post 24</dt><dd>New members who join online are initially assigned to a state headquarters post. After registering, <a href="{{ '/contact/' | relative_url }}">contact Post 24</a> so we can help transfer your membership to our local Post.</dd></div>
+<div class="fact-row"><dt>Registration help</dt><dd>Come by the Post during one of our <a href="{{ '/meetings/' | relative_url }}">regular gatherings</a>. We'll walk you through the process.</dd></div>
+<div class="fact-row"><dt>More information</dt><dd><a href="{{ '/assets/documents/Why%20You%20Should%20Belong.pdf' | relative_url }}">Why You Should Belong (PDF)</a></dd></div>
+</dl>
 ## Membership figures
 <dl class="fact-list">
 <div class="fact-row"><dt>Reporting date</dt><dd>January 30, 2026</dd></div>
