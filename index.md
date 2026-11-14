@@ -39,6 +39,7 @@ To consecrate and sanctify our comradeship by our devotion to mutual helpfulness
 <li>Retire worn flags outside the summer months, subject to applicable fire restrictions.</li>
 <li>Install flagpoles in the Olathe area, asking only for a donation of 1¢ or more. Outside Olathe, we encourage requests to nearby veterans organizations first; if none can assist, we will help when possible.</li>
 <li>Operate the Olathe Colorado History Project, receiving and archiving historical materials about the town.</li>
+<li>Provide scholarships to students.</li>
 </ul>
 </section>
 </section>
