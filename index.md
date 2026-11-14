@@ -1,15 +1,12 @@
 ---
 title: Main
-description: Visit or contact Spiers-Dennis American Legion Post No. 24 in Olathe, Colorado. Learn about our officers, history, and membership.
+description: Spiers-Dennis Post No. 24's mission in Olathe, Colorado, and the purposes of The American Legion.
 permalink: /
 provenance_ids: [post-visitor-entrance-2026-11-10]
 ---
 <section class="hero">
-<p class="eyebrow">American Legion Post 24</p>
 <h1>Spiers-Dennis</h1>
-<p>at 315 South 5th Street&nbsp;<img src="{{ '/assets/images/colorado-348-wide.svg' | relative_url }}" alt="Colorado Highway 348" width="20" height="16" style="height:1em;width:auto;vertical-align:-.12em">, Olathe, Colorado 81425</p>
 <p>Spiers-Dennis gathers local Olathe veterans, and orients them to serve their community, in order to sustain the project of our nation in one small corner.</p>
-{% include next-meeting.html %}
 <section class="prose" aria-labelledby="purposes">
 <div class="section-head"><h2 id="purposes">Purposes</h2></div>
 <p>To uphold and defend the Constitution of the United States;<br>
@@ -32,27 +29,4 @@ To consecrate and sanctify our comradeship by our devotion to mutual helpfulness
 <p class="verified"><em>Source: <a href="https://www.legion.org/about/organization/preamble">The American Legion — Preamble</a>.</em></p>
 <p>Spiers-Dennis’ mission is to execute these purposes in Olathe’s locale.</p>
 </section>
-<p><a href="{{ '/contact/' | relative_url }}">Contact the Post</a></p>
-<p><a href="{{ '/donate/' | relative_url }}">Learn how to support Post 24</a></p>
-</section>
-<section aria-labelledby="visiting-post">
-<div class="section-head"><h2 id="visiting-post">Visiting the Post</h2></div>
-<p>Use the streetside double doors on the cinderblock section of the building. These doors open directly into the main hall, where most Post meetings and gatherings are held.</p>
-<p>New to Post 24? <a href="{{ '/meetings/' | relative_url }}">Visit one of our gatherings</a> or <a href="{{ '/membership/' | relative_url }}">learn how to become a member</a>.</p>
-</section>
-<section aria-labelledby="post-information">
-<div class="section-head"><h2 id="post-information">Explore the Post</h2></div>
-<div class="grid">
-<div class="card"><h3><a href="{{ '/history/' | relative_url }}">Our history</a></h3><p>Our roots in Olathe date back to at least 1920, including a clubhouse dedicated in 1923.</p></div>
-<div class="card"><h3><a href="{{ '/governance/' | relative_url }}">Governance</a></h3><p>Current officers and information about the Post's governing documents.</p></div>
-<div class="card"><h3><a href="{{ '/meetings/' | relative_url }}">Meetings</a></h3><p>Fourth Tuesday at 5:30 p.m., with dinner at 5:00 p.m. {% assign home_year = site.time | date: "%Y" | plus: 0 %}{% if site.data.meeting_calendar.december_meeting_years contains home_year %}The December {{ home_year }} meeting will be held.{% else %}December meetings are usually canceled.{% endif %}</p></div>
-<div class="card"><h3><a href="{{ '/donate/bingo/' | relative_url }}">Bingo</a></h3><p>Weekly Bingo sessions, schedules, pricing, and visitor information.</p></div>
-<div class="card"><h3><a href="{{ '/building/' | relative_url }}">Post Home</a></h3><p>Where to find us in Olathe.</p></div>
-<div class="card"><h3><a href="{{ '/membership/' | relative_url }}">Membership</a></h3><p>Joining the Post and American Legion membership information.</p></div>
-<div class="card"><h3><a href="{{ '/contact/' | relative_url }}">Contact us</a></h3><p>Our public phone number, email address, and location.</p></div>
-</div>
-</section>
-<section aria-labelledby="american-legion">
-<div class="section-head"><h2 id="american-legion">The American Legion</h2></div>
-<p>For national membership requirements and programs, visit our <a href="{{ '/legion/' | relative_url }}">American Legion resource links</a>.</p>
 </section>
