@@ -54,7 +54,7 @@ source_ids: [colorado-bingo-underage-purchase-law]
 <div><dt>{{ item.term | escape }}</dt><dd>{{ item.meaning | escape }}</dd></div>
 {% endfor %}
 </dl></details>
-<p class="bingo-price-note">Prices are subject to change.</p>
+<p class="bingo-price-note">Prices are subject to change. Prices shown are based on posted notices supplied November 10, 2026; the notices did not specify an effective date.</p>
 <p class="bingo-age-note"><strong>Age requirement:</strong> You must be at least {{ site.data.bingo.minimum_purchase_age }} years old to purchase Bingo cards or other chances to play, in accordance with Colorado law.</p>
 <section class="bingo-payment" aria-labelledby="bingo-payment-title">
 <h3 id="bingo-payment-title">Payment methods</h3>
