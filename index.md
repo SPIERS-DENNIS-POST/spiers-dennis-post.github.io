@@ -6,6 +6,7 @@ provenance_ids: [post-visitor-entrance-2026-11-10]
 ---
 <section class="hero">
 <h1>Spiers-Dennis</h1>
+<p>at 315 South 5th Street&nbsp;<img src="{{ '/assets/images/colorado-348-wide.svg' | relative_url }}" alt="Colorado Highway 348" width="20" height="16" style="height:1em;width:auto;vertical-align:-.12em">, Olathe, Colorado 81425</p>
 <p>Spiers-Dennis gathers local Olathe veterans, and orients them to serve their community, in order to sustain the project of our nation in one small corner.</p>
 <section class="prose" aria-labelledby="purposes">
 <div class="section-head"><h2 id="purposes">Purposes</h2></div>
