@@ -9,6 +9,7 @@ documents: []
 ---
 # Governance
 <h2 id="officers">Post officers</h2>
+<p><small>As of {{ site.data.officers.as_of | date: "%B %-d, %Y" }}</small></p>
 <dl class="fact-list">
 {% for office in site.data.officers.offices %}
 {% assign person = site.data.officers.people | where: "id", office.person_id | first %}
