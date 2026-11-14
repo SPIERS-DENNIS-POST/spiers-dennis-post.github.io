@@ -11,7 +11,7 @@ documents: []
 <p><a href="https://www.openstreetmap.org/way/1411993746">OpenStreetMap</a> <span aria-hidden="true">·</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Spiers-Dennis%20American%20Legion%20Post%2024%2C%20315%20S%205th%20St%2C%20Olathe%2C%20CO%2081425&amp;query_place_id=ChIJB0VbnFCrQIcRuj-aLsBEVNM">Google Maps</a> <span aria-hidden="true">·</span> <a href="https://maps.apple.com/?q=315%20S%205th%20St%2C%20Olathe%2C%20CO%2081425">Apple Maps</a></p>
 <p class="page-intro">Our Post Home stands on South 5th Street (Colorado Highway 348), across from Olathe Town Park. It is where we come together as veterans and gather with our families and community.</p>
 ## Gatherings at the Post Home
-<p>We hold our regular Post meetings here, with dinner beforehand. Veterans also come to the hall for Monday morning coffee and the Thursday PTSD Group led by a Vet Center counselor. You do not need to be an American Legion member to attend these weekly gatherings. See our <a href="{{ '/meetings/' | relative_url }}">Meetings page</a> for schedules and participation details.</p>
+<p>We hold our regular Post meetings here, with dinner beforehand. Monday morning coffee is open to all community members, especially first responders and local reservists. On Thursdays, a Vet Center counselor leads a PTSD Group for veterans. American Legion membership is not required for either gathering. See our <a href="{{ '/meetings/' | relative_url }}">Meetings page</a> for schedules and participation details.</p>
 <p>The hall's gathering areas and kitchen also serve Post traditions, including our Thanksgiving dinner for members and families.</p>
 ## Building and grounds
 <dl class="fact-list">
