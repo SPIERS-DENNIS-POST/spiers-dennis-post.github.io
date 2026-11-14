@@ -3,7 +3,7 @@ layout: bingo
 title: Bingo in Olathe
 description: Public Bingo on Friday, Saturday, and Sunday at the American Legion hall in Olathe, Colorado. Find times, prices, visitor directions, and contacts.
 permalink: /donate/bingo/
-provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notices-2026-11-10, post-visitor-parking-2026-11-10, post-visitor-entrance-2026-11-10, post-wheelchair-entrance-2026-11-10]
+provenance_ids: [post-bingo-session-listing-2026-11-10, post-bingo-posted-notices-2026-11-10, post-visitor-parking-2026-11-10, post-visitor-entrance-2026-11-10, post-wheelchair-entrance-2026-11-10, post-bingo-minimum-play-2026-11-10]
 source_ids: [colorado-bingo-underage-purchase-law]
 ---
 <section class="bingo-hero" aria-labelledby="bingo-title">
@@ -31,6 +31,7 @@ source_ids: [colorado-bingo-underage-purchase-law]
 </section>
 <section class="bingo-prices" aria-labelledby="bingo-price-title">
 <div class="bingo-section-heading"><div><p class="bingo-eyebrow">02 / WHAT IT COSTS</p><h2 id="bingo-price-title">Prices &amp; play</h2></div><p>Machine packages, paper packs, and extras for every Bingo session.</p></div>
+<p class="bingo-budget-note"><strong>Play every game for $9:</strong> one $8 paper pack plus $1 for progressives. <strong>Prefer a machine?</strong> The lowest-priced machine package is $25 and includes a pack.</p>
 <h3 class="bingo-prices-subhead">Machine packages <span>All sessions</span></h3>
 <div class="bingo-price-tiers">
 {% for package in site.data.bingo.machine_packages %}
