@@ -18,14 +18,13 @@ For parking, entrance directions, and wheelchair access, see our [Post Home page
 {% include meeting-year-dates.html %}
 <a href="{{ '/meetings/calendar.ics' | relative_url }}">Download all {{ site.time | date: "%Y" }} meeting dates (.ics)</a>
 ## Weekly gatherings
-For veterans. You do not need to be a member of the American Legion.
 ### Monday coffee
-We get together for coffee at the Post hall every Monday morning.
+We get together for coffee at the Post hall every Monday morning. Everyone in the community is welcome, especially first responders and local reservists.
 {% include facts.html section="monday_coffee" %}
 <p>Coffee was started by James Smith, USMC.</p>
 #### First time visiting?
-If you are a veteran and have not visited Post 24 before, Monday morning coffee is a great place to start.
-No American Legion membership, appointment, or advance notice is required. Just stop by, have a cup of coffee, and get to know some fellow veterans.
+If you have not visited Post 24 before, Monday morning coffee is a great place to start.
+No American Legion membership, appointment, or advance notice is required. Just stop by, have a cup of coffee, and get to know your neighbors.
 ### PTSD Group
 Our PTSD Group meets at the Post hall on Thursdays and is conducted by a Vet Center counselor.
 {% include facts.html section="ptsd_group" %}
