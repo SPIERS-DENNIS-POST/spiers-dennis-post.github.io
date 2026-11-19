@@ -2,7 +2,7 @@
 title: Post Home
 description: Visit the Spiers-Dennis Post No. 24 hall at 315 South 5th Street in Olathe, Colorado, and learn about the building and gatherings held here.
 permalink: /building/
-provenance_ids: [post-legacy-contact, post-facilities-traditions-2026-10-27, post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-visitor-parking-2026-11-10, post-visitor-entrance-2026-11-10, post-wheelchair-entrance-2026-11-10]
+provenance_ids: [post-hall-use-2026-11-19, post-legacy-contact, post-facilities-traditions-2026-10-27, post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-visitor-parking-2026-11-10, post-visitor-entrance-2026-11-10, post-wheelchair-entrance-2026-11-10]
 source_ids: [montrose-county-olathe-hall-2025, montrose-county-olathe-hall-2026, montrose-county-post24-parcel-gis]
 documents: []
 ---
@@ -26,6 +26,7 @@ documents: []
 <p>The county parcel description places the Post Home in Colorow Town Company’s Subdivision of the Town of Olathe, Block 8, Lots 13 through 19. It excludes a tract described as part of Lots 13 and 14: beginning at the northwest corner of Lot 13, proceeding south 36 feet, east 37½ feet, north 36 feet, and west 37½ feet back to the starting point. That exception measures 1,350 square feet.<sup class="reference"><a href="#reference-montrose-county-post24-parcel-gis" aria-label="Reference 3">[3]</a></sup></p>
 <p>The land area is calculated from Montrose County’s mapped boundary coordinates, not a land survey. <a href="{{ '/assets/geodata/post-home-parcel.geojson' | relative_url }}" download="post-home-parcel.geojson">Download the Post Home parcel boundary (GeoJSON)</a>.</p>
 ## A community meeting place
+<p>We do not currently rent the hall. We allow 4-H groups and Montrose County to meet here at no cost. If we rent the hall to political organizations in the future, we must offer the same opportunity on equal terms to all political organizations.</p>
 <p>Montrose County has listed our hall for public meetings beyond regular Post activities, including an October 30, 2025 meeting on proposed solar regulations<sup class="reference"><a href="#reference-montrose-county-olathe-hall-2025" aria-label="Reference 1">[1]</a></sup> and an October 28, 2026 special meeting of the Board of County Commissioners.<sup class="reference"><a href="#reference-montrose-county-olathe-hall-2026" aria-label="Reference 2">[2]</a></sup></p>
 ## Visiting and mail
 <p>Visitors may park along South 5th Street or Hersum Avenue, which border the Post property. Use the streetside double doors on the cinderblock section of the building to enter the main hall.</p>
