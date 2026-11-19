@@ -2,7 +2,7 @@
 title: Main
 description: Spiers-Dennis Post No. 24's mission, purposes, and services in Olathe, Colorado.
 permalink: /
-provenance_ids: [post-visitor-entrance-2026-11-10, post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-meeting-visitors-2026-11-10, post-monday-coffee-visitors-2026-11-10]
+provenance_ids: [post-scholarships-2026-11-19, post-visitor-entrance-2026-11-10, post-meetings-2026-10-27, post-weekly-gatherings-2026-10-27, post-facilities-traditions-2026-10-27, post-meeting-visitors-2026-11-10, post-monday-coffee-visitors-2026-11-10]
 ---
 <section class="hero">
 <h1>Spiers-Dennis</h1>
@@ -39,7 +39,7 @@ To consecrate and sanctify our comradeship by our devotion to mutual helpfulness
 <li>Retire worn flags outside the summer months, subject to applicable fire restrictions.</li>
 <li>Install flagpoles in the Olathe area, asking only for a donation of 1¢ or more. Outside Olathe, we encourage requests to nearby veterans organizations first; if none can assist, we will help when possible.</li>
 <li>Operate the Olathe Colorado History Project, receiving and archiving historical materials about the town.</li>
-<li>Provide scholarships to students.</li>
+<li>Offer two scholarship programs: one for high school graduates and one for adults continuing their education. Applications for both must be received by April 1. Application forms are not yet posted online; <a href="{{ '/contact/' | relative_url }}">contact the Post</a> for application information.</li>
 </ul>
 </section>
 </section>
