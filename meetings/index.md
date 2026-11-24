@@ -28,7 +28,7 @@ No American Legion membership, appointment, or advance notice is required. Just 
 ### PTSD Group
 Our PTSD Group meets at the Post hall on Thursdays and is conducted by a Vet Center counselor.
 {% include facts.html section="ptsd_group" %}
-Veterans are welcome to walk in and participate in the Thursday PTSD Group. No advance registration or appointment is required, and American Legion membership is not necessary.
+Veterans and first responders are welcome to walk in and participate in the Thursday PTSD Group. No advance registration or appointment is required, and American Legion membership is not necessary.
 For schedule changes or other questions, [contact the Post]({{ '/contact/' | relative_url }}).
 ## Annual observances and traditions
 These are our customary activities; arrangements for a particular year may vary.
